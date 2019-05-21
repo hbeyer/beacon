@@ -68,7 +68,7 @@ class beacon_repository {
         $this->valid = $this->validate();
     }
 
-    function secondsSinceLastUpdate() {
+    public function secondsSinceLastUpdate() {
         return(date('U') - $this->lastUpdate);
     }
 
@@ -113,6 +113,23 @@ class beacon_repository {
         return($result);
     }
 
+    public function showSources($showFailed = false, $sep = '; ') {
+        $success = array();
+        $failed = array();
+        foreach ($this->beacon_sources as $key => $source) {
+            if (file_exists($this->folder.'/'.$key)) {
+                $success[] = $source['label'];
+            }
+            else {
+                $failed[] = $source['label'];
+            }
+        }
+        if ($showFailed == true) {
+            return(implode($sep, $failed));
+        }
+        return(implode($sep, $success));
+    }
+
     private function getMatches($gnd) {
         $result = array();
         foreach ($this->beacon_sources as $key => $source) {
@@ -124,7 +141,7 @@ class beacon_repository {
         return($result);
     }
 
-    public function getMatchesMulti($gndArray) {
+    private function getMatchesMulti($gndArray) {
         $result = array();
         foreach($this->beacon_sources as $key => $source) {
             $content = file_get_contents($this->folder.'/'.$key);
@@ -147,24 +164,6 @@ class beacon_repository {
         $link  = '<a href="'.$url.'"'.$target.'>'.$this->beacon_sources[$key]['label'].'</a>';
         return($link);
     }
-
-    public function showSources($showFailed = false, $sep = '; ') {
-        $success = array();
-        $failed = array();
-        foreach ($this->beacon_sources as $key => $source) {
-            if (file_exists($this->folder.'/'.$key)) {
-                $success[] = $source['label'];
-            }
-            else {
-                $failed[] = $source['label'];
-            }
-        }
-        if ($showFailed == true) {
-            return(implode($sep, $failed));
-        }
-        return(implode($sep, $success));
-    }
-
 
     private function validate() {
         if (!is_dir($this->folder)) {
