@@ -89,6 +89,9 @@ class beacon_repository {
     }
 
     public function getLinks($gnd, $target = '') {
+        if (preg_match('~^[0-9X-]{9,10}$~', $gnd) == 0) {
+            return(null);
+        }
         $result = array();
         $matches = $this->getMatches($gnd);
         foreach ($matches as $key) {

@@ -68,7 +68,7 @@ class gnd_request {
     }
 
     public function validateGND() {
-        if (preg_match('~^[0-9]{8,10}X?$~', $this->id) == 0) {
+        if (preg_match('~^[0-9]{9,10}X?$~', $this->id) == 0) {
             $this->errorMessage = 'Ungültige GND';
             return(false);
         }
