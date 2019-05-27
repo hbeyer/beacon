@@ -22,7 +22,7 @@ if (strlen($gndRequest->dateDeath) == 4) {
 
 <div class="well">
 <?php if ($gndRequest->preferredName): ?>
-<h2><?php if ($gndRequest->academicDegree) { echo $gndRequest->academicDegree.' '; } ?><?php echo $gndRequest->preferredName; ?></h2>
+<h2><?php if ($gndRequest->academicDegree) { echo $gndRequest->academicDegree.' '; } ?><?php echo displayType($gndRequest->type); ?><?php echo $gndRequest->preferredName; ?></h2>
 <?php endif; ?>
 <?php if ($birth == true): ?>
 <p>Geboren <?php if ($gndRequest->dateBirth): ?> <?php echo $amBirth; ?><?php echo $gndRequest->dateBirth; ?><?php endif; ?><?php if ($gndRequest->placeBirth): ?> in <?php echo $gndRequest->placeBirth; ?><?php endif; ?>

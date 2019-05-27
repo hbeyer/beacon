@@ -20,4 +20,15 @@ function replaceUml($string) {
 	return($string);
 }
 
+function displayType($type) {
+    if ($type == 'person') {
+        return('');
+    }
+    if ($type == 'organisation') {
+        return('Organisation: ');
+    }
+    return($type.': ');
+}
+
+
 ?>
