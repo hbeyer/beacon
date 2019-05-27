@@ -4,11 +4,14 @@ include('classes/beacon_repository.php');
 include('classes/gnd_request.php');
 include('templates/functions.php');
 $repository = new beacon_repository;
-if (!isset($_GET['gnd'])) {
+if (empty($_GET['gnd']) and empty($_POST['gnd'])) {
     $gnd = null;
 }
-else {
+elseif (empty($_POST['gnd'])) {
     $gnd = substr($_GET['gnd'], 0, 15);
+}
+else {
+    $gnd = substr($_POST['gnd'], 0, 15);
 }
 ?>
 <!DOCTYPE html>
