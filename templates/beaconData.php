@@ -1,7 +1,15 @@
-<?php if (isset($links[0])): ?>
-<h2>Ressourcen zu dieser Person</h2>
+<?php if (isset($linksHAB[0])): ?>
+<h2>Ressourcen der HAB</h2>
 <ul>
-<?php foreach ($links as $link): ?>
+<?php foreach ($linksHAB as $link): ?>
+<li><?php echo $link; ?></li>
+<?php endforeach; ?>
+</ul>
+<?php endif; ?>
+<?php if (isset($otherLinks[0])): ?>
+<h2>Externe Ressourcen</h2>
+<ul>
+<?php foreach ($otherLinks as $link): ?>
 <li><?php echo $link; ?></li>
 <?php endforeach; ?>
 </ul>

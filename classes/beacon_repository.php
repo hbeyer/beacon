@@ -8,6 +8,7 @@ class beacon_repository {
     public $folder = 'beaconFiles';
     private $filePermission = 0777;
     private $user = 'Herzog August Bibliothek Wolfenbüttel';
+    private $sourcesHAB = array('bahnsen', 'fruchtbringer', 'cph'); // Hier wird festgelegt, welche der unten stehenden Quellen als "Ressourcen der HAB" angezeigt werden sollen
     public $beacon_sources = array(
     	'ddb' => array('label' => 'Deutsche Digitale Bibliothek', 'location' => 'https://labs.ddb.de/app/beagen/item/person/all/latest', 'target' => 'https://www.deutsche-digitale-bibliothek.de/person/gnd/{ID}'),
         'apd' => array('label' => 'Archivportal D', 'location' => 'https://www.archivportal-d.de/static/de/beacon-archivportal-persons.txt', 'target' => 'https://www.archivportal-d.de/person/gnd/{ID}'),
@@ -109,6 +110,24 @@ class beacon_repository {
         $result = array();
         $matches = $this->getMatches($gnd);
         foreach ($matches as $key) {
+			$result[] = $this->makeLink($key, $gnd, $target);
+        }
+        return($result);
+    }
+
+    public function getSelectedLinks($gnd, $hab = true, $target = '') {
+        if (preg_match('~^[0-9X-]{9,10}$~', $gnd) == 0) {
+            return(null);
+        }
+        $result = array();
+        $matches = $this->getMatches($gnd);
+        foreach ($matches as $key) {
+            if (in_array($key, $this->sourcesHAB) and $hab == false) {
+                continue;
+            }
+            elseif (!in_array($key, $this->sourcesHAB) and $hab == true) {
+                continue;
+            }            
 			$result[] = $this->makeLink($key, $gnd, $target);
         }
         return($result);

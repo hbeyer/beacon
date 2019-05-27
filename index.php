@@ -35,7 +35,8 @@ else {
             <?php
             if ($gnd) {
                 $gndRequest = new gnd_request($gnd);
-                $links = $repository->getLinks($gnd, '_blank');
+                $linksHAB = $repository->getSelectedLinks($gnd, true, '_blank');
+                $otherLinks = $repository->getSelectedLinks($gnd, false, '_blank');
                 include('templates/gndData.php');
                 include('templates/beaconData.php');
             }
