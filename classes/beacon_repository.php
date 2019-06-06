@@ -8,7 +8,7 @@ class beacon_repository {
     public $folder = 'beaconFiles';
     private $filePermission = 0777;
     private $user = 'Herzog August Bibliothek Wolfenbüttel';
-    private $sourcesHAB = array('bahnsen', 'fruchtbringer', 'cph'); // Hier wird festgelegt, welche der unten stehenden Quellen als "Ressourcen der HAB" angezeigt werden sollen
+    private $sourcesHAB = array('bahnsen', 'fruchtbringer', 'cph', 'aqhab'); // Hier wird festgelegt, welche der unten stehenden Quellen als "Ressourcen der HAB" angezeigt werden sollen
     public $beacon_sources = array(
     	'ddb' => array('label' => 'Deutsche Digitale Bibliothek', 'location' => 'https://labs.ddb.de/app/beagen/item/person/all/latest', 'target' => 'https://www.deutsche-digitale-bibliothek.de/person/gnd/{ID}'),
         'apd' => array('label' => 'Archivportal D', 'location' => 'https://www.archivportal-d.de/static/de/beacon-archivportal-persons.txt', 'target' => 'https://www.archivportal-d.de/person/gnd/{ID}'),
@@ -69,7 +69,8 @@ class beacon_repository {
         'bach' => array('label' => 'Bach Digital', 'location' => 'https://www.bach-digital.de/beacon.txt', 'target' => 'https://www.bach-digital.de/gnd/{ID}'),
         'vd16' => array('label' => 'Verzeichnis der Drucke 16. Jahrhunderts (VD 16)', 'location' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/vd16.txt', 'target' => 'http://www.gateway-bayern.de/opensearch?rfr_id=LinkedOpenData%3ABeacon&res_id=VD16&rft_id=info%3Apnd%2F{ID}'),
         'ecod' => array('label' => 'e-codices Virtuelle Handschriftenbibliothek der Schweiz', 'location' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/ecodices.php?beacon', 'target' => 'http://www.e-codices.unifr.ch/de/search/all?sSearchField=person_names&sQueryString=pnd_{ID}'),
-        'jdg' => array('label' => 'Jahresberichte für deutsche Geschichte', 'location' => 'http://jdgdb.bbaw.de/jdg-gndbeacon.txt', 'target' => 'http://jdgdb.bbaw.de/cgi-bin/jdg?t_idn_erg=x&idn=GND:{ID}')
+        'jdg' => array('label' => 'Jahresberichte für deutsche Geschichte', 'location' => 'http://jdgdb.bbaw.de/jdg-gndbeacon.txt', 'target' => 'http://jdgdb.bbaw.de/cgi-bin/jdg?t_idn_erg=x&idn=GND:{ID}'),
+	'aqhab' => array('label' => 'Alchemiegeschichteliche Quellen an der HAB', 'location' => 'http://alchemie.hab.de/beacon.txt', 'target' => 'http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&IKT=1016&SRT=YOP&TRM=nid+{ID}+and+abr+alchemie'),
     );
 
 // '' => array('label' => '', 'location' => '', 'target' => ''),
