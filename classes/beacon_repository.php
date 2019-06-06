@@ -70,7 +70,7 @@ class beacon_repository {
         'vd16' => array('label' => 'Verzeichnis der Drucke 16. Jahrhunderts (VD 16)', 'location' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/vd16.txt', 'target' => 'http://www.gateway-bayern.de/opensearch?rfr_id=LinkedOpenData%3ABeacon&res_id=VD16&rft_id=info%3Apnd%2F{ID}'),
         'ecod' => array('label' => 'e-codices Virtuelle Handschriftenbibliothek der Schweiz', 'location' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/ecodices.php?beacon', 'target' => 'http://www.e-codices.unifr.ch/de/search/all?sSearchField=person_names&sQueryString=pnd_{ID}'),
         'jdg' => array('label' => 'Jahresberichte für deutsche Geschichte', 'location' => 'http://jdgdb.bbaw.de/jdg-gndbeacon.txt', 'target' => 'http://jdgdb.bbaw.de/cgi-bin/jdg?t_idn_erg=x&idn=GND:{ID}'),
-	'aqhab' => array('label' => 'Alchemiegeschichtliche Quellen an der HAB', 'location' => 'http://alchemie.hab.de/beacon.txt', 'target' => 'http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&IKT=1016&SRT=YOP&TRM=nid+{ID}+and+abr+alchemie'),
+	'aqhab' => array('label' => 'Alchemiegeschichtliche Quellen an der HAB', 'location' => 'http://alchemie.hab.de/beacon.txt', 'target' => 'http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&IKT=1016&SRT=YOP&TRM=nid+{ID}+and+abr+alchemie')
     );
 
 // '' => array('label' => '', 'location' => '', 'target' => ''),
