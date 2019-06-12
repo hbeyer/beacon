@@ -4,7 +4,7 @@
 #TARGET: http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&IKT=1016&SRT=YOP&TRM=nid+{ID}+and+abr+alchemie
 #FEED: http://alchemie.hab.de/beacon/feed
 #CONTACT: beyer@hab.de
-#INSTITUTION: Herzog August Bibliothek Wolfenbütteö
+#INSTITUTION: Herzog August Bibliothek Wolfenbüttel
 #DESCRIPTION: Personen in den alchemischen Beständen der Herzog August Bibliothek
 #TIMESTAMP: 2019-02-14T06:18:03
 101304854

@@ -41,7 +41,7 @@ else {
                 include('templates/beaconData.php');
             }
 			else {
-				echo '<p>Bitte &uuml;bergeben Sie eine GND-Nummer in der Form <a href="index.php?gnd=118559192">index.php?gnd=118559192</a></p>';
+				echo '<p>Bitte &uuml;bergeben Sie eine GND-Nummer in der Form <a href="index.php?gnd=118505076">index.php?gnd=118505076</a></p>';
 			}
             ?>
             </div>        
