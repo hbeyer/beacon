@@ -2,7 +2,7 @@
 #PREFIX: http://d-nb.info/gnd/
 #VERSION: 0.1
 #TARGET: http://opac.lbs-braunschweig.gbv.de/DB=2/CMD?ACT=SRCHA&IKT=1016&SRT=YOP&TRM=nid+{ID}+and+abr+alchemie
-#FEED: http://alchemie.hab.de/beacon/feed
+#FEED: http://alchemie.hab.de/beacon.txt
 #CONTACT: beyer@hab.de
 #INSTITUTION: Herzog August Bibliothek Wolfenbüttel
 #DESCRIPTION: Personen in den alchemischen Beständen der Herzog August Bibliothek
