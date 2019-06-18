@@ -107,24 +107,24 @@ class beacon_repository {
         $this->lastUpdate = $date;
     }
 
-    public function getLinks($gnd, $target = '') {
-        if (preg_match('~^[0-9X-]{9,10}$~', $gnd) == 0) {
+    public function getLinks(gnd $gnd, $target = '') {
+        if ($gnd->valid != true) {
             return(null);
         }
         $result = array();
-        $matches = $this->getMatches($gnd);
+        $matches = $this->getMatches($gnd->id);
         foreach ($matches as $key) {
-			$result[] = $this->makeLink($key, $gnd, $target);
+			$result[] = $this->makeLink($key, $gnd->id, $target);
         }
         return($result);
     }
 
-    public function getSelectedLinks($gnd, $hab = true, $target = '') {
-        if (preg_match('~^[0-9X-]{9,10}$~', $gnd) == 0) {
+    public function getSelectedLinks(gnd $gnd, $hab = true, $target = '') {
+        if ($gnd->valid != true) {
             return(null);
         }
         $result = array();
-        $matches = $this->getMatches($gnd);
+        $matches = $this->getMatches($gnd->id);
         foreach ($matches as $key) {
             if (in_array($key, $this->sourcesHAB) and $hab == false) {
                 continue;
@@ -132,12 +132,12 @@ class beacon_repository {
             elseif (!in_array($key, $this->sourcesHAB) and $hab == true) {
                 continue;
             }            
-			$result[] = $this->makeLink($key, $gnd, $target);
+			$result[] = $this->makeLink($key, $gnd->id, $target);
         }
         return($result);
     }
 
-    public function getLinksMulti($gndArray , $target = '') {
+    public function getLinksMulti($gndArray, $target = '') {
         $result = array();
         $matches = $this->getMatchesMulti($gndArray);
         foreach ($matches as $gnd => $keys) {

@@ -2,7 +2,7 @@
 
 class gnd_request {
 
-    public $id;
+    public $gnd;
     public $errorMessage;
     private $base = 'http://hub.culturegraph.org/entityfacts/';
     private $response;
@@ -18,10 +18,10 @@ class gnd_request {
     public $placesActivity = array();
     public $academicDegree;
 
-    function __construct($id) {
-        $this->id = $id;
-        if ($this->validateGND() == true) {
-            $string = @file_get_contents($this->base.$this->id);
+    function __construct(gnd $gnd) {
+        $this->gnd = $gnd;
+        if ($this->gnd->valid == true) {
+            $string = @file_get_contents($this->base.$this->gnd->id);
             if (!$string) {
                 $this->errorMessage = 'Server hub.culturegraph.org/entityfacts/ antwortet nicht';
             }
@@ -65,14 +65,6 @@ class gnd_request {
                 $this->response = null;
             }
         }
-    }
-
-    public function validateGND() {
-        if (preg_match('~^[0-9X-]{9,10}$~', $this->id) == 0) {
-            $this->errorMessage = 'Ungültige GND';
-            return(false);
-        }
-        return(true);
     }
 
 }

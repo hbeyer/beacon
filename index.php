@@ -1,17 +1,18 @@
 <?php
 set_time_limit(600);
+include('classes/gnd.php');
 include('classes/beacon_repository.php');
 include('classes/gnd_request.php');
 include('templates/functions.php');
 $repository = new beacon_repository;
 if (empty($_GET['gnd']) and empty($_POST['gnd'])) {
-    $gnd = null;
+    $gnd = new gnd('');
 }
 elseif (empty($_POST['gnd'])) {
-    $gnd = substr($_GET['gnd'], 0, 15);
+    $gnd = new gnd($_GET['gnd']);
 }
 else {
-    $gnd = substr($_POST['gnd'], 0, 15);
+    $gnd = new gnd($_POST['gnd']);
 }
 ?>
 <!DOCTYPE html>
@@ -33,7 +34,7 @@ else {
             
             <div class="row">
             <?php
-            if ($gnd) {
+            if ($gnd->valid == true) {
                 $gndRequest = new gnd_request($gnd);
                 $linksHAB = $repository->getSelectedLinks($gnd, true, '_blank');
                 $otherLinks = $repository->getSelectedLinks($gnd, false, '_blank');
