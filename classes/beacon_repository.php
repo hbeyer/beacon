@@ -8,7 +8,7 @@ class beacon_repository {
     public $folder = 'beaconFiles';
     private $filePermission = 0777;
     private $user = 'Herzog August Bibliothek Wolfenbüttel';
-    private $sourcesHAB = array('bahnsen', 'fruchtbringer', 'cph', 'aqhab', 'vkk', 'sandrart'); // Hier wird festgelegt, welche der unten stehenden Quellen als "Ressourcen der HAB" angezeigt werden sollen
+    private $sourcesHAB = array('bahnsen', 'fruchtbringer', 'cph', 'aqhab', 'vkk', 'sandrart', 'hainhofer'); // Hier wird festgelegt, welche der unten stehenden Quellen als "Ressourcen der HAB" angezeigt werden sollen
     public $beacon_sources = array(
     	'ddb' => array('label' => 'Deutsche Digitale Bibliothek', 'location' => 'https://labs.ddb.de/app/beagen/item/person/all/latest', 'target' => 'https://www.deutsche-digitale-bibliothek.de/person/gnd/{ID}', 'type' => 'default'),
         'apd' => array('label' => 'Archivportal D', 'location' => 'https://www.archivportal-d.de/static/de/beacon-archivportal-persons.txt', 'target' => 'https://www.archivportal-d.de/person/gnd/{ID}', 'type' => 'default'),
@@ -58,6 +58,7 @@ class beacon_repository {
         'berlin1800' => array('label' => 'Briefe und Texte aus dem intellektuellen Berlin um 1800', 'location' => 'https://www.berliner-intellektuelle.eu/beacon-pnd.txt', 'target' => 'http://www.berliner-intellektuelle.eu/pnd.pl?id={ID}', 'type' => 'default'),
         'dta' => array('label' => 'Deutsches Textarchiv', 'location' => 'http://www.deutschestextarchiv.de/api/beacon', 'target' => 'http://www.deutschestextarchiv.de/api/pnd/{ID}', 'type' => 'default'),
         'cors' => array('label' => 'correspSearch – Verzeichnisse von Briefeditionen', 'location' => 'https://correspsearch.net/api/v1.1/gnd-beacon.xql?correspondent=all', 'target' => 'http://correspsearch.bbaw.de/search.xql?correspondent=http://d-nb.info/gnd/{ID}&l=de', 'type' => 'default'),
+        'hainhofer' => array('label' => 'Philipp Hainhofer: Reiseberichte und Sammlungsbeschreibungen 1594–1636', 'location' => 'https://hainhofer.hab.de/cms/uploads/hainhofer-beacon.txt', 'target' => 'https://hainhofer.hab.de/register/personen/{ID}', 'type' => 'specified'),
         'bahnsen' => array('label' => 'Briefwechsel Benedikt Bahnsen', 'location' => 'http://diglib.hab.de/edoc/ed000233/beacon_bahnsen.txt', 'target' => 'http://diglib.hab.de/content.php?dir=edoc/ed000233&distype=optional&metsID=edoc_ed000233_personenregister_transcript&xml=register%2Fregister-person.xml&xsl=http://diglib.hab.de/edoc/ed000233/tei-pers.xsl#{ID}', 'type' => 'default'),
         'humbdig' => array('label' => 'edition humboldt digital', 'location' => 'https://edition-humboldt.de/api/v1/beacon.xql', 'target' => 'https://edition-humboldt.de/register/personen/detail.xql?normid=http://d-nb.info/gnd/{ID}', 'type' => 'default'),
         'cfgb' => array('label' => 'Carl Friedrich Gauss Briefwechsel', 'location' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/gauss.php?beacon', 'target' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/gauss.php?pnd={ID}'),
@@ -210,10 +211,13 @@ class beacon_repository {
 
     private function extractURL($gnd, $key) {
         $string = file_get_contents('beaconFiles/'.$key);
-        preg_match('~'.$gnd.'\|.+(http.+)~', $string, $hits);
-        if (!empty($hits[1])) {
-            if (substr($hits[1], 0, 4) == 'http') {
-                return($hits[1]);
+        preg_match('~'.$gnd.'\|?([^\|]+)?\|?([^\s]+)~', $string, $hits);
+        if (!empty($hits[2])) {
+            if (substr($hits[2], 0, 4) == 'http') {
+                return($hits[2]);
+            }
+            else {
+                return(strtr($this->beacon_sources[$key]['target'], array('{ID}' => $hits[2])));
             }
         }
         return('');
