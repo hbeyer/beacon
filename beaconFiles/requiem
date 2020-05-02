@@ -1,0 +1,252 @@
+﻿#FORMAT: BEACON
+#VERSION: 0.1
+#NAME: Requiem - Die römischen Papst- und Kardinalsgrabmäler der Frühen Neuzeit - Prosopographien
+#PREFIX: http://d-nb.info/gnd/
+#TARGET: 
+#FEED: http://www.andreas-praefcke.de/temp/BEACON-GND-Requiem-Pro.txt
+#CONTACT: Andreas Praefcke <mail@andreas-praefcke.de> http://de.wikipedia.org/wiki/Benutzer:AndreasPraefcke/BEACON (Ersteller der BEACON-Datei steht in keiner Verbindung zum Betreiber des Projekts Requiem)
+#MESSAGE: Prosopographie im Projekt Requiem - Die römischen Papst- und Kardinalsgrabmäler der Frühen Neuzeit
+#DESCRIPTION: Prosopographien im Projekt Requiem - Die römischen Papst- und Kardinalsgrabmäler der Frühen Neuzeit
+#INSTITUTION: Humboldt-Universität zu Berlin
+#TIMESTAMP: 2013-10-04
+#REVISIT: weekly
+#EXAMPLES: 102564140|117518387
+100008143|Cibo, Alderano († 1700)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=851
+100013376|Barberini, Francesco d. Ä. († 1679)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=202
+100076874|Cavalchini Guidobono, Carlo Alberto († 1774)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=393
+100249582|Ottoboni, Pietro († 1740)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=534
+100254268|Giustiniani, Benedetto († 1621)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=257
+100949282|Rochetaillée, Jean de la († 1437)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=131
+100975720|Colonna, Pompeo († 1532)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=861
+101432488|Bichi, Alessandro († 1657)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=515
+102425140|Cerda (Cerdá y Lloscos), Antonio de la († 1459)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=172
+102426031|Casanova, Juan de († 1436)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=145
+102551731|Ammanati Piccolomini, Jacopo († 1479)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=476
+102564140|Olésnicki, Zbigniew (Olesnick, Sbigniew) († 1455)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=160
+103078711|Schaumberg, Peter von († 1469)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=161
+104107367|Cervantes, Johannes (Juan de) († 1453)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=138
+104152087|Bonsi, Pietro (De Bonzy, Pierre) († 1703)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=931
+104209356|Harrach, Ernst Adalbert von († 1667)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=357
+104343141|Corradini, Pietro Marcellino († 1743)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=521
+104353287|Orsi, Giuseppe Agostino († 1761)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=423
+104357215|Mendoza, Pedro Gonzalez de (Gonzalez de Mendoza, Pedro) († 1495)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=473
+104358998|Bucca (Bucka), Johann von († 1430)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=134
+109142063|Pamfili (Pamphili), Benedetto († 1730)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=1151
+115840079|Joyeuse, Francois de († 1615)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=265
+116004878|Acciaiuoli (Acciaioli), Filippo († 1766)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=379
+116123230|Bentivoglio, Cornelio († 1732)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=499
+116179015|Pico della Mirandola, Ludovico († 1743)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=535
+116275235|Albani, Annibale († 1751)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=513
+116448067|Capponi, Luigi († 1659)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=530
+116532823|Firrao, Giuseppe († 1744)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=533
+116542659|Gentili, Antonio Saverio († 1753)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=522
+116713623|Sacchetti, Giulio († 1663)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=1061
+117064661|Litta, Alfonso († 1679)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=1041
+117518387|Madruzzo, Carlo Gaudenzio († 1629)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=272
+117563056|Barberini, Antonio d. Ä. († 1646)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=514
+118064479|Hohenzollern, Eitel Friedrich von († 1625)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=323
+118506668|Baronio, Cesare († 1607)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=58
+118508636|Bellarmino, Roberto († 1621)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=48
+118519956|Cesarini, Giuliano d. Ä. († 1444)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=144
+118555987|Kiew, Isidor von († 1462)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=156
+118564927|Kollonitz, Leopold (Kollonitsch, Leopold Karl von) († 1707)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=1031
+118588095|Kues (Cusanus), Nikolaus von († 1464)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=178
+118599887|Gondi, Jean-Francois-Paul de (Kardinal de Retz) († 1679)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=1131
+118613405|Serra, Giacomo († 1623)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=305
+118614754|Sirleto, Guglielmo († 1585)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=741
+118625586|Barberini, Maffeo (Urban VIII.) († 1644)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=49
+118656678|Bertano, Pietro († 1558)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=468
+118656821|Bérulle, Pierre de († 1629)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=337
+118656821|Besozzi, Gioacchino († 1755)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=500
+118658115|Bembo, Pietro († 1547)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=811
+118661957|Borromeo, Carlo († 1584)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=831
+118662554|Bessarion, Giovanni († 1472)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=751
+118672800|Du Perron (Davy du Perron), Jacques Davy († 1618)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=247
+118686151|Farnese, Alessandro († 1589)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=184
+118686739|Spanien, Ferdinando von (Österreich, Ferdinand von) († 1641)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=470
+118689487|Garampi, Giuseppe († 1792)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=881
+118697404|Ludovisi, Alessandro (Gregor XV.) († 1623)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=270
+118712152|Ximenez, Franz (Jimenez de Cisneros, Francisco) († 1517)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=471
+118732501|Medici, Ippolito de († 1535)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=1147
+118768530|Gonzaga, Vincenzo († 1627)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=262
+118775006|Hosius, Stanislao († 1579)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=341
+118779516|Medici, Alessandro Ottaviano de’ (Papst Leo XI.) († 1605)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=1121
+118802429|Toledo, Francisco de († 1596)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=55
+118845977|Acquaviva d Aragona, Pasquale († 1788)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=489
+118886207|Medici, Leopoldo de († 1675)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=681
+118891952|Pio da Carpi, Rodolfo († 1564)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=327
+118960350|Chigi, Flavio d. Ä. († 1693)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=571
+118968920|Rochefoucauld, François de la († 1645)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=295
+118996193|Contarini, Gasparo († 1542)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=1145
+118999818|Guevara (Niño de Guevara), Ferdinando Niño de († 1609)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=263
+119083450|Grimaldi, Girolamo II. († 1685)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=336
+119120712|Klesl (Khlesl), Melchior († 1630)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=266
+119136503|Azzolini (Azzolino), Decio d. J. († 1689)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=661
+119139170|Borromeo, Federico d. Ä. († 1631)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=54
+119179709|Macziejowski, Bernardus († 1608)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=271
+119230895|Corsini, Andrea († 1795)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=366
+119263580|Oesterreich (Österreich), Andreas von († 1600)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=531
+119282100|Monti, Cesare († 1650)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=355
+119299941|Dietrichstein, Franz von († 1636)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=245
+119305356|Imperiali, Giuseppe Renato († 1737)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=1152
+119310562|Monte (Borbone del Monte), Francesco Maria del († 1626)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=278
+119511266|Galli (Gallio), Tolomeo († 1607)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=253
+119511274|Capranica, Domenico († 1458)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=142
+119609657|Arigoni (Arrigoni), Pompeo († 1616)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=230
+120189348|Lothringen, Karl von (Lorraine, Charles de) († 1607)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=269
+120228513|Siliceo (Martinez Siliceo), Juan († 1557)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=475
+120319578|Este, Alessandro d († 1624)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=242
+120334925|Bourbon de Vendôme, Charles de d. Ä. († 1590)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=349
+120955059|Dubois, Guillaume († 1723)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=350
+120972816|Doria, Giorgio († 1759)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=538
+121177734|Farnese, Francesco Maria († 1647)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=871
+121502619|Vitelleschi, Giovanni († 1440)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=150
+121586723|Schönberg (Schomberg), Nikolaus von († 1537)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=185
+121733890|Savoia, Maurizio di († 1657)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=303
+121823946|Gonzaga, Ferdinando († 1627)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=261
+122010914|Deti, Giambattista (Giovanni Battista) († 1630)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=244
+122017366|Tanari, Sebastiano († 1724)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=536
+122153375|Torres, Lodovico de († 1609)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=188
+122239598|Cesi, Pietro Donato d. Ä. († 1586)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=459
+122333985|Sfondrato, Paolo Camillo (Paolo Emilio) († 1618)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=306
+122362454|Sandoval y Rojas, Francisco Gómez de († 1625)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=299
+122428501|Mantica, Francesco d. Ä. († 1614)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=274
+122498348|Altemps, Marco Sittico (Hohenems, Marx Sittich von) († 1595)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=203
+122805747|Vendramin, Francesco († 1618)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=225
+122824202|Rolin, Jean († 1483)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=176
+122935543|Cornaro (Corner), Federico d. J. († 1653)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=209
+122970470|Barberini, Antonio d. J. († 1671)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=761
+123056012|Colonna, Marcantonio d. Ä. († 1597)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=326
+123129850|Colonna, Ascanio († 1608)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=238
+123220998|Spada, Bernardino († 1661)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=4
+123367484|Scaglia, Desiderio († 1639)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=304
+123451035|Cornaro (Corner), Marco († 1524)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=129
+123491487|Valenti Gonzaga, Silvio († 1756)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=482
+123668972|Santacroce, Prospero († 1589)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=117
+124055389|Spada, Fabrizio († 1717)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=108
+124244599|Orsini, Latino († 1477)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=174
+124294707|Aldobrandini Passeri, Cinzio († 1610)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=227
+124294707|Aldobrandini, Pietro († 1621)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=228
+124371817|Sforza, Ascanio Maria († 1505)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=210
+124508863|Patrizi, Giovanni († 1727)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=1051
+124549330|Bonelli, Carlo († 1676)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=369
+124585183|Ludovisi, Ludovico († 1632)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=631
+124598102|Olivier-Razali, Serafino († 1609)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=282
+128381892|Roma, Giulio († 1652)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=296
+128397411|Marefoschi, Mario († 1780)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=523
+128475986|Tosco (Toschi), Domenico († 1620)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=314
+128521171|Portocarrero, Gioacchino Ferdinando († 1760)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=488
+128615516|Escobleau de Sourdis, François de († 1628)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=308
+128869828|Carpegna, Gaspare († 1714)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=329
+128912928|Enkenvoirt, Wilhelm van († 1534)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=365
+128994401|Castiglioni, Branda († 1443)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=480
+128995599|Condulmer, Francesco († 1453)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=148
+129007943|Estouteville, Guillaume d († 1483)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=165
+129044512|Mendoza, Diego Hurtado de (Hurtado de Mendoza y Quiñones, Diego) († 1502)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=479
+129056308|Borgia, Gaspare († 1645)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=112
+129284440|Tomasi di Lampedusa, Giuseppe Maria († 1713)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=527
+129467367|Riario, Pietro († 1474)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=62
+129593370|Medici, Giancarlo de († 1663)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=1149
+129806285|Spinola, Giulio († 1691)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=711
+129847658|Medici, Carlo de († 1666)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=277
+130263974|Cobelluzzi, Scipione († 1626)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=237
+130348600|Valier, Agostino († 1606)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=317
+130504580|Tarugi, Francesco Maria († 1608)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=311
+130507628|Margotti, Lanfranco († 1611)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=275
+130535567|Sandoval, Bernardo Rojas de († 1618)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=298
+130864692|Lante della Rovere, Marcello († 1652)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=267
+132310163|Albizzi, Francesco († 1684)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=801
+132322366|Sforza di S. Fiore, Guido Ascanio († 1564)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=183
+132322552|Cornaro (Corner), Francesco d. Ä. († 1543)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=360
+132535491|Costaguti, Giovanni Battista († 1704)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=971
+132680203|Santacroce, Antonio († 1641)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=118
+132733412|Cesi, Federico († 1565)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=457
+132898497|Ubaldini, Roberto († 1635)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=315
+132964449|Sforza di S. Fiore, Francesco († 1624)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=307
+133087271|Trivulzio, Antonio d. J. († 1559)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=463
+133171477|Birague, René de (Birago, Renato) († 1583)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=342
+133513807|Verallo (Veralli), Fabrizio († 1624)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=223
+133708209|Pio di Savoia, Carlo Emanuele d. Ä. († 1641)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=293
+136157912|Tavera (Pardo de Tavera), Juan († 1545)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=474
+137180314|Millini (Mellini), Giovanni Garzia († 1629)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=212
+138157510|Facchinetti (Fachenetti), Cesare († 1683)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=328
+140397477|Negroni, Giovanni Francesco († 1713)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=507
+140497439|Caetani (Caietani), Luigi (Aloisio) († 1642)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=691
+140661794|Colloredo, Leandro († 1709)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=1091
+140950338|Orsini, Alessandro († 1626)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=283
+140998233|Campori, Pietro († 1643)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=232
+141879017|Barberini, Francesco d. J. († 1738)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=487
+142432970|Falconieri, Lelio († 1648)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=334
+142433799|Corsini, Neri d. Ä. († 1678)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=367
+142968609|Coscia, Niccoló († 1755)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=339
+143033220|Altieri degli Albertoni, Paluzzo († 1698)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=505
+143101080|Carafa, Pier Luigi d. J. († 1755)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=338
+143636332|Acquaviva d Aragona, Francesco († 1725)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=484
+143776932|Chigi, Sigismondo († 1678)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=516
+143797077|Ansidei, Marcantonio († 1730)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=495
+144012340|Agucchio (Agucchi), Girolamo († 1605)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=50
+172219809|Nogaret de Lavallette, Louis († 1639)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=281
+172419174|Tolomei, Giovanni Battista († 1726)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=526
+172519446|Corsini, Neri d. J. († 1770)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=368
+188464050|Chigi, Flavio d. J. († 1771)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=541
+1011720795|Bandini, Ottavio († 1629)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=11
+1011736314|Doria, Giovanni (Giannettino) († 1642)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=246
+1011990865|Accoramboni, Giuseppe († 1747)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=483
+1012022552|Merlini, Ludovico († 1762)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=478
+1013146891|Grimani, Marino († 1546)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=359
+1013188918|Scarampi Mezzarota, Ludovico (Trevisano) († 1465)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=167
+1013250230|Priuli, Antonio Maria († 1772)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=432
+1017338752|Bichi, Carlo († 1718)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=501
+1017338752|Bichi, Metello († 1619)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=63
+1017572313|Panziroli, Giacomo († 1651)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=335
+1018053441|Savelli, Giulio († 1644)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=302
+1018103929|Cesi, Bartolomeo († 1621)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=236
+1018169571|Crescenzi, Pietro Paolo († 1645)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=240
+1018726322|Banchieri, Antonio († 1733)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=701
+1019724404|Colonna, Carlo († 1739)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=1150
+1019724412|Collicola, Carlo († 1730)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=486
+1019726288|Adda, Ferdinando d († 1719)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=451
+1019726377|Spinola, Giorgio († 1739)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=512
+1019726431|Boncompagni, Giacomo († 1731)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=503
+1019726458|Acciaiuoli (Acciaioli), Nicolo († 1719)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=481
+1019726768|Guise, Louis III. de († 1621)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=264
+1019727160|Altieri, Lorenzo († 1741)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=494
+1019737980|Caracciolo, Innico d. J. († 1730)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=539
+1020455527|Priuli, Pietro († 1728)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=433
+1021205516|Gondi, Henri de (Kardinal Retz) († 1622)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=260
+1023073692|Castelli, Giuseppe Maria († 1780)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=392
+1023118173|Borromeo, Federico d. J. († 1673)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=561
+1023187078|Givry, Annas Escars de († 1612)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=258
+1023405962|Spinola, Agostino († 1649)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=310
+1023413485|Sandoval (Moscoso y Sandoval), Baldassare de († 1665)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=297
+1024718417|Gondi, Pierre de († 1616)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=259
+1024721329|Astalli, Fulvio († 1721)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=498
+1025785371|Leni, Giovanni Battista († 1627)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=268
+1026957028|Giori, Angelo († 1662)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=56
+1027202985|Cerri, Carlo († 1690)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=951
+1027204082|Conti, Giovanni Nicola (Giannicolò) († 1698)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=961
+1030432759|Rapaccioli, Francesco Angelo († 1657)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=524
+1032535032|Ginetti, Giovanni Francesco († 1691)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=731
+1033674680|Grimaldi, Girolamo III. († 1733)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=373
+1033816744|Erba Odescalchi, Antonio Maria († 1762)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=477
+1033833665|Rezzonico, Carlo d. J. († 1799)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=525
+1034054422|Bardi, Girolamo († 1761)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=506
+1036528057|Canale, Saverio († 1773)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=551
+1038025702|Rocci, Ciriaco († 1651)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=116
+10010374X|Denhoff, Jan Kazimierz († 1697)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=1142
+101313687X|Serbelloni, Fabrizio († 1775)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=452
+103386868X|Spinola, Girolamo († 1784)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=721
+10406157X|Gualtieri, Filippo Antonio († 1728)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=540
+11899431X|Casanate, Girolamo († 1700)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=611
+11920245X|Farnese, Odoardo († 1626)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=249
+11924358X|Bentivoglio, Guido († 1644)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=110
+11932069X|Galli, Marco († 1683)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=1001
+12390062X|Sfondrato, Celestino († 1696)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=1146
+12483664X|Acquaviva d Aragona, Troiano († 1747)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=491
+12869016X|Colonna, Girolamo d. Ä. († 1666)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=332
+12901656X|Fieschi, Giorgio († 1461)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=157
+12945236X|Ginetti, Marzio († 1671)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=128
+13152819X|Riminaldi, Giovanni Maria († 1789)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=508
+13157485X|Portocarrero, Emanuel (Fernandez de Portocarrero, Luis Manuel) († 1709)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=472
+13262043X|Spinola, Giovanni Battista II. († 1719)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=510
+13627594X|Capizucchi, Raimondo († 1691)|http://requiem-projekt.de/db/suche.php?function=p_ausgabe&kaID=581
