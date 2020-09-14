@@ -1,249 +1,244 @@
 #FORMAT: BEACON
-#VERSION: 0.1
-#NAME: Biographia Cisterciensis (BioCist)
 #PREFIX: http://d-nb.info/gnd/
-#TARGET: 
-#FEED: http://www.zisterzienserlexikon.de/beacon/beacon.txt
-#CONTACT: Gerd Gessinger <gerd@gmx.net> http://www.zisterzienserlexikon.de
-#MESSAGE: Eintrag in Biographia Cisterciensis (BioCist)
-#DESCRIPTION: Biographia Cisterciensis (BioCist)
-#INSTITUTION: Biographia Cisterciensis (BioCist)
-#TIMESTAMP: 2011-11-12T21:00:00
-#REVISIT: 2011-12-16T12:00:00
-#REMARK: Lebensbeschreibungen bedeutender und weniger bedeutender Zisterzienser der letzten 900 Jahre.
-139788824|Kurz, Matthäus|http://www.zisterzienserlexikon.de/wiki/Kurz,_Matth%C3%A4us
-125123523|Denter, Thomas|http://www.zisterzienserlexikon.de/wiki/Denter,_Thomas
-12768784X|Békefi, Remig|http://www.zisterzienserlexikon.de/wiki/B%C3%A9kefi,_Remig
-11874304X|Pyrker, Johann Ladislaus|http://www.zisterzienserlexikon.de/wiki/Pyrker,_Johann_Ladislaus
-100968562|Ulrich von Lilienfeld|http://www.zisterzienserlexikon.de/wiki/Ulrich_von_Lilienfeld
-102455023|Bona, Giovanni|http://www.zisterzienserlexikon.de/wiki/Bona,_Giovanni
-118643908|Aelred von Rievaulx|http://www.zisterzienserlexikon.de/wiki/Aelred_von_Rievaulx
-124345166|Spahr, Kolumban|http://www.zisterzienserlexikon.de/wiki/Spahr,_Kolumban
-119268531|Balduin von Ford|http://www.zisterzienserlexikon.de/wiki/Balduin_von_Ford
-117588385|Müller, Gregor|http://www.zisterzienserlexikon.de/wiki/M%C3%BCller,_Gregor
-105740829|Griesser, Bruno|http://www.zisterzienserlexikon.de/wiki/Griesser,_Bruno
-118590782|Otto von Freising|http://www.zisterzienserlexikon.de/wiki/Otto_von_Freising
-100953344|Matthäus von Königssaal|http://www.zisterzienserlexikon.de/wiki/Matth%C3%A4us_von_K%C3%B6nigssaal
-11923453X|Konrad von Ebrach|http://www.zisterzienserlexikon.de/wiki/Konrad_von_Ebrach
-100942849|Gilbert von Hoyland|http://www.zisterzienserlexikon.de/wiki/Gilbert_von_Hoyland
-100936881|Arnulf von Löwen|http://www.zisterzienserlexikon.de/wiki/Arnulf_von_L%C3%B6wen
-100323685|Richalm von Schöntal|http://www.zisterzienserlexikon.de/wiki/Richalm_von_Sch%C3%B6ntal
-130176354|Visch, Charles|http://www.zisterzienserlexikon.de/wiki/Visch,_Charles
-136414559|Hermann von Marienstatt|http://www.zisterzienserlexikon.de/wiki/Hermann_von_Marienstatt
-118701533|Stephen Harding|http://www.zisterzienserlexikon.de/wiki/Stephen_Harding
-129361259|Braunstorfer, Karl|http://www.zisterzienserlexikon.de/wiki/Braunstorfer,_Karl
-126059365|Eicheler, Idesbald|http://www.zisterzienserlexikon.de/wiki/Eicheler,_Idesbald
-10195512X|Hoffmann, Eberhard|http://www.zisterzienserlexikon.de/wiki/Hoffmann,_Eberhard
-126272670|Gaumannmüller, Franz|http://www.zisterzienserlexikon.de/wiki/Gaumannm%C3%BCller,_Franz
-136044638|Madauer, Bartholomäus|http://www.zisterzienserlexikon.de/wiki/Madauer,_Bartholom%C3%A4us
-118587382|Neumann, Wilhelm|http://www.zisterzienserlexikon.de/wiki/Neumann,_Wilhelm
-120013231|Bootz, Robert|http://www.zisterzienserlexikon.de/wiki/Bootz,_Robert
-106341936|Schneider, Ambrosius|http://www.zisterzienserlexikon.de/wiki/Schneider,_Ambrosius
-120972026|Venusi, Benedikt|http://www.zisterzienserlexikon.de/wiki/Venusi,_Benedikt
-118518283|Cäsarius von Heisterbach|http://www.zisterzienserlexikon.de/wiki/C%C3%A4sarius_von_Heisterbach
-116959037|Van der Meulen, Ephrem|http://www.zisterzienserlexikon.de/wiki/Van_der_Meulen,_Ephrem
-119169657|Konrad von Urach|http://www.zisterzienserlexikon.de/wiki/Konrad_von_Urach
-106601539|Nossek, Meinrad|http://www.zisterzienserlexikon.de/wiki/Nossek,_Meinrad
-117077917|Janauschek, Leopold|http://www.zisterzienserlexikon.de/wiki/Janauschek,_Leopold
-118771671|Wiesinger, Alois|http://www.zisterzienserlexikon.de/wiki/Wiesinger,_Alois
-126589445|Mayer, Heinrich|http://www.zisterzienserlexikon.de/wiki/Mayer,_Heinrich
-116201959|Bliemetzrieder, Placidus|http://www.zisterzienserlexikon.de/wiki/Bliemetzrieder,_Placidus
-132868040|Edelbauer, Alfred|http://www.zisterzienserlexikon.de/wiki/Edelbauer,_Alfred
-123915538|Schlögl, Nivard|http://www.zisterzienserlexikon.de/wiki/Schl%C3%B6gl,_Nivard
-118905090|Nibling, Johannes|http://www.zisterzienserlexikon.de/wiki/Nibling,_Johannes
-143987186|Eisvogel, Gregor|http://www.zisterzienserlexikon.de/wiki/Eisvogel,_Gregor
-118593501|Pfanner, Franz|http://www.zisterzienserlexikon.de/wiki/Pfanner,_Franz
-104832991|Birngruber, Sylvester|http://www.zisterzienserlexikon.de/wiki/Birngruber,_Sylvester
-117364584|Siegl, Meinrad|http://www.zisterzienserlexikon.de/wiki/Siegl,_Meinrad
-126680981|Kaindl, Dominik|http://www.zisterzienserlexikon.de/wiki/Kaindl,_Dominik
-118700723|Haid, Kassian|http://www.zisterzienserlexikon.de/wiki/Haid,_Kassian
-118601474|Robert von Molesme|http://www.zisterzienserlexikon.de/wiki/Robert_von_Molesme
-1012291480|Notz, Eugen|http://www.zisterzienserlexikon.de/wiki/Notz,_Eugen
-137111150|Kalkum, Maurus|http://www.zisterzienserlexikon.de/wiki/Kalkum,_Maurus
-101226792X|Groner, Heinrich|http://www.zisterzienserlexikon.de/wiki/Groner,_Heinrich
-102905967|Mickl, Quirin|http://www.zisterzienserlexikon.de/wiki/Mickl,_Quirin
-101139782X|Grünbeck, Heinrich|http://www.zisterzienserlexikon.de/wiki/Gr%C3%BCnbeck,_Heinrich
-116248025|Pöck, Gregor|http://www.zisterzienserlexikon.de/wiki/P%C3%B6ck,_Gregor
-151466181|Willi, Dominikus|http://www.zisterzienserlexikon.de/wiki/Willi,_Dominikus
-129236918|Mayer, Salesius|http://www.zisterzienserlexikon.de/wiki/Mayer,_Salesius
-127902988|Pexa, Aelred|http://www.zisterzienserlexikon.de/wiki/Pexa,_Aelred
-118821628|Zwyssig, Alberich|http://www.zisterzienserlexikon.de/wiki/Zwyssig,_Alberich
-120500248|Lestrange, Augustin|http://www.zisterzienserlexikon.de/wiki/Lestrange,_Augustin
-129929697|Schenkl, Assumpta|http://www.zisterzienserlexikon.de/wiki/Schenkl,_Assumpta
-126883661|Rössler, Stephan|http://www.zisterzienserlexikon.de/wiki/R%C3%B6ssler,_Stephan
-118922947|Arnáiz Barón, Rafael|http://www.zisterzienserlexikon.de/wiki/Arn%C3%A1iz_Bar%C3%B3n,_Rafael
-143978012|David von Himmerod|http://www.zisterzienserlexikon.de/wiki/David_von_Himmerod
-111165334|Lauterer, Kassian|http://www.zisterzienserlexikon.de/wiki/Lauterer,_Kassian
-105441937|Elsen, Christophorus|http://www.zisterzienserlexikon.de/wiki/Elsen,_Christophorus
-124780288|Desnoyers, Jean-Baptiste|http://www.zisterzienserlexikon.de/wiki/Desnoyers,_Jean-Baptiste
-1011830051|Barrière, Jean|http://www.zisterzienserlexikon.de/wiki/Barri%C3%A8re,_Jean
-105125113|Chautard, Jean-Baptiste|http://www.zisterzienserlexikon.de/wiki/Chautard,_Jean-Baptiste
-143477552|Le Bail, Anselme|http://www.zisterzienserlexikon.de/wiki/Le_Bail,_Anselme
-1014987563|Kronpaß, Immolata|http://www.zisterzienserlexikon.de/wiki/Kronpa%C3%9F,_Immolata
-121276287|Tansi, Cyprian Michael|http://www.zisterzienserlexikon.de/wiki/Tansi,_Cyprian_Michael
-129186945|Haßlinger, Ambrosius|http://www.zisterzienserlexikon.de/wiki/Ha%C3%9Flinger,_Ambrosius
-127877886|Studeny, Lambert|http://www.zisterzienserlexikon.de/wiki/Studeny,_Lambert
-111594596|Vosicky, Bernhard|http://www.zisterzienserlexikon.de/wiki/Vosicky,_Bernhard
-127492593|Schücker, Walter|http://www.zisterzienserlexikon.de/wiki/Sch%C3%BCcker,_Walter
-154728209|Noschitzka, Canisius|http://www.zisterzienserlexikon.de/wiki/Noschitzka,_Canisius
-138653895|Henckel-Donnersmarck, Gregor|http://www.zisterzienserlexikon.de/wiki/Henckel-Donnersmarck,_Gregor
-137447973|Gertrud von Hackeborn|http://www.zisterzienserlexikon.de/wiki/Gertrud_von_Hackeborn
-13694129X|Lepori, Mauro-Giuseppe|http://www.zisterzienserlexikon.de/wiki/Lepori,_Mauro-Giuseppe
-100966411|Johannes von Ford|http://www.zisterzienserlexikon.de/wiki/Johannes_von_Ford
-102473501|Gilbert von Citeaux|http://www.zisterzienserlexikon.de/wiki/Gilbert_von_Citeaux
-100939406|Konrad von Eberbach|http://www.zisterzienserlexikon.de/wiki/Konrad_von_Eberbach
-118811924|Sagheddu, Maria Gabriella|http://www.zisterzienserlexikon.de/wiki/Sagheddu,_Maria_Gabriella
-10016403X|Henriquez, Chrysostomus|http://www.zisterzienserlexikon.de/wiki/Henriquez,_Chrysostomus
-119298341|Ughelli, Ferdinando|http://www.zisterzienserlexikon.de/wiki/Ughelli,_Ferdinando
-127869085|Krahl, Ignaz|http://www.zisterzienserlexikon.de/wiki/Krahl,_Ignaz
-128816759|Heim, Maximilian|http://www.zisterzienserlexikon.de/wiki/Heim,_Maximilian
-106341928|Lekai, Louis|http://www.zisterzienserlexikon.de/wiki/Lekai,_Louis
-10246717X|Volkuin von Sittichenbach|http://www.zisterzienserlexikon.de/wiki/Volkuin_von_Sittichenbach
-11945677X|Dubois, Marie-Gérard|http://www.zisterzienserlexikon.de/wiki/Dubois,_Marie-G%C3%A9rard
-124444466|Waddell, Chrysogonus|http://www.zisterzienserlexikon.de/wiki/Waddell,_Chrysogonus
-11943895X|Kelty, Matthew|http://www.zisterzienserlexikon.de/wiki/Kelty,_Matthew
-128080280|Dimier, Anselme|http://www.zisterzienserlexikon.de/wiki/Dimier,_Anselme
-151066639|Cocheril, Maur|http://www.zisterzienserlexikon.de/wiki/Cocheril,_Maur
-133826252|Dumont, Charles|http://www.zisterzienserlexikon.de/wiki/Dumont,_Charles
-12897706X|Lebreton, Christophe|http://www.zisterzienserlexikon.de/wiki/Lebreton,_Christophe
-109676742|Standaert, Maur|http://www.zisterzienserlexikon.de/wiki/Standaert,_Maur
-156765403|Schlecht, Robert|http://www.zisterzienserlexikon.de/wiki/Schlecht,_Robert
-101240367X|Walter, Leodegar|http://www.zisterzienserlexikon.de/wiki/Walter,_Leodegar
-110562798|Siwek, Alberich|http://www.zisterzienserlexikon.de/wiki/Siwek,_Alberich
-116771828|Mariacher, Stephan|http://www.zisterzienserlexikon.de/wiki/Mariacher,_Stephan
-104581751|Christan von Lilienfeld|http://www.zisterzienserlexikon.de/wiki/Christan_von_Lilienfeld
-105804827|Fiderer, Eugen|http://www.zisterzienserlexikon.de/wiki/Fiderer,_Eugen
-130095257|Handle, Augustin|http://www.zisterzienserlexikon.de/wiki/Handle,_Augustin
-118633023|Wilhelm von Saint-Thierry|http://www.zisterzienserlexikon.de/wiki/Wilhelm_von_Saint-Thierry
-139172955|Leeb, Robert|http://www.zisterzienserlexikon.de/wiki/Leeb,_Robert
-10315115X|Waltheof von Melrose|http://www.zisterzienserlexikon.de/wiki/Waltheof_von_Melrose
-109300750|Louf, André|http://www.zisterzienserlexikon.de/wiki/Louf,_André
-119515474|Mussbacher, Norbert|http://www.zisterzienserlexikon.de/wiki/Mussbacher,_Norbert
-119524481|Presse, Alexis|http://www.zisterzienserlexikon.de/wiki/Presse,_Alexis
-118598244|Rancé, Armand-Jean|http://www.zisterzienserlexikon.de/wiki/Ranc%C3%A9,_Armand-Jean
-129263702|Scheffer, Klemens|http://www.zisterzienserlexikon.de/wiki/Scheffer,_Klemens
-13256999X|Souchier, Jérôme|http://www.zisterzienserlexikon.de/wiki/Souchier,_J%C3%A9r%C3%B4me
-124247539|Streicher, Nivard|http://www.zisterzienserlexikon.de/wiki/Streicher,_Nivard
-109325125|Kleiner, Sighard|http://www.zisterzienserlexikon.de/wiki/Kleiner,_Sighard
-13033118X|Kurz, Hermann|http://www.zisterzienserlexikon.de/wiki/Kurz,_Hermann
-118509810|Bernhard von Clairvaux|http://www.zisterzienserlexikon.de/wiki/Bernhard_von_Clairvaux
-11884170X|Wiest, Stephan|http://www.zisterzienserlexikon.de/wiki/Wiest,_Stephan
-117536334|Geramb, Marie-Joseph|http://www.zisterzienserlexikon.de/wiki/Geramb,_Marie-Joseph
-129681490|Taufferer, Franz Xaver|http://www.zisterzienserlexikon.de/wiki/Taufferer,_Franz_Xaver
-133819000|Hettenkofer, Athanasius|http://www.zisterzienserlexikon.de/wiki/Hettenkofer,_Athanasius
-133241432|Angelsbrugger, Cölestin|http://www.zisterzienserlexikon.de/wiki/Angelsbrugger,_C%C3%B6lestin
-128961880|Müller, Franz Xaver|http://www.zisterzienserlexikon.de/wiki/M%C3%BCller,_Franz_Xaver
-122846389|Schmid, Eugen|http://www.zisterzienserlexikon.de/wiki/Schmid,_Eugen
-137812426|Deltsch, Wigand|http://www.zisterzienserlexikon.de/wiki/Deltsch,_Wigand
-119175215|Reitwinkler, Theobald|http://www.zisterzienserlexikon.de/wiki/Reitwinkler,_Theobald
-116838507|Matschik, Martin|http://www.zisterzienserlexikon.de/wiki/Matschik,_Martin
-135646995|Adam von Ebrach|http://www.zisterzienserlexikon.de/wiki/Adam_von_Ebrach
-143929194|Crophius, Ludwig|http://www.zisterzienserlexikon.de/wiki/Crophius,_Ludwig
-101864892|Gerards, Alberich|http://www.zisterzienserlexikon.de/wiki/Gerards,_Alberich
-133079139|Watzl, Florian|http://www.zisterzienserlexikon.de/wiki/Watzl,_Florian
-121126765|Röls, Roger|http://www.zisterzienserlexikon.de/wiki/R%C3%B6ls,_Roger
-124879632|Jongelinus, Gaspar|http://www.zisterzienserlexikon.de/wiki/Jongelinus,_Gaspar
-1012266923|GÖLDLIN von Tiefenau, Nikolaus (Walter) OCist (1625–1686)|http://www.zisterzienserlexikon.de/wiki/G%C3%B6ldlin,_Nikolaus
-1019308583|FRIDINGEN, Johann von (c1458–1534)|http://www.zisterzienserlexikon.de/wiki/Johannes_von_Fridingen
-1011620561|HASLROITHER, Gerhard (Johann) OCist (1842–1917)|http://www.zisterzienserlexikon.de/wiki/Haslroither,_Gerhard
-1023119692|MILLAUER, Maximilian (Franz Xaver) OCist (1784–1840)|http://www.zisterzienserlexikon.de/wiki/Millauer,_Maximilian
-142707759|LIMMER, Malachias OCist (1712–1774)|http://www.zisterzienserlexikon.de/wiki/Limmer,_Malachias
-1019359935|LICHTBLAU, Stephan (Hieronymus) OCist (1753–1837)|http://www.zisterzienserlexikon.de/wiki/Lichtblau,_Stephan
-119501414|EBERHARD von Rohrdorf [von Salem] (c1160–1245)|http://www.zisterzienserlexikon.de/wiki/Eberhard_von_Rohrdorf
-13732586X|HEINRICH I. von Heisterbach (1175/80–1244)|http://www.zisterzienserlexikon.de/wiki/Heinrich_I._von_Heisterbach
-14379406X|CAESARIUS von Milendonk OCist († nach 1222)|http://www.zisterzienserlexikon.de/wiki/Caesarius_von_Milendonk
-102520755|REGINALD von Alna OCist (14. Jh.)|http://www.zisterzienserlexikon.de/wiki/Reginald_von_Alna
-174162561|DARGNIES, François-de-Paule OCSO (1761–1824)|http://www.zisterzienserlexikon.de/wiki/Dargnies,_Fran%C3%A7ois
-107662892|STIBITZ, Theobald (Walter) OCist (1923–2012)|http://www.zisterzienserlexikon.de/wiki/Stibitz,_Theobald
-140012249|DONINGER, Emmerich (Johann) OCist (1914–1964)|http://www.zisterzienserlexikon.de/wiki/Doninger,_Emmerich
-12189004X|KERVINGANT, Marie (Yvonne) OCSO (1903–1990)|http://www.zisterzienserlexikon.de/wiki/Kervingant,_Marie
-129080616|NUCIUS, Johann OCist (1556–1620)|http://www.zisterzienserlexikon.de/wiki/Nucius,_Johann
-105362948|DRIJVERS, Pius (Franciscus Lucien) OCSO (1925–2013)|http://www.zisterzienserlexikon.de/wiki/Drijvers,_Pius
-1017150230|MÜLLER, Eugen (Hermann) OCist (1934–2013)|http://www.zisterzienserlexikon.de/wiki/M%C3%BCller,_Eugen
-128475862|BOCCONE, Silvio (Paolo) OCist (1633–1704)|http://www.zisterzienserlexikon.de/wiki/Boccone,_Paolo
-118895494|HELINAND de Froidmont (c1160–c1233)|http://www.zisterzienserlexikon.de/wiki/H%C3%A9linand_de_Froidmont
-100950922|ISAAK von Stella (c1100–n1174)|http://www.zisterzienserlexikon.de/wiki/Isaak_von_Stella
-18881647X|AMATORI, Alberico (Benedetto) OCist (1811–1875)|http://www.zisterzienserlexikon.de/wiki/Amatori,_Alberico
-100038220|BESOZZI, Raimondo OCist|http://www.zisterzienserlexikon.de/wiki/Besozzi,_Raimondo
-142621196|FARKASFALVY, Denis (Miklós) OCist (* 1936)|http://www.zisterzienserlexikon.de/wiki/Farkasfalvy,_Denis
-1029569428|BOTTINO, Girolamo OCist (1803–1871)|http://www.zisterzienserlexikon.de/wiki/Bottino,_Girolamo
-112838111|STROMMER, Alberich (Matthias) OCist (1925–2013)|http://www.zisterzienserlexikon.de/wiki/Strommer,_Alberich
-188916296|CESARI, Teobaldo (Cirillo) OCist (1804–1879)|http://www.zisterzienserlexikon.de/wiki/Cesari,_Teobaldo
-188391207|DESSL, Reinhold (Johann) OCist|http://www.zisterzienserlexikon.de/wiki/Dessl,_Reinhold
-120888653|KUNTSCHAK, Abund (Josef) OCist (1753–1822)|http://www.zisterzienserlexikon.de/wiki/Kuntschak,_Abund
-1034016709|SZEGHY, Ernő (Sándor) OCist/OCD (1872–1952)|http://www.zisterzienserlexikon.de/wiki/Szeghy,_Ern%C5%91
-1042303665|ZAKAR, Polikárp (Ferenc) OCist (1930–2012)|http://www.zisterzienserlexikon.de/wiki/Zakar,_Polik%C3%A1rp
-102309892|RANCATI, Ilarione (Bartolomeo) OCist (1594–1663)|http://www.zisterzienserlexikon.de/wiki/Rancati,_Ilarione
-1025836715|LARCHER, Nicolas (c1630–1717)|http://www.zisterzienserlexikon.de/wiki/Larcher,_Nicolas
-1056133287|BOUCHERAT, Nicolas OCist (1515–1586)|http://www.zisterzienserlexikon.de/wiki/Boucherat,_Nicolas_I
-1019375604|RÖSSLER, Stephan (Karl) OCist (1842–1923)|http://www.zisterzienserlexikon.de/wiki/R%C3%B6ssler,_Stephan
-1051200768|SIMONIS, Gregor († 1581)|http://www.zisterzienserlexikon.de/wiki/Simonis,_Gregor
-130095893|KEPLINGER, Ludwig (Friedrich) OCist (1936–2013)|http://www.zisterzienserlexikon.de/wiki/Keplinger,_Ludwig
-136593402|KOCIK, Eustachy (Gerard) OCist (1930–2014)|http://www.zisterzienserlexikon.de/wiki/Kocik,_Eustachy
-119011336|GUERRIC von Igny (c.1170–1157)|http://www.zisterzienserlexikon.de/wiki/Guerric_von_Igny
-156156067|SAILER, Roger (Matthäus) OCist (1694–1766)|http://www.zisterzienserlexikon.de/wiki/Sailer,_Roger
-129991708|LEBERSORG, Wolfgang OCist (1570/71–1646)|http://www.zisterzienserlexikon.de/wiki/Lebersorg,_Wolfgang
-130095257|HANDLE, Augustin (Franz Vigil) OCist (1774–1839)|http://www.zisterzienserlexikon.de/wiki/Handle,_Augustin
-1036810151|STÖCKL, Sebastian (Franz) (1752–1819)|http://www.zisterzienserlexikon.de/wiki/St%C3%B6ckl,_Sebastian
-136149405|BERTHOLD von Urach OCist († 1241/42)|http://www.zisterzienserlexikon.de/wiki/Berthold_von_Urach
-102506930|JACOBUS von Eltville (c1325–1392)|http://www.zisterzienserlexikon.de/wiki/Jacobus_von_Eltville
-1036229092|RABENSTEINER, Alberich (Alois) OCist (1875–1945)|http://www.zisterzienserlexikon.de/wiki/Rabensteiner,_Alberich
-1027644236|REIMANN, Martin (Kaspar Anton) OCist (1798–1878)|http://www.zisterzienserlexikon.de/wiki/Reimann,_Martin
-1036810542|STÖCKLI, Augustin (Alois) OCist (1857–1902)|http://www.zisterzienserlexikon.de/wiki/St%C3%B6ckli,_Augustin
-184449561|WOCHER, Laurenz (Anton) OCist (1856–1895)|http://www.zisterzienserlexikon.de/wiki/Wocher,_Laurentius
-1025606043|PAVEL, Raphael (Michael) OCist (1842–1900)|http://www.zisterzienserlexikon.de/wiki/Pavel,_Raphael
-1057936731|GAMERITH, Berthold (1758–1834)|http://www.zisterzienserlexikon.de/wiki/Gamerith,_Berthold
-1057936936|HÖRWEG, Julius (1784–1847)|http://www.zisterzienserlexikon.de/wiki/H%C3%B6rweg,_Julius
-1036431398|STEININGER, Augustin (Joseph) OCist (1794–1875)|http://www.zisterzienserlexikon.de/wiki/Steininger,_Augustin
-1032422920|SCHOPPER, Valentin (Michael) OCist (1771–1851)|http://www.zisterzienserlexikon.de/wiki/Schopper,_Valentin
-130099864|HANTHALER, Chrysostomus (1690–1754)|http://www.zisterzienserlexikon.de/wiki/Hanthaler,_Chrysostomus
-11954816X|BECZICZKA, Ambros (Anton) OCist (1780–1861)|http://www.zisterzienserlexikon.de/wiki/Becziczka,_Ambros
-101575337X|HEIDMANN, Alberich (Johann) OCist (1808–1898)|http://www.zisterzienserlexikon.de/wiki/Heidmann,_Alberich
-106394517|PFENNIGBAUER, Friedrich (Rudolf) OCist (1909–1968)|http://www.zisterzienserlexikon.de/wiki/Pfennigbauer,_Friedrich
-1025021649|PANSCHAB, Justin (Johannes) OCist (1859–1930)|http://www.zisterzienserlexikon.de/wiki/Panschab,_Justin
-101138518X|GRASBÖCK, Theobald (Anton) OCist (1846–1915)|http://www.zisterzienserlexikon.de/wiki/Grasb%C3%B6ck,_Theobald
-1030492891|KONRAD von Krosigk († 1225)|http://www.zisterzienserlexikon.de/wiki/Konrad_von_Krosigk
-1025653254|BOUCHU, Pierre (1630–1718)|http://www.zisterzienserlexikon.de/wiki/Bouchu,_Pierre
-1030555303|SCHMIDT, Leopold (Sylvester) OCist (1884–1935)|http://www.zisterzienserlexikon.de/wiki/Schmidt,_Leopold
-102622909X|VEILLEUX, Armand OCSO|http://www.zisterzienserlexikon.de/wiki/Veilleux,_Armand
-105117984X|PESGEN, Ferdinand (1684–1731)|http://www.zisterzienserlexikon.de/wiki/Pesgen,_Ferdinand
-1060497956|STRUNK, Franciscus (Karl) OCSO (1844–1922)|http://www.zisterzienserlexikon.de/wiki/Strunk,_Franciscus
-1051959276|ENDRÈDY, Vendel (Kálmán) OCist (1895–1981)|http://www.zisterzienserlexikon.de/wiki/Endr%C3%A9dy,_Vendel
-173338577|KNEUSGEN, Hermann OCist (1712–1768)|http://www.zisterzienserlexikon.de/wiki/Kneusgen,_Hermann
-17333864X|KRUCHEN, Andreas OCist (1731–1796)|http://www.zisterzienserlexikon.de/wiki/Kruchen,_Andreas
-173334466|MENGELBERG, Augustinus OCist (1710–1763)|http://www.zisterzienserlexikon.de/wiki/Mengelberg,_Augustinus
-1051152410|EMONS, Petrus (1689–1751)|http://www.zisterzienserlexikon.de/wiki/Emons,_Petrus
-1051152356|BERGH, Alberich (1677–1736)|http://www.zisterzienserlexikon.de/wiki/Bergh,_Alberich
-1051179866|PFLÜGER, Johann Kaspar (1620–1688)|http://www.zisterzienserlexikon.de/wiki/Pfl%C3%BCger,_Johann_Kaspar
-1051212413|RECKE, Vitus (Valentin) OCist (1887–1959)|http://www.zisterzienserlexikon.de/wiki/Recke,_Vitus
-1051212154|PIDOLL, Anselm (Hubert) von (1734–1927)|http://www.zisterzienserlexikon.de/wiki/Pidoll,_Anselm
-1051177782|CAMP, Leopold (1699–1750)|http://www.zisterzienserlexikon.de/wiki/Camp,_Leopold
-1051212219|PLEIN, Anastasius (Jakob) OCSO (1876–1962)|http://www.zisterzienserlexikon.de/wiki/Plein,_Anastasius
-1047314959|STEIGENBERGER, Petrus (Andreas) OCist (1933–2009)|http://www.zisterzienserlexikon.de/wiki/Steigenberger,_Petrus
-12016289X|HAUSNER, Albert (Wolfgang) OCist (1647–1710)|http://www.zisterzienserlexikon.de/wiki/Hausner,_Albert
-103169580X|SCHOBER, Johann (Anton) OCist (1783–1850)|http://www.zisterzienserlexikon.de/wiki/Schober,_Johann
-104279354|CLAVEY, Johann OCist (1614–1687)|http://www.zisterzienserlexikon.de/wiki/Clavey,_Johann
-1030563780|SCHMIDT, Valentin (Franz) OCist (1863–1927)|http://www.zisterzienserlexikon.de/wiki/Schmidt,_Valentin
-126318891|KORTSCHAK, Ernst (Karl) OCist (1879–1957)|http://www.zisterzienserlexikon.de/wiki/Kortschak,_Ernest
-1041656467|ESTEVA ALSINA, MAUR (Daniel) OCist (1933–2014)|http://www.zisterzienserlexikon.de/wiki/Esteva,_Maur
-116853654|MAUERMANN, Laurentius (Franz) OCist (1780–1845)|http://www.zisterzienserlexikon.de/wiki/Mauermann,_Franz_Laurenz
-1020637439|SCHRATTENBACH, Bernhard (Marquard) OCist († 1660)|http://www.zisterzienserlexikon.de/wiki/Schrattenbach,_Bernhard
-1060421186|HANTSCHKE, Procopius (Johann Georg) OCist (1731–1789)|http://www.zisterzienserlexikon.de/wiki/Hantschke,_Procopius
-11711006X|OECHSLE, Kaspar (Joh. Nepomuk) OCist (1752–1820)|http://www.zisterzienserlexikon.de/wiki/Oechsle,_Kaspar
-13308373X|WUKU, Robert OCist (1853–1911)|http://www.zisterzienserlexikon.de/wiki/Wuku,_Robert
-1024094405|NAGL, Erasmus OCist (1870–1924)|http://www.zisterzienserlexikon.de/wiki/Nagl,_Erasmus
-130839086|FROMME, Bruno (Elmar) OCist (* 1938)|http://www.zisterzienserlexikon.de/wiki/Fromme,_Bruno
-104942090X|BYLANSKY, Gottfried (Franz Anton) OCist (1724–1788)|http://www.zisterzienserlexikon.de/wiki/Bylansky,_Gottfried
-1046824805|SOUTHEY, Ambrose (Kevin) OCSO (1923–2013)|http://www.zisterzienserlexikon.de/wiki/Southey,_Ambrose
-126522898|KRAHL, Bernhard (Ernst) OCist (1902–1962)|http://www.zisterzienserlexikon.de/wiki/Krahl,_Bernhard
-15450906X|VAN HECKE, Lode OCSO (* 1950)|http://www.zisterzienserlexikon.de/wiki/Van_Hecke,_Lode
-122067479|HARZER, Eberhard (Josef) OCist (1887–1949)|http://www.zisterzienserlexikon.de/wiki/Harzer,_Eberhard
-116144521|BERNHARD, Athanasius (Philipp)  OCist (1815–1875)|http://www.zisterzienserlexikon.de/wiki/Bernhard,_Athanasius
-1017834229|KRÜGNER, Salesius (Ignaz) OCist (1781–1842)|http://www.zisterzienserlexikon.de/wiki/Kr%C3%BCgner,_Salesius
-11941659X|GRAN, John (Willem) OCSO (1920–2008)|http://www.zisterzienserlexikon.de/wiki/Gran,_Willem
-1036144399|STEIGER, Benedikt (Anton Joseph) OCist (1810–1889)|http://www.zisterzienserlexikon.de/wiki/Steiger,_Benedikt
-100744273|HILTPRAND, Bonifatius OCist († 1689)|http://www.zisterzienserlexikon.de/wiki/Hiltprand,_Bonifatius
-133507157|EINSPECKH, Achatius OCist († 1611)|http://www.zisterzienserlexikon.de/wiki/Einspeckh,_Achatius
-133765083|GRAD, Theobald OCist (1661–1734)|http://www.zisterzienserlexikon.de/wiki/Grad,_Theobald
-10492988X|BOYLAN, Eugene OCSO (1904–1964)|http://www.zisterzienserlexikon.de/wiki/Boylan,_Eugene
-1015428673|VAN DONINCK, Benedictus OCist (1858–1940)|http://www.zisterzienserlexikon.de/wiki/Van_Doninck,_Benedictus
+#VERSION: 0.1
+#FEED: http://www.statistik-bw.de/LABI/Biographia-Cisterciensis.txt
+#NAME: Biographia Cisterciensis (BioCist)
+#MESSAGE: Biographia Cisterciensis (BioCist)
+#INSTITUTION: www.zisterzienserlexikon.de
+#CONTACT: Wilfred Berger <webmaster@stala.bwl.de>
+#TIMESTAMP: 2014-12-20T10:01:04Z
+100038220||http://www.zisterzienserlexikon.de/wiki/Besozzi,_Raimondo
+10016403X||http://www.zisterzienserlexikon.de/wiki/Henriquez,_Chrysostomus
+100323685||http://www.zisterzienserlexikon.de/wiki/Richalm_von_Sch%C3%B6ntal
+100744273||http://www.zisterzienserlexikon.de/wiki/Hiltprand,_Bonifatius
+100936881||http://www.zisterzienserlexikon.de/wiki/Arnulf_von_L%C3%B6wen
+100939406||http://www.zisterzienserlexikon.de/wiki/Konrad_von_Eberbach
+100942849||http://www.zisterzienserlexikon.de/wiki/Gilbert_von_Hoyland
+100950922||http://www.zisterzienserlexikon.de/wiki/Isaak_von_Stella
+100953344||http://www.zisterzienserlexikon.de/wiki/Matth%C3%A4us_von_K%C3%B6nigssaal
+100966411||http://www.zisterzienserlexikon.de/wiki/Johannes_von_Ford
+100968562||http://www.zisterzienserlexikon.de/wiki/Ulrich_von_Lilienfeld
+101864892||http://www.zisterzienserlexikon.de/wiki/Gerards,_Alberich
+10195512X||http://www.zisterzienserlexikon.de/wiki/Hoffmann,_Eberhard
+102309892||http://www.zisterzienserlexikon.de/wiki/Rancati,_Ilarione
+102455023||http://www.zisterzienserlexikon.de/wiki/Bona,_Giovanni
+10246717X||http://www.zisterzienserlexikon.de/wiki/Volkuin_von_Sittichenbach
+102473501||http://www.zisterzienserlexikon.de/wiki/Gilbert_von_Citeaux
+102506930||http://www.zisterzienserlexikon.de/wiki/Jacobus_von_Eltville
+102520755||http://www.zisterzienserlexikon.de/wiki/Reginald_von_Alna
+102905967||http://www.zisterzienserlexikon.de/wiki/Mickl,_Quirin
+10315115X||http://www.zisterzienserlexikon.de/wiki/Waltheof_von_Melrose
+104279354||http://www.zisterzienserlexikon.de/wiki/Clavey,_Johann
+104581751||http://www.zisterzienserlexikon.de/wiki/Christan_von_Lilienfeld
+104832991||http://www.zisterzienserlexikon.de/wiki/Birngruber,_Sylvester
+10492988X||http://www.zisterzienserlexikon.de/wiki/Boylan,_Eugene
+105125113||http://www.zisterzienserlexikon.de/wiki/Chautard,_Jean-Baptiste
+105362948||http://www.zisterzienserlexikon.de/wiki/Drijvers,_Pius
+105441937||http://www.zisterzienserlexikon.de/wiki/Elsen,_Christophorus
+105740829||http://www.zisterzienserlexikon.de/wiki/Griesser,_Bruno
+105804827||http://www.zisterzienserlexikon.de/wiki/Fiderer,_Eugen
+106341928||http://www.zisterzienserlexikon.de/wiki/Lekai,_Louis
+106341936||http://www.zisterzienserlexikon.de/wiki/Schneider,_Ambrosius
+106394517||http://www.zisterzienserlexikon.de/wiki/Pfennigbauer,_Friedrich
+106601539||http://www.zisterzienserlexikon.de/wiki/Nossek,_Meinrad
+107662892||http://www.zisterzienserlexikon.de/wiki/Stibitz,_Theobald
+109300750||http://www.zisterzienserlexikon.de/wiki/Louf,_André
+109325125||http://www.zisterzienserlexikon.de/wiki/Kleiner,_Sighard
+109676742||http://www.zisterzienserlexikon.de/wiki/Standaert,_Maur
+110562798||http://www.zisterzienserlexikon.de/wiki/Siwek,_Alberich
+111165334||http://www.zisterzienserlexikon.de/wiki/Lauterer,_Kassian
+111594596||http://www.zisterzienserlexikon.de/wiki/Vosicky,_Bernhard
+112838111||http://www.zisterzienserlexikon.de/wiki/Strommer,_Alberich
+116144521||http://www.zisterzienserlexikon.de/wiki/Bernhard,_Athanasius
+116201959||http://www.zisterzienserlexikon.de/wiki/Bliemetzrieder,_Placidus
+116248025||http://www.zisterzienserlexikon.de/wiki/P%C3%B6ck,_Gregor
+116771828||http://www.zisterzienserlexikon.de/wiki/Mariacher,_Stephan
+116838507||http://www.zisterzienserlexikon.de/wiki/Matschik,_Martin
+116853654||http://www.zisterzienserlexikon.de/wiki/Mauermann,_Franz_Laurenz
+116959037||http://www.zisterzienserlexikon.de/wiki/Van_der_Meulen,_Ephrem
+117077917||http://www.zisterzienserlexikon.de/wiki/Janauschek,_Leopold
+11711006X||http://www.zisterzienserlexikon.de/wiki/Oechsle,_Kaspar
+117364584||http://www.zisterzienserlexikon.de/wiki/Siegl,_Meinrad
+117536334||http://www.zisterzienserlexikon.de/wiki/Geramb,_Marie-Joseph
+117588385||http://www.zisterzienserlexikon.de/wiki/M%C3%BCller,_Gregor
+118509810||http://www.zisterzienserlexikon.de/wiki/Bernhard_von_Clairvaux
+118518283||http://www.zisterzienserlexikon.de/wiki/C%C3%A4sarius_von_Heisterbach
+118587382||http://www.zisterzienserlexikon.de/wiki/Neumann,_Wilhelm
+118590782||http://www.zisterzienserlexikon.de/wiki/Otto_von_Freising
+118593501||http://www.zisterzienserlexikon.de/wiki/Pfanner,_Franz
+118598244||http://www.zisterzienserlexikon.de/wiki/Ranc%C3%A9,_Armand-Jean
+118601474||http://www.zisterzienserlexikon.de/wiki/Robert_von_Molesme
+118633023||http://www.zisterzienserlexikon.de/wiki/Wilhelm_von_Saint-Thierry
+118643908||http://www.zisterzienserlexikon.de/wiki/Aelred_von_Rievaulx
+118700723||http://www.zisterzienserlexikon.de/wiki/Haid,_Kassian
+118701533||http://www.zisterzienserlexikon.de/wiki/Stephen_Harding
+11874304X||http://www.zisterzienserlexikon.de/wiki/Pyrker,_Johann_Ladislaus
+118771671||http://www.zisterzienserlexikon.de/wiki/Wiesinger,_Alois
+118811924||http://www.zisterzienserlexikon.de/wiki/Sagheddu,_Maria_Gabriella
+118821628||http://www.zisterzienserlexikon.de/wiki/Zwyssig,_Alberich
+11884170X||http://www.zisterzienserlexikon.de/wiki/Wiest,_Stephan
+118895494||http://www.zisterzienserlexikon.de/wiki/H%C3%A9linand_de_Froidmont
+118905090||http://www.zisterzienserlexikon.de/wiki/Nibling,_Johannes
+118922947||http://www.zisterzienserlexikon.de/wiki/Arn%C3%A1iz_Bar%C3%B3n,_Rafael
+119011336||http://www.zisterzienserlexikon.de/wiki/Guerric_von_Igny
+119169657||http://www.zisterzienserlexikon.de/wiki/Konrad_von_Urach
+119175215||http://www.zisterzienserlexikon.de/wiki/Reitwinkler,_Theobald
+11923453X||http://www.zisterzienserlexikon.de/wiki/Konrad_von_Ebrach
+119268531||http://www.zisterzienserlexikon.de/wiki/Balduin_von_Ford
+119298341||http://www.zisterzienserlexikon.de/wiki/Ughelli,_Ferdinando
+11941659X||http://www.zisterzienserlexikon.de/wiki/Gran,_Willem
+11943895X||http://www.zisterzienserlexikon.de/wiki/Kelty,_Matthew
+11945677X||http://www.zisterzienserlexikon.de/wiki/Dubois,_Marie-G%C3%A9rard
+119501414||http://www.zisterzienserlexikon.de/wiki/Eberhard_von_Rohrdorf
+119515474||http://www.zisterzienserlexikon.de/wiki/Mussbacher,_Norbert
+119524481||http://www.zisterzienserlexikon.de/wiki/Presse,_Alexis
+11954816X||http://www.zisterzienserlexikon.de/wiki/Becziczka,_Ambros
+120013231||http://www.zisterzienserlexikon.de/wiki/Bootz,_Robert
+12016289X||http://www.zisterzienserlexikon.de/wiki/Hausner,_Albert
+120500248||http://www.zisterzienserlexikon.de/wiki/Lestrange,_Augustin
+120888653||http://www.zisterzienserlexikon.de/wiki/Kuntschak,_Abund
+120972026||http://www.zisterzienserlexikon.de/wiki/Venusi,_Benedikt
+121126765||http://www.zisterzienserlexikon.de/wiki/R%C3%B6ls,_Roger
+121276287||http://www.zisterzienserlexikon.de/wiki/Tansi,_Cyprian_Michael
+12189004X||http://www.zisterzienserlexikon.de/wiki/Kervingant,_Marie
+122067479||http://www.zisterzienserlexikon.de/wiki/Harzer,_Eberhard
+122846389||http://www.zisterzienserlexikon.de/wiki/Schmid,_Eugen
+123915538||http://www.zisterzienserlexikon.de/wiki/Schl%C3%B6gl,_Nivard
+124247539||http://www.zisterzienserlexikon.de/wiki/Streicher,_Nivard
+124345166||http://www.zisterzienserlexikon.de/wiki/Spahr,_Kolumban
+124444466||http://www.zisterzienserlexikon.de/wiki/Waddell,_Chrysogonus
+124780288||http://www.zisterzienserlexikon.de/wiki/Desnoyers,_Jean-Baptiste
+124879632||http://www.zisterzienserlexikon.de/wiki/Jongelinus,_Gaspar
+125123523||http://www.zisterzienserlexikon.de/wiki/Denter,_Thomas
+126059365||http://www.zisterzienserlexikon.de/wiki/Eicheler,_Idesbald
+126272670||http://www.zisterzienserlexikon.de/wiki/Gaumannm%C3%BCller,_Franz
+126318891||http://www.zisterzienserlexikon.de/wiki/Kortschak,_Ernest
+126522898||http://www.zisterzienserlexikon.de/wiki/Krahl,_Bernhard
+126589445||http://www.zisterzienserlexikon.de/wiki/Mayer,_Heinrich
+126680981||http://www.zisterzienserlexikon.de/wiki/Kaindl,_Dominik
+126883661||http://www.zisterzienserlexikon.de/wiki/R%C3%B6ssler,_Stephan
+127492593||http://www.zisterzienserlexikon.de/wiki/Sch%C3%BCcker,_Walter
+12768784X||http://www.zisterzienserlexikon.de/wiki/B%C3%A9kefi,_Remig
+127869085||http://www.zisterzienserlexikon.de/wiki/Krahl,_Ignaz
+127877886||http://www.zisterzienserlexikon.de/wiki/Studeny,_Lambert
+127902988||http://www.zisterzienserlexikon.de/wiki/Pexa,_Aelred
+128080280||http://www.zisterzienserlexikon.de/wiki/Dimier,_Anselme
+128475862||http://www.zisterzienserlexikon.de/wiki/Boccone,_Paolo
+128816759||http://www.zisterzienserlexikon.de/wiki/Heim,_Maximilian
+128961880||http://www.zisterzienserlexikon.de/wiki/M%C3%BCller,_Franz_Xaver
+12897706X||http://www.zisterzienserlexikon.de/wiki/Lebreton,_Christophe
+129080616||http://www.zisterzienserlexikon.de/wiki/Nucius,_Johann
+129186945||http://www.zisterzienserlexikon.de/wiki/Ha%C3%9Flinger,_Ambrosius
+129236918||http://www.zisterzienserlexikon.de/wiki/Mayer,_Salesius
+129263702||http://www.zisterzienserlexikon.de/wiki/Scheffer,_Klemens
+129361259||http://www.zisterzienserlexikon.de/wiki/Braunstorfer,_Karl
+129681490||http://www.zisterzienserlexikon.de/wiki/Taufferer,_Franz_Xaver
+129929697||http://www.zisterzienserlexikon.de/wiki/Schenkl,_Assumpta
+129991708||http://www.zisterzienserlexikon.de/wiki/Lebersorg,_Wolfgang
+130095257||http://www.zisterzienserlexikon.de/wiki/Handle,_Augustin
+130095893||http://www.zisterzienserlexikon.de/wiki/Keplinger,_Ludwig
+130099864||http://www.zisterzienserlexikon.de/wiki/Hanthaler,_Chrysostomus
+130176354||http://www.zisterzienserlexikon.de/wiki/Visch,_Charles
+13033118X||http://www.zisterzienserlexikon.de/wiki/Kurz,_Hermann
+130839086||http://www.zisterzienserlexikon.de/wiki/Fromme,_Bruno
+13256999X||http://www.zisterzienserlexikon.de/wiki/Souchier,_J%C3%A9r%C3%B4me
+132868040||http://www.zisterzienserlexikon.de/wiki/Edelbauer,_Alfred
+133079139||http://www.zisterzienserlexikon.de/wiki/Watzl,_Florian
+13308373X||http://www.zisterzienserlexikon.de/wiki/Wuku,_Robert
+133241432||http://www.zisterzienserlexikon.de/wiki/Angelsbrugger,_C%C3%B6lestin
+133507157||http://www.zisterzienserlexikon.de/wiki/Einspeckh,_Achatius
+133765083||http://www.zisterzienserlexikon.de/wiki/Grad,_Theobald
+133819000||http://www.zisterzienserlexikon.de/wiki/Hettenkofer,_Athanasius
+133826252||http://www.zisterzienserlexikon.de/wiki/Dumont,_Charles
+135646995||http://www.zisterzienserlexikon.de/wiki/Adam_von_Ebrach
+136044638||http://www.zisterzienserlexikon.de/wiki/Madauer,_Bartholom%C3%A4us
+136149405||http://www.zisterzienserlexikon.de/wiki/Berthold_von_Urach
+136414559||http://www.zisterzienserlexikon.de/wiki/Hermann_von_Marienstatt
+136593402||http://www.zisterzienserlexikon.de/wiki/Kocik,_Eustachy
+13694129X||http://www.zisterzienserlexikon.de/wiki/Lepori,_Mauro-Giuseppe
+137111150||http://www.zisterzienserlexikon.de/wiki/Kalkum,_Maurus
+13732586X||http://www.zisterzienserlexikon.de/wiki/Heinrich_I._von_Heisterbach
+137447973||http://www.zisterzienserlexikon.de/wiki/Gertrud_von_Hackeborn
+137812426||http://www.zisterzienserlexikon.de/wiki/Deltsch,_Wigand
+138653895||http://www.zisterzienserlexikon.de/wiki/Henckel-Donnersmarck,_Gregor
+139172955||http://www.zisterzienserlexikon.de/wiki/Leeb,_Robert
+139788824||http://www.zisterzienserlexikon.de/wiki/Kurz,_Matth%C3%A4us
+140012249||http://www.zisterzienserlexikon.de/wiki/Doninger,_Emmerich
+142621196||http://www.zisterzienserlexikon.de/wiki/Farkasfalvy,_Denis
+142707759||http://www.zisterzienserlexikon.de/wiki/Limmer,_Malachias
+143477552||http://www.zisterzienserlexikon.de/wiki/Le_Bail,_Anselme
+14379406X||http://www.zisterzienserlexikon.de/wiki/Caesarius_von_Milendonk
+143929194||http://www.zisterzienserlexikon.de/wiki/Crophius,_Ludwig
+143978012||http://www.zisterzienserlexikon.de/wiki/David_von_Himmerod
+143987186||http://www.zisterzienserlexikon.de/wiki/Eisvogel,_Gregor
+151066639||http://www.zisterzienserlexikon.de/wiki/Cocheril,_Maur
+151466181||http://www.zisterzienserlexikon.de/wiki/Willi,_Dominikus
+15450906X||http://www.zisterzienserlexikon.de/wiki/Van_Hecke,_Lode
+154728209||http://www.zisterzienserlexikon.de/wiki/Noschitzka,_Canisius
+156156067||http://www.zisterzienserlexikon.de/wiki/Sailer,_Roger
+156765403||http://www.zisterzienserlexikon.de/wiki/Schlecht,_Robert
+173334466||http://www.zisterzienserlexikon.de/wiki/Mengelberg,_Augustinus
+173338577||http://www.zisterzienserlexikon.de/wiki/Kneusgen,_Hermann
+17333864X||http://www.zisterzienserlexikon.de/wiki/Kruchen,_Andreas
+174162561||http://www.zisterzienserlexikon.de/wiki/Dargnies,_Fran%C3%A7ois
+184449561||http://www.zisterzienserlexikon.de/wiki/Wocher,_Laurentius
+188391207||http://www.zisterzienserlexikon.de/wiki/Dessl,_Reinhold
+18881647X||http://www.zisterzienserlexikon.de/wiki/Amatori,_Alberico
+188916296||http://www.zisterzienserlexikon.de/wiki/Cesari,_Teobaldo
+101138518X||http://www.zisterzienserlexikon.de/wiki/Grasb%C3%B6ck,_Theobald
+101139782X||http://www.zisterzienserlexikon.de/wiki/Gr%C3%BCnbeck,_Heinrich
+1011620561||http://www.zisterzienserlexikon.de/wiki/Haslroither,_Gerhard
+1011830051||http://www.zisterzienserlexikon.de/wiki/Barri%C3%A8re,_Jean
+1012266923||http://www.zisterzienserlexikon.de/wiki/G%C3%B6ldlin,_Nikolaus
+101226792X||http://www.zisterzienserlexikon.de/wiki/Groner,_Heinrich
+1012291480||http://www.zisterzienserlexikon.de/wiki/Notz,_Eugen
+101240367X||http://www.zisterzienserlexikon.de/wiki/Walter,_Leodegar
+1014987563||http://www.zisterzienserlexikon.de/wiki/Kronpa%C3%9F,_Immolata
+1015428673||http://www.zisterzienserlexikon.de/wiki/Van_Doninck,_Benedictus
+101575337X||http://www.zisterzienserlexikon.de/wiki/Heidmann,_Alberich
+1017150230||http://www.zisterzienserlexikon.de/wiki/M%C3%BCller,_Eugen
+1017834229||http://www.zisterzienserlexikon.de/wiki/Kr%C3%BCgner,_Salesius
+1019308583||http://www.zisterzienserlexikon.de/wiki/Johannes_von_Fridingen
+1019359935||http://www.zisterzienserlexikon.de/wiki/Lichtblau,_Stephan
+1019375604||http://www.zisterzienserlexikon.de/wiki/R%C3%B6ssler,_Stephan
+1020637439||http://www.zisterzienserlexikon.de/wiki/Schrattenbach,_Bernhard
+1023119692||http://www.zisterzienserlexikon.de/wiki/Millauer,_Maximilian
+1024094405||http://www.zisterzienserlexikon.de/wiki/Nagl,_Erasmus
+1025021649||http://www.zisterzienserlexikon.de/wiki/Panschab,_Justin
+1025606043||http://www.zisterzienserlexikon.de/wiki/Pavel,_Raphael
+1025653254||http://www.zisterzienserlexikon.de/wiki/Bouchu,_Pierre
+1025836715||http://www.zisterzienserlexikon.de/wiki/Larcher,_Nicolas
+102622909X||http://www.zisterzienserlexikon.de/wiki/Veilleux,_Armand
+1027644236||http://www.zisterzienserlexikon.de/wiki/Reimann,_Martin
+1029569428||http://www.zisterzienserlexikon.de/wiki/Bottino,_Girolamo
+1030492891||http://www.zisterzienserlexikon.de/wiki/Konrad_von_Krosigk
+1030555303||http://www.zisterzienserlexikon.de/wiki/Schmidt,_Leopold
+1030563780||http://www.zisterzienserlexikon.de/wiki/Schmidt,_Valentin
+103169580X||http://www.zisterzienserlexikon.de/wiki/Schober,_Johann
+1032422920||http://www.zisterzienserlexikon.de/wiki/Schopper,_Valentin
+1034016709||http://www.zisterzienserlexikon.de/wiki/Szeghy,_Ern%C5%91
+1036144399||http://www.zisterzienserlexikon.de/wiki/Steiger,_Benedikt
+1036229092||http://www.zisterzienserlexikon.de/wiki/Rabensteiner,_Alberich
+1036431398||http://www.zisterzienserlexikon.de/wiki/Steininger,_Augustin
+1036810151||http://www.zisterzienserlexikon.de/wiki/St%C3%B6ckl,_Sebastian
+1036810542||http://www.zisterzienserlexikon.de/wiki/St%C3%B6ckli,_Augustin
+1041656467||http://www.zisterzienserlexikon.de/wiki/Esteva,_Maur
+1042303665||http://www.zisterzienserlexikon.de/wiki/Zakar,_Polik%C3%A1rp
+1046824805||http://www.zisterzienserlexikon.de/wiki/Southey,_Ambrose
+1047314959||http://www.zisterzienserlexikon.de/wiki/Steigenberger,_Petrus
+104942090X||http://www.zisterzienserlexikon.de/wiki/Bylansky,_Gottfried
+1051152356||http://www.zisterzienserlexikon.de/wiki/Bergh,_Alberich
+1051152410||http://www.zisterzienserlexikon.de/wiki/Emons,_Petrus
+1051177782||http://www.zisterzienserlexikon.de/wiki/Camp,_Leopold
+105117984X||http://www.zisterzienserlexikon.de/wiki/Pesgen,_Ferdinand
+1051179866||http://www.zisterzienserlexikon.de/wiki/Pfl%C3%BCger,_Johann_Kaspar
+1051200768||http://www.zisterzienserlexikon.de/wiki/Simonis,_Gregor
+1051212154||http://www.zisterzienserlexikon.de/wiki/Pidoll,_Anselm
+1051212219||http://www.zisterzienserlexikon.de/wiki/Plein,_Anastasius
+1051212413||http://www.zisterzienserlexikon.de/wiki/Recke,_Vitus
+1051959276||http://www.zisterzienserlexikon.de/wiki/Endr%C3%A9dy,_Vendel
+1056133287||http://www.zisterzienserlexikon.de/wiki/Boucherat,_Nicolas_I
+1057936731||http://www.zisterzienserlexikon.de/wiki/Gamerith,_Berthold
+1057936936||http://www.zisterzienserlexikon.de/wiki/H%C3%B6rweg,_Julius
+1060421186||http://www.zisterzienserlexikon.de/wiki/Hantschke,_Procopius
+1060497956||http://www.zisterzienserlexikon.de/wiki/Strunk,_Franciscus

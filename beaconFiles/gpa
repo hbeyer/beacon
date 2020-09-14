@@ -1,9 +1,9 @@
 #TARGET: https://www.graphikportal.org/gnd-beacon/{ID}
-#CONTACT: r.stein@fotomarburg.de
+#CONTACT: bulle@fotomarburg.de
 #FORMAT: PND-BEACON
 #INSTITUTION: Deutsches Dokumentationszentrum fuer Kunstgeschichte - Bildarchiv Foto Marburg
 #DESCRIPTION: Graphikportal - Akteure (Künstler, Verleger, Auftraggeber etc.)
-#TIMESTAMP: 2020-06-19T12:19:51Z
+#TIMESTAMP: 2020-09-14T07:54:57Z
 #FEED: https://www.graphikportal.org/gnd_beacon_event.txt
 119540355|8
 118607359|200

@@ -120,6 +120,18 @@
 <div id='section-carousel' class='carousel slide' data-ride='carousel'>
 <div class='carousel-inner' role='listbox'>
 <div class='item active'>
+<a class='carousel-caption' href='news?lang=de&news_id=1311' title='Nachrichten'>
+<p>IKMK erreicht die 39.000!</p>
+<p><time datetime='2020-09-10'>10. September 2020</time></p>
+</a>
+</div>
+<div class='item'>
+<a class='carousel-caption' href='news?lang=de&news_id=1301' title='Nachrichten'>
+<p>IKMK überschreitet 38.000 Objekteinträge</p>
+<p><time datetime='2020-06-24'>24. Juni 2020</time></p>
+</a>
+</div>
+<div class='item'>
 <a class='carousel-caption' href='news?lang=de&news_id=1283' title='Nachrichten'>
 <p>eMuseum - Ausstellungswerkzeug für das Münzkabinett eröffnet</p>
 <p><time datetime='2020-03-22'>22. März 2020</time></p>
@@ -141,18 +153,6 @@
 <a class='carousel-caption' href='news?lang=de&news_id=1219' title='Nachrichten'>
 <p>Johannes Eberhardt neuer Mitarbeiter am Münzkabinett, Staatliche Museen zu Berlin</p>
 <p><time datetime='2019-09-23'>23. September 2019</time></p>
-</a>
-</div>
-<div class='item'>
-<a class='carousel-caption' href='news?lang=de&news_id=1216' title='Nachrichten'>
-<p>Interaktiver Katalog des Münzkabinetts (IKMK) erreicht die 36.000</p>
-<p><time datetime='2019-09-07'>7. September 2019</time></p>
-</a>
-</div>
-<div class='item'>
-<a class='carousel-caption' href='news?lang=de&news_id=1206' title='Nachrichten'>
-<p>Normdatenportal (NDP) des Münzkabinetts Berlin eröffnet</p>
-<p><time datetime='2019-07-19'>19. Juli 2019</time></p>
 </a>
 </div>
 </div>
