@@ -1,9 +1,9 @@
 #FORMAT: BEACON
 #PREFIX: http://d-nb.info/gnd/
-#INSTITUTION: Herzog August Bibliothek Wolfenbüttel
-#NAME: Personenregister der Edition „Philipp Hainhofer: Reiseberichte und Sammlungsbeschreibungen 1594–1636“
+#INSTITUTION: Herzog August Bibliothek WolfenbÃ¼ttel
+#NAME: Personenregister der Edition â€žPhilipp Hainhofer: Reiseberichte und Sammlungsbeschreibungen 1594â€“1636â€œ
 #TARGET: https://hainhofer.hab.de/register/personen/{ID}
-#TIMESTAMP: 2020-04-06
+#TIMESTAMP: 2020-12-08
 12852734X||aba_samuel_koenig_ungarn
 133251918||abensperg_niclas
 118500201||abraham_ervater
@@ -31,7 +31,7 @@
 137951183||alencon_cathrerine
 118846566||allaccii_leone
 136819109||amalia_sachsen
-133589153||ambrosius_heiliger
+11850245X||ambrosius_heiliger
 12362195X||amphitrite_gott
 118502891||andreas
 118649302||andromeda
@@ -46,7 +46,7 @@
 118503642||apollo
 121785831||arboreus_heinrich
 14225861X||arethusa_mythologie
-185685323||ariosto_ludovico
+118503952||ariosto_ludovico
 118650130||aristoteles
 138733848||arnold_1_scheyern
 11952158X||arnold_emmeram_von
@@ -80,16 +80,21 @@
 1179971256||bayern_eleonore_magdalena_von
 13357654X||bayern_elisabeth
 136924794||bayern_elisabeth_1
+136846866||bayern_elisabeth_2
 130542555||bayern_elisabeth_3
-1179969448||bayern_elisabeth_von_1
+1179969448||bayern_elisabeth_7
 111256098X||bayern_elisabeth_von_2
+1196834059||bayern_ernst
 119004615||bayern_ernst_von
 1187265829||bayern_friedrich_von
+1190647982||bayern_hermann_von
+119683525X||bayern_johann_von
 138773343||bayern_johanna
 122191803||bayern_judith_von
 1187784451||bayern_karl_1_von
 1187777242||bayern_karl_2_von
 1187688649||bayern_karl_johann_franz_von
+119688403X||bayern_magdalena
 124165931||bayern_margarete
 137338406||bayern_margarete_2
 1065396546||bayern_margarete_von
@@ -116,6 +121,7 @@
 118508326||beham_hans_sebald
 1033925977||behr_hugold
 137409265||bela_4_ungarn
+1196886199||benedicta_von_woerth
 1169601030||benedictus_neumair
 133280276||berchtold_bayern
 104849618X||berchtold_scheyern
@@ -124,8 +130,10 @@
 118509756||bernauer_agnes
 136817025||bernhard_italien
 133261867||bernhard_tobias
+119689339X||bernhard_vermandois
 118509810||bernhard_von_clairvaux
 129885517||bertrada_die_juengere
+1196899665||bertraid_karolinger
 11851217X||bocaccio_giovanni
 102120153||bogislaw_XIV
 118661809||borghese_scipione
@@ -136,7 +144,6 @@
 119179466||bril_paul
 118674005||brueghel_jan
 118516396||bry_johann_israel_de
-101023049||budin_nicolaus
 1194878962||burckhart_jacob
 1194879551||burckhart_juliana
 137339151||burgund_margarethe
@@ -161,12 +168,14 @@
 118557831||chrysostomos_johannes_heiliger
 100084168||clajus_johannes
 118809199||clemens_1_papst
+124765548||colloredo_fabrizio
 1179959760||cornelia_heilige
 119202638||crispina_heilige
 13350476X||crivelli_julius_caesar
 122235800||custos_dominicus
 118523112||cyprianus_karthago_heiliger
 1194951813||cyriacus_empel
+1195807260||daniel_rem
 1173837191||danubius_gott
 118523929||david_koenig
 1194881130||delaune_jean
@@ -188,6 +197,7 @@
 118529927||elisabeth_von_thueringen_heilige
 133631400||ellenhard_freising_bischof
 135973988||erchanger_schwaben_herzog
+1195806531||erhart_balthasar
 138739846||erich_1_braunschweig
 118810944||ernst_1_braunschweig
 133573532||ernst_bayern_herzog
@@ -207,7 +217,6 @@
 13692753X||franz_1_lothringen
 123635500||franz_2_lothringen
 137530072||franz_I
-137530072||franz_herzog
 1089937733||frederico_1_gonzaga
 118693077||freher_marquard
 12910387X||freyberger_johann
@@ -234,12 +243,15 @@
 136972012||gebhard_6_graf_sulzbach_hirschberg
 136708676||georg_4_ludwig_leuchtenberg
 118690434||georg_der_reiche
+11871693X||georg_friedrich_von_baden
+119579858X||georg_guertler
 118538527||georg_heiliger
 124938965||georg_wilhelm_birkenfeld
+1195793103||georg_wuertenberger
 124598846||gerardus_de_roo
 138741018||gerberga_frankenreich
 1019057823||gerlach_von_hohenlohe
-179213741||gewold_christoph
+116602368||gewold_christoph
 138742618||giselbert_lothringen
 1173836756||glaucus_gott
 136846629||goerlitz_elisabeth
@@ -248,6 +260,7 @@
 1050533283||graf_von_schwarzenberg
 118697404||gregor_papst
 188641300||gumppenberg_georg_von
+1196900175||gundrad_karolinger
 120266318||habsburg_mathilde_von
 118719777||hadrian_1_papst
 118545655||hannibal
@@ -266,9 +279,7 @@
 129432466||heinrich_16_bayern
 133801772||heinrich_1_bayern
 11854831X||heinrich_1_frankenreich
-133801772||heinrich_1_herzog_bayern
 136851126||heinrich_2_brabant
-137944888||heinrich_2_hessen
 137944888||heinrich_2_landgraf_hessen
 118548263||heinrich_3_hrr
 118548174||heinrich_4_fr
@@ -279,7 +290,7 @@
 118548255||heinrich_ii_hrr
 118773720||heinrich_iii_fr
 118709887||heinrich_julius_braunschweig
-175854645||heintz_joseph
+118709917||heintz_joseph
 1037518918||hemmerden_stephan
 116716193||henninges_hieronymus
 102478996||henri_de_guise
@@ -312,13 +323,13 @@
 118714368||iustitia
 118904280||jacques_clement
 118639889||jakob_1_england
-1012992713||jakob_erzvater
+1175977748||jakob_erzvater
 121619931||jakobaea_bayern
 118830589||jakobe_baden_baden
 118556800||jakobus_der_aeltere
 11871161X||jakobus_der_juengere
 141068620||jean_de_valois
-156639181||jenisch_hieronymus
+1150728035||jenisch_hieronymus
 118557394||jeremia_prophet
 136977103||jindrich_boehmen
 118712179||joachim_markgraf_ansbach
@@ -333,6 +344,7 @@
 131451413||johann_4_brabant
 104047631||johann_bamberg_bischof
 133258947||johann_barvitius
+118712284||johann_burgund
 115772316||johann_christoph_bischof_eichstaett
 121500373||johann_der_juengere
 118712373||johann_friedrich_1_sachsen
@@ -374,8 +386,10 @@
 118990217||kasimir_4_andreas_polen
 102374090||kasimir_markgraf_brandenburg
 138780021||katharina_habsburg_von
+1195733313||katharina_probst
 122132807||kilian_lucas
 118822748||kilian_wolfgang
+1195732775||kloepffer_andreas
 122837916||koenig_hans
 122439619||koenig_peter
 118713949||konrad_1_erzbischof_mainz
@@ -397,6 +411,7 @@
 118532537||kurfuerst_ferdinand
 136602169||kurtz_philipp
 118725831||lactantius
+1206131322||lamech
 141031166||lancaster_maud
 118569651||laocoon
 1173219641||largia_mythologie
@@ -437,6 +452,7 @@
 104085630||magdalena_pfalz-neuburg
 13709650X||mangold_4_werd_dillingen
 119039842||marco_bragadino
+1195732317||marfis
 121735362||margarete_1_holland
 124166105||margarete_daenemark
 1153426757||margarethe_bayern
@@ -447,6 +463,7 @@
 118640909||maria
 120099942||maria_anna_bayern
 119446723||maria_brabant_von
+1195731612||maria_dullinger
 1194884768||maria_hafner
 121349217||maria_jakobaea_von_baden
 118577840||maria_magdalena
@@ -458,6 +475,8 @@
 118806653||markus_welser
 118575449||martin_luther
 118578308||martin_von_tours
+1195730640||martinus_schmauser
+1195730012||mathias_seidel
 137969007||mathilde_meissen
 118578979||matthaeus
 120125374||matthias
@@ -483,6 +502,7 @@
 1173832319||neilos_gott
 11952354X||neptun_gott
 118993593||nereus_gott
+118803182||nesto_mythologie
 1101966882||neuffen_anna_von
 119465728||nicephorus_1_kaiser
 119199351||niddanus_johannes_pistorius
@@ -527,6 +547,7 @@
 118052640||peter_von_aspelt_mainz
 1038562066||peters_martin
 118791796||philibert_baden
+118742159||philipp_02_burgund
 119557843||philipp_1_pfalz
 118593862||philipp_2_spanien
 102120137||philipp_II_pommern-stettin
@@ -544,11 +565,13 @@
 1194585361||pippin_vermandois
 118594702||pius_2_papst
 121930785||pommern_anna_von
+122143787||pommern_georg
 1053164165||pommern_sophia
+124612474||pommern_ulrich
 118792172||pontius_pilatus
 137409591||poppo_6_henneberg
 1173831681||portunus_gott
-119216159||proteus_gott
+120908565||proteus_gott
 1124168540||prudentia
 118836889||rachel
 119279347||rader_matthaeus
@@ -578,7 +601,6 @@
 118750410||ruprecht_3_pfalz
 100659381||ruprecht_pfalz
 118791680||ruth
-184316332||ruth_hans
 118064657||sadeler_aegidius
 121978788||sadeler_jan
 118604775||sadeler_raphael_I
@@ -588,9 +610,7 @@
 118605283||samson
 1173830227||scaldis_gott
 1027642594||schachmann_bartholomaeus
-1161883169||scheggen_georg
 136970370||schemel_elias
-118754815||scheurlin_christoph
 138734968||scheyern_bernhard
 1194502717||schoenen_joerg
 132704277||schultes_lukas
@@ -626,6 +646,7 @@
 118621386||tertullian
 1081303158||theodo_2_herzog_bayern
 1187178705||theodo_3_herzog_bayern
+1196902879||theodorada_karolinger
 1157669670||theodovalda
 119070731||thetis_goettin
 118757083||thietmar_merseburg_bischof
@@ -644,6 +665,7 @@
 118625357||ulrich_herzog_wuerttemberg
 137340214||ungarn_margarethe
 11801563X||urban_von_trennbach_bischof
+118625616||ursula_heilige
 118803697||valckenborch_frederik_van
 118935585||valckenborch_martin_1_von
 122268725||vassilacchi_antonio

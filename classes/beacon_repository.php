@@ -11,7 +11,7 @@ class beacon_repository {
     private $sourcesHAB = array('bahnsen', 'fruchtbringer', 'cph', 'aqhab', 'vkk', 'sandrart', 'hainhofer', 'tc2a'); // Hier wird festgelegt, welche der unten stehenden Quellen als "Ressourcen der HAB" angezeigt werden sollen
     public $beacon_sources = array(
     	'ddb' => array('label' => 'Deutsche Digitale Bibliothek', 'location' => 'https://labs.ddb.de/app/beagen/item/person/all/latest', 'target' => 'https://www.deutsche-digitale-bibliothek.de/person/gnd/{ID}', 'type' => 'default'),
-        'apd' => array('label' => 'Archivportal D', 'location' => 'https://www.archivportal-d.de/static/de/beacon-archivportal-persons.txt', 'target' => 'https://www.archivportal-d.de/person/gnd/{ID}', 'type' => 'default'),
+        'apd' => array('label' => 'Archivportal D', 'location' => 'https://labs.ddb.de/app/beagen/item/person/archive/latest', 'target' => 'https://www.archivportal-d.de/person/gnd/{ID}', 'type' => 'default'),
         'wkp' => array('label' => 'Wikipedia', 'location' => 'http://tools.wmflabs.org/persondata/beacon/dewiki.txt', 'target' => 'http://tools.wmflabs.org/persondata/redirect/gnd/de/{ID}', 'type' => 'default'),        
         'db' => array('label' => 'Deutsche Biographie', 'location' => 'http://www.historische-kommission-muenchen-editionen.de/beacon_db_register.txt', 'target' => 'http://www.deutsche-biographie.de/pnd{ID}.html', 'type' => 'default'),
         'dbi' => array('label' => 'Dizionario Biografico degli Italiani', 'location' => 'http://beacon.findbuch.de/downloads/patchwork/pw_dbi-gndbeacon.txt', 'target' => 'http://beacon.findbuch.de/gnd-resolver/pw_dbi/{ID}', 'type' => 'default'),
