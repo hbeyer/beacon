@@ -7,7 +7,7 @@
                 </ul>
                 <form class="navbar-form navbar-left" action="index.php">
                     <div class="form-group">
-                        <input type="text" pattern="[0-9X-]{9,10}" class="form-control" placeholder="GND" name="gnd">
+                        <input type="text" pattern="[0-9X-]{5,10}" class="form-control" placeholder="GND" name="gnd">
                     </div>
                     <button type="submit" class="btn btn-default">Los</button>
                 </form>

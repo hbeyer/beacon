@@ -7,7 +7,7 @@ class gnd {
 
 	function __construct($id) {
 		$this->id = substr($id, 0, 10);
-		if (preg_match('~[0-9X-]{9,10}~', $this->id) == 1) {
+		if (preg_match('~[0-9X-]{5,10}~', $this->id) == 1) {
 			$this->valid = true;
 		}
 	}
