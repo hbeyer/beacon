@@ -3,12 +3,12 @@
 #TARGET: https://www.archivportal-d.de/person/gnd/{ID}
 #MESSAGE: Personenseite beim Archivportal-D
 #RELATION: http://schema.org/sameAs
-#FEED: https://labs.ddb.de/app/beagen/item/person/archive/latest
+#FEED: https://labs.deutsche-digitale-bibliothek.de/app/beagen/item/person/archive/latest
 #CREATOR: Beagen <https://github.com/mbuechner/beagen>
 #CONTACT: Michael Büchner <m.buechner@dnb.de>
 #INSTITUTION: Deutsche Digitale Bibliothek
 #DESCRIPTION: Personenseiten der Kultursparte Archiv der Deutschen Digitalen Bibliothek im Archivportal-D
-#PERMALINK: https://labs.ddb.de/app/beagen/item/1322
+#PERMALINK: https://labs.deutsche-digitale-bibliothek.de/app/beagen/item/1322
 #TIMESTAMP: 2021-01-08T12:00:00Z
 #UPDATE: monthly
 118575449|143

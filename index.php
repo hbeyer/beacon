@@ -4,7 +4,7 @@ include('classes/gnd.php');
 include('classes/beacon_repository.php');
 include('classes/gnd_request.php');
 include('templates/functions.php');
-$repository = new beacon_repository;
+$repository = new beacon_repository(false);
 if (empty($_GET['gnd']) and empty($_POST['gnd'])) {
     $gnd = new gnd('');
 }
@@ -53,7 +53,8 @@ else {
                     if ($failed) {
                         echo '<i>Nicht geladen:</i> '.$failed.'<br />'; 
                     } ?>
-                <i>Letztes Update:</i> <?php echo date('Y-m-d H:i', $repository->lastUpdate); ?>
+                <!--<i>Letztes Update:</i> <?php echo date('Y-m-d H:i', $repository->lastUpdate); ?>-->
+                <i>Letztes Update:</i> <?php echo $repository->lastUpdate; ?>
             </div>
             
         </div>
