@@ -9,7 +9,7 @@ class beacon_repository {
     private $update_int = 1209600;
     private $filePermission = 0777;
     private $user = 'Herzog August Bibliothek Wolfenbüttel';
-    private $sourcesHAB = array('bahnsen', 'fruchtbringer', 'cph', 'aqhab', 'vkk', 'sandrart'); // Hier wird festgelegt, welche der unten stehenden Quellen als "Ressourcen der HAB" angezeigt werden sollen
+    private $sourcesHAB = array('bahnsen', 'fruchtbringer', 'cph', 'aqhab', 'vkk', 'sandrart', 'hainhofer'); // Hier wird festgelegt, welche der unten stehenden Quellen als "Ressourcen der HAB" angezeigt werden sollen
     public $beacon_sources = array(
     	'ddb' => array('label' => 'Deutsche Digitale Bibliothek', 'location' => 'https://labs.ddb.de/app/beagen/item/person/all/latest', 'target' => 'https://www.deutsche-digitale-bibliothek.de/person/gnd/{ID}', 'type' => 'default'),
         'apd' => array('label' => 'Archivportal D', 'location' => 'https://labs.deutsche-digitale-bibliothek.de/app/beagen/item/person/archive/latest', 'target' => 'https://www.archivportal-d.de/person/gnd/{ID}', 'type' => 'default'),
@@ -77,7 +77,8 @@ class beacon_repository {
         'vd16' => array('label' => 'Verzeichnis der Drucke 16. Jahrhunderts (VD 16)', 'location' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/vd16.txt', 'target' => 'http://www.gateway-bayern.de/opensearch?rfr_id=LinkedOpenData%3ABeacon&res_id=VD16&rft_id=info%3Apnd%2F{ID}', 'type' => 'default'),
         'ecod' => array('label' => 'e-codices Virtuelle Handschriftenbibliothek der Schweiz', 'location' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/ecodices.php?beacon', 'target' => 'http://www.e-codices.unifr.ch/de/search/all?sSearchField=person_names&sQueryString=pnd_{ID}', 'type' => 'default'),
         'jdg' => array('label' => 'Jahresberichte für deutsche Geschichte', 'location' => 'http://jdgdb.bbaw.de/jdg-gndbeacon.txt', 'target' => 'http://jdgdb.bbaw.de/cgi-bin/jdg?t_idn_erg=x&idn=GND:{ID}', 'type' => 'default'),
-        'aqhab' => array('label' => 'Alchemische Bestände der HAB', 'location' => 'http://alchemie.hab.de/beacon.txt', 'target' => 'http://alchemie.hab.de/personen?gnd={ID}', 'type' => 'default')
+        'aqhab' => array('label' => 'Alchemische Bestände der HAB', 'location' => 'http://alchemie.hab.de/beacon.txt', 'target' => 'http://alchemie.hab.de/personen?gnd={ID}', 'type' => 'default'),
+ 	'hainhofer' => array('label' => 'Philipp Hainhofer: Reiseberichte und Sammlungsbeschreibungen 1594–1636', 'location' => 'https://hainhofer.hab.de/cms/uploads/hainhofer-beacon.txt', 'target' => 'https://hainhofer.hab.de/register/personen/{ID}', 'type' => 'specified')
     );
 
 // '' => array('label' => '', 'location' => '', 'target' => '', 'type' => 'default'),
