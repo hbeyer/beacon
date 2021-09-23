@@ -1,7 +1,7 @@
 #FORMAT: BEACON
 #PREFIX: http://d-nb.info/gnd/
-#INSTITUTION: Herzog August Bibliothek WolfenbÃ¼ttel
-#NAME: Personenregister der Edition "Philipp Hainhofer: Reiseberichte und Sammlungsbeschreibungen 1594â€“1636"
+#INSTITUTION: Herzog August Bibliothek Wolfenbüttel
+#NAME: Personenregister der Edition "Philipp Hainhofer: Reiseberichte und Sammlungsbeschreibungen 1594–1636"
 #TARGET: https://hainhofer.hab.de/register/personen/{ID}
 #TIMESTAMP: 2021-07-05
 12852734X||aba_samuel_koenig_ungarn

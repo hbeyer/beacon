@@ -78,7 +78,7 @@ class beacon_repository {
         'ecod' => array('label' => 'e-codices Virtuelle Handschriftenbibliothek der Schweiz', 'location' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/ecodices.php?beacon', 'target' => 'http://www.e-codices.unifr.ch/de/search/all?sSearchField=person_names&sQueryString=pnd_{ID}', 'type' => 'default'),
         'jdg' => array('label' => 'Jahresberichte für deutsche Geschichte', 'location' => 'http://jdgdb.bbaw.de/jdg-gndbeacon.txt', 'target' => 'http://jdgdb.bbaw.de/cgi-bin/jdg?t_idn_erg=x&idn=GND:{ID}', 'type' => 'default'),
         'aqhab' => array('label' => 'Alchemische Bestände der HAB', 'location' => 'http://alchemie.hab.de/beacon.txt', 'target' => 'http://alchemie.hab.de/personen?gnd={ID}', 'type' => 'default'),
- 	'hainhofer' => array('label' => 'Philipp Hainhofer: Reiseberichte und Sammlungsbeschreibungen 1594–1636', 'location' => 'https://hainhofer.hab.de/cms/uploads/hainhofer-beacon.txt', 'target' => 'https://hainhofer.hab.de/register/personen/{ID}', 'type' => 'specified')
+        'hainhofer' => array('label' => 'Philipp Hainhofer: Reiseberichte und Sammlungsbeschreibungen 1594–1636', 'location' => 'https://hainhofer.hab.de/cms/uploads/hainhofer-beacon.txt', 'target' => 'https://hainhofer.hab.de/register/personen/{ID}', 'type' => 'specified')
     );
 
 // '' => array('label' => '', 'location' => '', 'target' => '', 'type' => 'default'),
@@ -228,10 +228,15 @@ class beacon_repository {
 
     private function extractURL($gnd, $key) {
         $string = file_get_contents('beaconFiles/'.$key);
-        preg_match('~'.$gnd.'\|.+(http.+)~', $string, $hits);
-        if (!empty($hits[1])) {
-            if (substr($hits[1], 0, 4) == 'http') {
-                return($hits[1]);
+        preg_match('~'.$gnd.'\|(.{0,250})\|(.{0,250})~', $string, $hits);
+        if (!empty($hits[2])) {
+            if (substr($hits[2], 0, 4) == 'http') {
+                return($hits[2]);
+            }
+            elseif (!empty($this->beacon_sources[$key]['target'])) {
+                $target = $this->beacon_sources[$key]['target'];
+                $url = strtr($target, array('{ID}' => $hits[2]));
+                return($url);
             }
         }
         return('');
