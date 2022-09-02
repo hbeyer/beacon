@@ -517,7 +517,14 @@ class beacon_repository {
 			)
     );
 
-// '' => array('label' => '', 'location' => '', 'target' => '', 'type' => 'default'),
+/* 		'' => array(
+			'label' => '',
+			'location' => '',
+			'target' => '',
+			'type' => 'default',
+			'dbtype' => ''
+			),
+*/
 
     function __construct($update = true) {
         $this->valid = $this->validate();
@@ -546,18 +553,28 @@ class beacon_repository {
 
     public function update() {
         echo "Aktualisieren der BEACON-Dateien unter beaconFiles\n";
-        ini_set('user_agent', $this->user);
-        foreach ($this->beacon_sources as $key => $source) {
-            if (!@copy($source['location'], $this->folder.'/'.$key)) {
-                echo 'Problem beim Kopieren von '.$source['location'].' nach '.$this->folder.'/'.$key."\n";
-            }
-            else {
-                chmod($this->folder.'/'.$key, $this->filePermission);
-            }
-        }
+		$arrContextOptions = array(
+			'ssl' => array(
+				'cafile' => 'certs/collection.pem',
+				'verify_peer'=> true,
+				'verify_peer_name'=> true
+				),
+			'http' => array(
+				'header' => 'User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'
+			)	
+		);
+		foreach ($this->beacon_sources as $key => $source) {
+			$response = @file_get_contents($source['location'], false, stream_context_create($arrContextOptions));
+			if (is_string($response) == false) {
+				echo 'Fehler beim Download von '.$source['location'].' nach '.$key;
+				continue;
+			}
+			file_put_contents($this->folder.'/'.$key, $response);
+			//chmod($this->folder.'/'.$key, $this->filePermission);
+		}
         $date = date('U');
         file_put_contents($this->folder.'/changeDate', $date);
-        chmod($this->folder.'/changeDate', $this->filePermission);
+        //chmod($this->folder.'/changeDate', $this->filePermission);
         $this->lastUpdate = $date;
     }
 
@@ -585,7 +602,7 @@ class beacon_repository {
             }
             elseif (!in_array($key, $this->sourcesHAB) and $hab == true) {
                 continue;
-            }            
+            }
 			$result[] = $this->makeLink($key, $gnd->id, $target);
         }
         return($result);

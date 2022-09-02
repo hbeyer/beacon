@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: apache
+    image: php:5.6-apache
+    ports:
+      - 82:80
+    working_dir: /var/www/html
+    volumes:
+      - ./:/var/www/html
+      - ./config-docker/php.ini:/usr/local/etc/php/php.ini
