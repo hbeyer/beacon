@@ -10,7 +10,8 @@ class beacon_repository {
     private $filePermission = 0777;
     private $user = 'Herzog August Bibliothek Wolfenbüttel';
     private $sourcesHAB = array('bahnsen', 'fruchtbringer', 'cph', 'aqhab', 'vkk', 'sandrart', 'hainhofer', 'duennh'); // Hier wird festgelegt, welche der unten stehenden Quellen als "Ressourcen der HAB" angezeigt werden sollen
-    public $beacon_sources = array(
+    private $categories = array('Digitalisierungsportal', 'Enzyklopädie', 'Nationalbiographie', 'Regionalbiographie', 'Nachschlagewerk', 'Personenlexikon', 'Historisches Personenlexikon', 'Nationalbibliographie', 'Bibliographie', 'Universitätsgeschichte', 'Katalog Sonderbestände', 'Edition', 'Bildende Kunst', 'Musik');
+	public $beacon_sources = array(
         'ddb' => array(
 			'label' => 'Deutsche Digitale Bibliothek',
 			'location' => 'https://labs.ddb.de/app/beagen/item/person/all/latest',
@@ -30,7 +31,7 @@ class beacon_repository {
 			'location' => 'http://tools.wmflabs.org/persondata/beacon/dewiki.txt',
 			'target' => 'http://tools.wmflabs.org/persondata/redirect/gnd/de/{ID}',
 			'type' => 'default',
-			'dbtype' => 'Nachschlagewerk'
+			'dbtype' => 'Enzyklopädie'
 			),        
         'db' => array(
 			'label' => 'Deutsche Biographie',
@@ -66,13 +67,6 @@ class beacon_repository {
 			'target' => 'http://www.biolex.ios-regensburg.de/BioLexViewlist.php?x_dnb={ID}&z_dnb=LIKE&cmd=search',
 			'type' => 'default',
 			'dbtype' => 'Nationalbiographie'
-			),
-        'phoh' => array(
-			'label' => 'Personendatenbank der Höflinge der österreichischen Habsburger',
-			'location' => 'http://kaiserhof.geschichte.lmu.de/beacon/',
-			'target' => 'http://kaiserhof.geschichte.lmu.de/Q/GND={ID}',
-			'type' => 'default',
-			'dbtype' => 'Personenlexikon'
 			),
         'pbbl' => array(
 			'label' => 'Personen in bayrischen historischen biographischen Lexika',
@@ -128,8 +122,29 @@ class beacon_repository {
 			'location' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/repfont-autoren.php?beacon',
 			'target' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/repfont-autoren.php?pnd={ID}',
 			'type' => 'default',
-			'dbtype' => 'Quellensammlung'
+			'dbtype' => 'Nachschlagewerk'
 			),
+        'phoh' => array(
+			'label' => 'Personendatenbank der Höflinge der österreichischen Habsburger',
+			'location' => 'http://kaiserhof.geschichte.lmu.de/beacon/',
+			'target' => 'http://kaiserhof.geschichte.lmu.de/Q/GND={ID}',
+			'type' => 'default',
+			'dbtype' => 'Personenlexikon'
+			),        
+		'jen' => array(
+			'label' => 'Jewish Encyclopedia 1906',
+			'location' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/jewishenc.php?beacon',
+			'target' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/jewishenc.php?pnd={ID}',
+			'type' => 'default',
+			'dbtype' => 'Personenlexikon'
+			),
+        'dpr' => array(
+			'label' => 'Digitales Portal der Rabbiner',
+			'location' => 'http://steinheim-institut.de/daten/projekte/work3/beacon.txt',
+			'target' => 'http://steinheim-institut.de:50580/cgi-bin/bhr?gnd={ID}',
+			'type' => 'default',
+			'dbtype' => 'Personenlexikon'
+			),			
         'trithemius' => array(
 			'label' => 'Trithemius: De scriptoribus ecclesiasticis',
 			'location' => 'http://www.mgh-bibliothek.de/beacon/trithemius',
@@ -151,27 +166,41 @@ class beacon_repository {
 			'type' => 'default',
 			'dbtype' => 'Historisches Personenlexikon'
 			),
-        'jen' => array(
-			'label' => 'Jewish Encyclopedia 1906',
-			'location' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/jewishenc.php?beacon',
-			'target' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/jewishenc.php?pnd={ID}',
+        'vd16' => array(
+			'label' => 'Verzeichnis der Drucke 16. Jahrhunderts (VD 16)',
+			'location' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/vd16.txt',
+			'target' => 'http://www.gateway-bayern.de/opensearch?rfr_id=LinkedOpenData%3ABeacon&res_id=VD16&rft_id=info%3Apnd%2F{ID}',
 			'type' => 'default',
-			'dbtype' => 'Personenlexikon'
+			'dbtype' => 'Nationalbibliographie'
 			),
-        'dpr' => array(
-			'label' => 'Digitales Portal der Rabbiner',
-			'location' => 'http://steinheim-institut.de/daten/projekte/work3/beacon.txt',
-			'target' => 'http://steinheim-institut.de:50580/cgi-bin/bhr?gnd={ID}',
+        'duennh' => array(
+			'label' => 'Dünnhaupt-Autoren im VD17',
+			'location' => 'http://www.vd17.de/files/duennhaupt-beacon.txt',
+			'target' => 'https://kxp.k10plus.de/DB=1.28/CMD?ACT=SRCHA&TRM=nid+{ID}',
 			'type' => 'default',
-			'dbtype' => 'Personenlexikon'
+			'dbtype' => 'Nationalbibliographie'
 			),
         'bdjg' => array(
 			'label' => 'Bibliografie deutsch-jüdische Geschichte Nordrhein-Westfalen',
 			'location' => 'http://www.steinheim-institut.de/ebib-djg-nrw/ebib-djg-nrw-beacon.txt',
 			'target' => 'http://www.steinheim-institut.de/ebib-djg-nrw/query.html?database=NRW-Bibliografie&text1={ID}&kategorie1=gnd',
 			'type' => 'default',
-			'dbtype' => 'Bibliografie'
+			'dbtype' => 'Bibliographie'
+			),			
+        'jdg' => array(
+			'label' => 'Jahresberichte für deutsche Geschichte',
+			'location' => 'http://jdgdb.bbaw.de/jdg-gndbeacon.txt',
+			'target' => 'http://jdgdb.bbaw.de/cgi-bin/jdg?t_idn_erg=x&idn=GND:{ID}',
+			'type' => 'default',
+			'dbtype' => 'Bibliographie'
 			),
+        'aqhab' => array(
+			'label' => 'Alchemische Bestände der HAB',
+			'location' => 'http://alchemie.hab.de/beacon.txt',
+			'target' => 'http://alchemie.hab.de/personen?gnd={ID}',
+			'type' => 'default',
+			'dbtype' => 'Bibliographie'
+			),			
         'gspd' => array(
 			'label' => 'Germania Sacra Personendatenbank',
 			'location' => 'http://personendatenbank.germania-sacra.de/beacon.txt',
@@ -282,21 +311,21 @@ class beacon_repository {
 			'location' => 'http://www.die-fruchtbringende-gesellschaft.de/files/fg_beacon.txt',
 			'target' => 'http://dbs.hab.de/padmin/fruchtbringer/ausgabe.php?m4=allgemein&st3=&trunc3=%25&m2=gnd&st2={ID}&trunc2=%25&m1=mitgliedsnr&st1=&trunc1=%25&submit=&m3=name',
 			'type' => 'default',
-			'dbtype' => 'Quellenedition'
+			'dbtype' => 'Edition'
 			),		
         'apw' => array(
 			'label' => 'Acta Pacis Westfalicae',
 			'location' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/apw-digital.php?beacon',
 			'target' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/apw-digital.php?pnd={ID}',
 			'type' => 'default',
-			'dbtype' => 'Quellenedition'
+			'dbtype' => 'Edition'
 			),
         'coco' => array(
 			'label' => 'Controversia et Confessio',
 			'location' => 'http://www.controversia-et-confessio.de/gnd/personen/beacon/file.txt',
 			'target' => 'http://www.controversia-et-confessio.de/gnd/{ID}',
 			'type' => 'default',
-			'dbtype' => 'Quellenedition'
+			'dbtype' => 'Edition'
 			),
         'mmlo' => array(
 			'label' => 'Biographisches Lexikon der Münzmeister, Wardeine, Stempelschneider und Medailleure (MMLO)',
@@ -473,40 +502,12 @@ class beacon_repository {
 			'type' => 'default',
 			'dbtype' => 'Musik'
 			),
-        'vd16' => array(
-			'label' => 'Verzeichnis der Drucke 16. Jahrhunderts (VD 16)',
-			'location' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/vd16.txt',
-			'target' => 'http://www.gateway-bayern.de/opensearch?rfr_id=LinkedOpenData%3ABeacon&res_id=VD16&rft_id=info%3Apnd%2F{ID}',
-			'type' => 'default',
-			'dbtype' => 'Nationalbibliographie'
-			),
-        'duennh' => array(
-			'label' => 'Dünnhaupt-Autoren im VD17',
-			'location' => 'http://www.vd17.de/files/duennhaupt-beacon.txt',
-			'target' => 'https://kxp.k10plus.de/DB=1.28/CMD?ACT=SRCHA&TRM=nid+{ID}',
-			'type' => 'default',
-			'dbtype' => 'Nationalbibliographie'
-			),
         'ecod' => array(
 			'label' => 'e-codices Virtuelle Handschriftenbibliothek der Schweiz',
 			'location' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/ecodices.php?beacon',
 			'target' => 'http://www.e-codices.unifr.ch/de/search/all?sSearchField=person_names&sQueryString=pnd_{ID}',
 			'type' => 'default',
 			'dbtype' => 'Digitalisierungsportal'
-			),
-        'jdg' => array(
-			'label' => 'Jahresberichte für deutsche Geschichte',
-			'location' => 'http://jdgdb.bbaw.de/jdg-gndbeacon.txt',
-			'target' => 'http://jdgdb.bbaw.de/cgi-bin/jdg?t_idn_erg=x&idn=GND:{ID}',
-			'type' => 'default',
-			'dbtype' => 'Bibliographie'
-			),
-        'aqhab' => array(
-			'label' => 'Alchemische Bestände der HAB',
-			'location' => 'http://alchemie.hab.de/beacon.txt',
-			'target' => 'http://alchemie.hab.de/personen?gnd={ID}',
-			'type' => 'default',
-			'dbtype' => 'Bibliographie'
 			),
         'hainhofer' => array(
 			'label' => 'Philipp Hainhofer: Reiseberichte und Sammlungsbeschreibungen 1594–1636',
@@ -694,6 +695,20 @@ class beacon_repository {
         }
         return('');
     }
+
+	public function getTypeArray() {
+		$res = array();
+		$sources = usort($this->beacon_sources, function ($a, $b) { return strcmp($a['label'], $b['label']);});
+		foreach ($this->categories as $cat) {
+			$res[$cat] = array();
+			foreach ($this->beacon_sources as $source) {
+				if ($source['dbtype'] == $cat) {
+					$res[$cat][] = $source['label'];
+				}
+			}
+		}
+		return($res);
+	}
 
     private function validate() {
         if (!is_dir($this->folder)) {

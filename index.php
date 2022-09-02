@@ -48,13 +48,10 @@ else {
             ?>
             </div>        
             <div class="row">
-                <i>Ausgewertet wurden:</i> <?php echo $repository->showSources(); ?><br />
-                <?php 
-                    $failed = $repository->showSources(true); 
-                    if ($failed) {
-                        echo '<i>Nicht geladen:</i> '.$failed.'<br />'; 
-                    } ?>
-                <!--<i>Letztes Update:</i> <?php echo date('Y-m-d H:i', $repository->lastUpdate); ?>-->
+			<h3>Ausgewertete Quellen</h3>
+			<?php foreach ($repository->getTypeArray() as $key => $labels): ?>
+			<p><b><?php echo $key; ?></b>: <?php echo implode('; ', $labels); ?></p>
+			<?php endforeach; ?>
                 <i>Letztes Update:</i> <?php echo $repository->lastUpdate; ?>
             </div>
             
