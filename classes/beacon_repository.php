@@ -9,7 +9,7 @@ class beacon_repository {
     private $update_int = 1209600;
     private $filePermission = 0777;
     private $user = 'Herzog August Bibliothek Wolfenbüttel';
-    private $sourcesHAB = array('bahnsen', 'fruchtbringer', 'cph', 'aqhab', 'vkk', 'sandrart', 'hainhofer', 'duennh'); // Hier wird festgelegt, welche der unten stehenden Quellen als "Ressourcen der HAB" angezeigt werden sollen
+    private $sourcesHAB = array('bahnsen', 'fruchtbringer', 'cph', 'aqhab', 'vkk', 'sandrart', 'hainhofer', 'duennh', 'tc2a'); // Hier wird festgelegt, welche der unten stehenden Quellen als "Ressourcen der HAB" angezeigt werden sollen
     private $categories = array('Digitalisierungsportal', 'Enzyklopädie', 'Nationalbiographie', 'Regionalbiographie', 'Nachschlagewerk', 'Personenlexikon', 'Historisches Personenlexikon', 'Nationalbibliographie', 'Bibliographie', 'Universitätsgeschichte', 'Katalog Sonderbestände', 'Edition', 'Bildende Kunst', 'Musik');
 	public $beacon_sources = array(
         'ddb' => array(
@@ -68,6 +68,20 @@ class beacon_repository {
 			'type' => 'default',
 			'dbtype' => 'Nationalbiographie'
 			),
+ 		'badb' => array(
+			'label' => 'Badische Biographie',
+			'location' => 'http://www.statistik-bw.de/LABI/Badische-Biographien.txt',
+			'target' => '',
+			'type' => 'specified',
+			'dbtype' => 'Regionalbiographie'
+			),			
+ 		'baltbl' => array(
+			'label' => 'Baltisches biografisches Lexikon',
+			'location' => 'https://bbld.de/beacon.gnd.txt',
+			'target' => 'https://bbld.de/GND{ID}',
+			'type' => 'default',
+			'dbtype' => 'Regionalbiographie'
+			),			
         'pbbl' => array(
 			'label' => 'Personen in bayrischen historischen biographischen Lexika',
 			'location' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/bsb_personen.php?beacon',
@@ -102,7 +116,7 @@ class beacon_repository {
 			'target' => 'http://saebi.isgv.de/gnd/{ID}',
 			'type' => 'default',
 			'dbtype' => 'Regionalbiographie'
-			),
+			),		
         'wfg' => array(
 			'label' => 'Westfälische Geschichte',
 			'location' => 'http://www.lwl.org/westfaelische-geschichte/meta/pnd.txt',
@@ -143,6 +157,13 @@ class beacon_repository {
 			'location' => 'http://steinheim-institut.de/daten/projekte/work3/beacon.txt',
 			'target' => 'http://steinheim-institut.de:50580/cgi-bin/bhr?gnd={ID}',
 			'type' => 'default',
+			'dbtype' => 'Personenlexikon'
+			),
+ 		'lltirol' => array(
+			'label' => 'Lexikon Literatur in Tirol und Südtirol',
+			'location' => 'http://www.andreas-praefcke.de/temp/BEACON-PND-Vorarlberg-Chronik.txt',
+			'target' => '',
+			'type' => 'specified',
 			'dbtype' => 'Personenlexikon'
 			),			
         'trithemius' => array(
@@ -393,10 +414,17 @@ class beacon_repository {
         'bahnsen' => array(
 			'label' => 'Briefwechsel Benedikt Bahnsen',
 			'location' => 'http://diglib.hab.de/edoc/ed000233/beacon_bahnsen.txt',
-			'target' => 'http://diglib.hab.de/content.php?dir=edoc/ed000233&distype=optional&metsID=edoc_ed000233_personenregister_transcript&xml=register%2Fregister-person.xml&xsl=http://diglib.hab.de/edoc/ed000233/tei-pers.xsl#{ID}',
+			'target' => 'http://diglib.hab.de/edoc/ed000233/start.htm',
 			'type' => 'default',
 			'dbtype' => 'Edition'
 			),
+ 		'tc2a' => array(
+			'label' => 'Tagebücher des Fürsten Christian II. von Anhalt-Bernburg (1599-1656)',
+			'location' => 'http://diglib.hab.de/edoc/ed000228/materialien/TBChristianII_beacon.txt',
+			'target' => 'http://diglib.hab.de/edoc/ed000228/register/listPerson.html#{ID}',
+			'type' => 'specified',
+			'dbtype' => 'Edition'
+			),			
         'humbdig' => array(
 			'label' => 'edition humboldt digital',
 			'location' => 'https://edition-humboldt.de/api/v1/beacon.xql',
@@ -460,6 +488,13 @@ class beacon_repository {
 			'type' => 'default',
 			'dbtype' => 'Bildende Kunst'
 			),
+ 		'bkm' => array(
+			'label' => 'Bildindex der Kunst & Architektur',
+			'location' => 'https://www.bildindex.de/gnd_beacon.txt',
+			'target' => 'https://www.bildindex.de/gnd-beacon/{ID}',
+			'type' => 'default',
+			'dbtype' => 'Bildende Kunst'
+			),			
         'khmw' => array(
 			'label' => 'Kunsthistorisches Museum Wien',
 			'location' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/khm.php?beacon',
@@ -474,6 +509,13 @@ class beacon_repository {
 			'type' => 'default',
 			'dbtype' => 'Bildende Kunst'
 			),
+ 		'pmhk' => array(
+			'label' => 'Museumslandschaft Hessen Kassel',
+			'location' => 'https://datenbank.museum-kassel.de/gnd-p.txt',
+			'target' => 'https://datenbank.museum-kassel.de/?gnd-p={ID}',
+			'type' => 'default',
+			'dbtype' => 'Bildende Kunst'
+			),			
         'archinf' => array(
 			'label' => 'archINFORM Architecture Database',
 			'location' => 'https://www.archinform.net/service/beacon.txt',
@@ -481,6 +523,13 @@ class beacon_repository {
 			'type' => 'default',
 			'dbtype' => 'Bildende Kunst'
 			),
+        'requiem' => array(
+			'label' => 'Requiem - Die römischen Papst- und Kardinalsgrabmäler der Frühen Neuzeit',
+			'location' => 'http://www.andreas-praefcke.de/temp/BEACON-GND-Requiem-Pro.txt',
+			'target' => '',
+			'type' => 'specified',
+			'dbtype' => 'Bildende Kunst'
+			),			
         'imslp' => array(
 			'label' => 'International Music Score Library Project',
 			'location' => 'http://beacon.findbuch.de/downloads/patchwork/pw_imslp-gndbeacon.txt',
@@ -502,6 +551,13 @@ class beacon_repository {
 			'type' => 'default',
 			'dbtype' => 'Musik'
 			),
+ 		'bmlo' => array(
+			'label' => 'Bayerisches Musiker-Lexikon Online ',
+			'location' => 'http://bmlo.de/beacon/',
+			'target' => 'http://bmlo.de/Q/GND={ID}',
+			'type' => 'default',
+			'dbtype' => 'default'
+			),			
         'ecod' => array(
 			'label' => 'e-codices Virtuelle Handschriftenbibliothek der Schweiz',
 			'location' => 'http://www.historische-kommission-muenchen-editionen.de/beacond/ecodices.php?beacon',
@@ -518,7 +574,8 @@ class beacon_repository {
 			)
     );
 
-/* 		'' => array(
+/*
+ 		'' => array(
 			'label' => '',
 			'location' => '',
 			'target' => '',
@@ -667,9 +724,6 @@ class beacon_repository {
         if (in_array($target, array('_blank', '_self', '_parent', '_top'))) {
             $target = ' target="'.$target.'"';
         }
-        if (empty($this->beacon_sources[$key]['type'])) {
-            die;
-        }
         if ($this->beacon_sources[$key]['type'] == 'specified') {
             $url = $this->extractURL($gnd, $key);
         }
@@ -682,7 +736,7 @@ class beacon_repository {
 
     private function extractURL($gnd, $key) {
         $string = file_get_contents('beaconFiles/'.$key);
-        preg_match('~'.$gnd.'\|(.{0,250})\|(.{0,250})~', $string, $hits);
+        preg_match('~'.$gnd.'\|([^|]+)?\|([^|]+)?\s~', $string, $hits);
         if (!empty($hits[2])) {
             if (substr($hits[2], 0, 4) == 'http') {
                 return($hits[2]);

@@ -3,7 +3,7 @@
 #INSTITUTION: Herzog August Bibliothek Wolfenbüttel
 #NAME: Personenregister der Edition "Philipp Hainhofer: Reiseberichte und Sammlungsbeschreibungen 1594–1636"
 #TARGET: https://hainhofer.hab.de/register/personen/{ID}
-#TIMESTAMP: 2022-07-28
+#TIMESTAMP: 2022-11-04
 12852734X||aba_samuel_koenig_ungarn
 1213929121||abed-nego
 118646575||abel
@@ -49,8 +49,10 @@
 118647571||albrecht_5
 102322848||albrecht_6_mecklenburg
 120438879||albrecht_7_mecklenburg
+1201142970||albrecht_karl_baden
 118637673||albrecht_preussen
 137951183||alencon_cathrerine
+118501828||alexander_03
 118648098||alfons_5_aragonien
 118846566||allaccii_leone
 136819109||amalia_sachsen
@@ -111,6 +113,11 @@
 137527012||barnim_4_pommernwolgast
 118506668||baronio_cesare
 118822195||bartholomaeus
+1012466264||bastida_y_biedma_carlos
+1243908122||baugy_nicolas
+1023707357||baumgartner_georg
+1016741707||baumgartner_nikolaus_hieronymus
+1023722275||baumgartner_paul
 138733104||bayern_agnes_von
 1179966813||bayern_albrecht_von
 141180404||bayern_anna
@@ -160,6 +167,8 @@
 123211662||bayr_hans_jakob
 136803660||beatrix_schlesien_schweidnitz
 121359026||beck_hieronymus
+141759402||behaim_christoph
+132452251||behaim_paulus
 118508326||beham_hans_sebald
 1033925977||behr_hugold
 137409265||bela_4_ungarn
@@ -184,7 +193,9 @@
 118896261||besler_basilius
 1198315938||boas
 11851217X||bocaccio_giovanni
+1224566858||bocholtz_arnold
 1218790962||boenninghausen_engelbert
+137502753||bogislaw_07_pommernstettin
 10235913X||bogislaw_13_pommern
 138735786||bogislaw_4_pommernwlgast
 136817718||bogislaw_6_pommernwolgast
@@ -218,6 +229,7 @@
 1194879551||burckhart_juliana
 137339151||burgund_margarethe
 128967374||buschmann_hans
+13893519X||caecilie_baden-rodemachern_markgraefin
 118518275||caesar_iulius
 118518453||calixt_2_papst
 13799401X||campius_johannes
@@ -254,9 +266,12 @@
 119022524||clemens_08_papst
 118809199||clemens_1_papst
 124765548||colloredo_fabrizio
+133857999||contarini_francesco
 1179959760||cornelia_heilige
+124843778||cosimo_2_toskana
 119180049||cramer_daniel
 118522582||cranach_lucas
+1153570211||cratz_scharffenstein_hugo_von
 119202638||crispina_heilige
 13350476X||crivelli_julius_caesar
 122235800||custos_dominicus
@@ -277,7 +292,10 @@
 118525271||dido
 118525530||dietrich_02_moers
 129185795||dietrich_meyer
+1019727985||dilherr_magnus
+124613349||dilherr_martin
 122336720||distelmayer_cleophas
+118526642||dominikus_heiliger
 118672231||domitian
 1089119259||don_carlos_asturien
 128951842||donner_lorenz
@@ -287,6 +305,8 @@
 1021089656||eberhard_1_eichstaett
 119710544||eberhard_2_hirnheim
 133573338||eberhard_herzog_bayern
+1019737182||ebner_johann_wilhelm
+132102315||eduard_fortunat_baden-baden
 136113249||eduard_geldern
 118064479||eitel_friedrich_von_hohenzollern
 1220702226||ekkehard_2_scheyern
@@ -299,6 +319,7 @@
 12009150X||elisabeth_von_lothringen
 118529927||elisabeth_von_thueringen_heilige
 133631400||ellenhard_freising_bischof
+141161078||endorfer_friedrich
 136925901||engelbert_03_goerz
 132804298||erchanbald
 135973988||erchanger_schwaben_herzog
@@ -328,6 +349,7 @@
 118532510||ferdinand_2_hrr
 118532529||ferdinand_3_hrr
 11883732X||ferdinand_albrecht_1_braunschweig
+105197433X||fetzer_matthaeus
 12945446X||fischer_johann
 132409739||forstenheuser_andreas
 1077003951||forstenheuser_georg
@@ -349,6 +371,7 @@
 115857400||friedrich_05_baden-durlach
 11870317X||friedrich_1_brandenburg
 119187620||friedrich_1_daenemark
+118693492||friedrich_1_hessen
 11853565X||friedrich_2_brandenburg
 118703188||friedrich_2_daenemark
 129306258||friedrich_2_eichstaett
@@ -367,7 +390,16 @@
 123994470||froeschl_daniel
 1194882412||froschhammer_christoph
 119059487||fuchs_leonhart
+1026798078||fuchs_von_bimbach_hans_philipp
+115831398||fuerer_christoph
+122081536||fuerer_johann_sigmund
+122322754||fuerleger_christoff
+122842154||fuerleger_paul
+12858582X||fuerstenberg_friedrich
+122854659||fugger_georg
+13355886X||fugger_hans
 118703501||fugger_hans_jakob
+116848391||fugger_johann_ernst
 122851447||fugger_marx
 1215556276||fugger_maximilian
 115732624||fugger_ottheinrich
@@ -381,6 +413,7 @@
 11943492X||gebhard_1_eichstaett
 1102253995||gebhard_3_eichstaett
 136972012||gebhard_6_graf_sulzbach_hirschberg
+12449224X||geizkofler_zacharias
 119683474||gemmingen_bernhard
 136102506||gemmingen_christoph
 136365965||gemmingen_erpho
@@ -390,6 +423,7 @@
 1113033452||georg_albrecht_brandenburg
 119137356||georg_braunschweig-calenberg
 118690434||georg_der_reiche
+104196874||georg_friedrich_erzbischof_mainz
 11871693X||georg_friedrich_von_baden
 119579858X||georg_guertler
 118538527||georg_heiliger
@@ -416,6 +450,8 @@
 1050533283||graf_von_schwarzenberg
 118697404||gregor_papst
 129989827||greuter_christoph
+143887688||grundherr_leonhard
+121579484||grundherr_ulrich
 1222693585||guenther_jeremias
 1217489002||gumpenberg_maria_felicitas
 188641300||gumppenberg_georg_von
@@ -432,6 +468,9 @@
 133136078||haintzel_johann_heinrich
 1027474829||haintzel_johann_ludwig
 1011449218||haintzel_johann_peter
+115825436||haller_hallerstein_johann_albrecht
+137213204||haller_hallerstein_martin
+124885853||haller_hallerstein_sigmund
 119207826||hanau-muenzenberg_amalie_elisabeth
 118545655||hannibal
 1222743582||hanns_christoph_von_dachsberg
@@ -439,6 +478,9 @@
 1194883877||hans_starnberger
 118643525||hans_von_aach
 1194883192||hans_wachter
+1019729244||harsdoerfer_david
+143509284||harsdoerfer_paul
+137125909||harsdoerfer_philipp
 13385096X||hartwig
 135678226||hasslang_alexander
 136049974||haziga_scheyern
@@ -482,6 +524,7 @@
 118548255||heinrich_ii_hrr
 118773720||heinrich_iii_fr
 118709887||heinrich_julius_braunschweig
+118014145||heinrich_wenzel_muensterberg
 118709917||heintz_joseph
 142076430||hekabe
 1037518918||hemmerden_stephan
@@ -490,12 +533,14 @@
 102478996||henri_de_guise
 104104899||hepidanus_moench
 1042653259||hepp_sebastian
+1215558147||herberstein_wolfgang_jakob
 130302414||heribert
 1222746190||heribert_1_vermandois_graf
 118639552||herkules
 133832899||hermann_1_kastl
 118549707||hermann_1_thueringen
 142366927||hermann_3_cilli
+1018341846||hermann_fortunat_badenrodemachern
 118549847||herodes_koenig
 119534355||herodias
 1217496513||herstenzki_tobias
@@ -513,6 +558,8 @@
 140605541||hildebrand_eichstaett
 118980084||hildegard_koenigin_frankenreich
 1041653387||hoepfinger_felix
+136295789||holtzschuher_veit_engelhard
+13200657X||holzschuher_sigmund_gabriel
 11855333X||homer
 118553569||horaz
 124500153||hufnagel_joris
@@ -523,9 +570,15 @@
 118554948||hus_jan
 118551353||ijob
 1222754525||imhof
+115826483||imhof_andreas
 136195008||imhof_balthasar
 133970205||imhof_conrad
 133970272||imhof_conrad_2
+120174820||imhof_hans
+1019744111||imhof_jakob
+1019741260||imhof_johann_hieronymus
+115778330||imhof_wilhelm
+101974068X||imhof_wilhelm_0
 11871077X||innozenz_2_papst
 118555650||innozenz_4_papst
 118555898||isaak_ervater
@@ -549,6 +602,7 @@
 118639897||jesaja_prophet
 136977103||jindrich_boehmen
 119214644||joachim_1_brandenburg
+104303670||joachim_ernst_anhalt
 118712179||joachim_markgraf_ansbach
 119573364X||joannes_millauer
 132254948||johann_01_kleve-mark
@@ -590,12 +644,14 @@
 102307229||johann_friedrich_pommern
 118712381||johann_friedrich_wuerttemberg
 100029752||johann_georg_01_sachsen
+100984886||johann_georg_hohenzollern-hechingen
 131600974||johann_hohenzollern_sigmaringen
 1199099198||johann_karl_von_oesterreich
 121734862||johann_konrad_bischof_eichstaett
 137070055||johann_meinhard_7_goerz
 123185793||johann_otto_augsburg
 118712306||johann_pfalz-neumarkt
+118712497||johann_schweikhard_cronberg_von
 117677337||johann_sigismund_brandenburg
 1219232033||johanna_sophie_bayern
 121209881||johanna_von_spanien
@@ -608,6 +664,7 @@
 118864297||jugurtha
 118800574||juno_goettin
 118558897||jupiter_gottheit
+11855896X||justinian_1_kaiser
 1067223177||jutta_von_schweidnitz
 118559273||kager_hans
 130256080||kalden_heinrich_von
@@ -625,10 +682,12 @@
 118720880||karl_9_frankreich
 122811275||karl_II_muensterberg
 137950950||karl_aquitanien
+129216038||karl_burgau
 118560034||karl_der_grosse
 137950845||karl_der_juengere
 118640119||karl_der_kahle_kaiser
 118988328||karl_emanuel_01_savoyen
+120182955||karl_friedrich_muensterberg-oels
 118720910||karl_martell
 118560212||karlmann_1_frankenreich
 119450208||kasimir_2_polen
@@ -667,6 +726,8 @@
 118715011||korbinian_heiliger
 124797245||kraft_1_hohenlohe
 137155425||kraus_sebald
+129822272||kress_wilhelm
+1019738928||kress_wolfgang_christoph
 119496270X||kronberger_nikolaus
 118567217||krumper_hans
 122504852||kunigunde_bayern
@@ -677,8 +738,10 @@
 121561232||kurtz_ferdinand_sigmund
 120291371||kurtz_maximilian
 136602169||kurtz_philipp
+118568426||kyros_02
 104058579||labrique_simon
 118725831||lactantius
+122551591||laimingen_christoph
 1222766973||lam_hans
 1206131322||lamech
 141031166||lancaster_maud
@@ -700,13 +763,18 @@
 119147262||ligozzi_jacopo
 1194571921||lindel_caspar
 1173219943||lirna_mythologie
+123286255||loeffelholtz_christoph
+1019748206||loeffelholtz_wolfgang
 116161736||lorenz_bischof_wuerzburg
 137083939||lorenz_werle
+117220868||losenstein_wolfgang_siegmund
 118780514||lothar_1_frankenreich_kaiser
+104224266||lothar_erzbischof_trier
 118574817||lucretia
 1173833420||lucretia_heilige
 12981797X||ludmilla_kelheim
 11872939X||ludwig_10_herzog_bayern
+11872942X||ludwig_13_frankreich
 100952429||ludwig_1_bayern
 119431386||ludwig_2_herzog_bayern
 100952518||ludwig_2_thueringen
@@ -715,6 +783,7 @@
 118729462||ludwig_4_ostfrankenreich
 118780751||ludwig_4_thueringen
 118574876||ludwig_5_bayern
+102119538||ludwig_5_hessen
 119272334||ludwig_5_pfalz
 102507597||ludwig_6_bayern
 118729381||ludwig_7_bayern
@@ -727,6 +796,7 @@
 132253135||luitpold_bayern
 138780048||luxemburg_katharina
 112928838||luzifer
+117332925||lynar_johann_kasimir
 1173221301||lynope_mythologie
 104085630||magdalena_pfalz-neuburg
 119242087||magnus_02_koenig_schweden
@@ -738,6 +808,7 @@
 1037525744||mang_christoph
 103753252X||mang_sara
 13709650X||mangold_4_werd_dillingen
+137124627||mansfeld_bruno
 119039842||marco_bragadino
 1195732317||marfis
 121735362||margarete_1_holland
@@ -763,6 +834,7 @@
 118806653||markus_welser
 10412427X||marquard_1_eichstaett
 118731181||mars_gott
+128875976||marschalck_hans_friedrich
 118578170||marsilius_padua
 1222766329||martin_horndacher
 118575449||martin_luther
@@ -783,6 +855,8 @@
 118641018||maussolos
 118579371||maximilian_1_hrr
 11857938X||maximilian_2_hrr
+11880099X||maximilian_3_oesterreich
+137416563||maximilian_ernst_oesterreich
 118729888||mayer_hector
 129125849||mayr_alexander
 11906068X||mechthild_diessen
@@ -813,6 +887,7 @@
 1224567765||mosmueller_bernhard
 118785176||mozart_anton
 118783815||muehlich_johannes
+120803151||muenchow_ruediger_von
 118583158||muhammad
 119163861||nassau-dillenburg_juliane
 1078972230||neidhart_barbara
@@ -823,6 +898,7 @@
 118586998||nero
 118803182||nesto_mythologie
 118943170||nestorius
+119772957||neudoerffer_johann
 1101966882||neuffen_anna_von
 119465728||nicephorus_1_kaiser
 119199351||niddanus_johannes_pistorius
@@ -833,7 +909,9 @@
 138245444||nikolaus_3_werle
 12918814X||nikolaus_heiliger
 138245401||nikolaus_mecklenburgrostock
+1030499160||ninus
 118641328||noach
+130164151||noettel_bernhard
 1218606746||oefelen_balthasar
 141810173||oesterreich_margarete_von
 118893289||oesterreich_maria_anna
@@ -893,6 +971,8 @@
 123625408||pfalz-sulzbach_dorothea_maria
 138622973||pfalz_helene
 1218601256||pfeffenhausen_hans_adolph
+123390575||pfintzing_christoph
+1019743689||pfinzing_martin
 119243113||phaeton
 124938035||phiipp_mecklenburg
 118791796||philibert_baden
@@ -900,14 +980,17 @@
 118742159||philipp_02_burgund
 119557843||philipp_1_pfalz
 118593862||philipp_2_spanien
+1201460263||philipp_3_baden-rodemachern
 118593870||philipp_4_spanien
 102120137||philipp_II_pommern-stettin
+118797891||philipp_christoph_von_soetern_trier
 100958427||philipp_eichstaett
 118593951||philipp_ludwig_pfalz-neuburg
 102778264||philipp_magnus_braunschweig
 118593854||philipp_von_schwaben
 118742221||philipp_wilhelm_pfalz
 119067692||philippus
+109987241||phoenix
 118742272||phokas_byzanz
 123602378||piazza_paolo
 11879227X||pippin_1_aquitanien
@@ -918,6 +1001,8 @@
 118594702||pius_2_papst
 118595083||plinius_gaius_01
 118595237||plutarch
+115831304||poemer_georg_abraham
+1019743255||poemer_johann_jakob
 121930785||pommern_anna_von
 122574230||pommern_clara_maria
 122143787||pommern_georg
@@ -928,6 +1013,7 @@
 137409591||poppo_6_henneberg
 123586771||poppo_7_henneberg
 1173831681||portunus_gott
+13923277X||praun_jakob
 104182040||preussen_anna_sophie
 118596500||priapos
 142242683||pribislaw_1_parchimrichenberg
@@ -989,6 +1075,7 @@
 121978788||sadeler_jan
 118604775||sadeler_raphael_I
 117322310X||salamakis_mythologie
+101053495||salentin_6_isenburg
 1218789972||salhausen_maria-magdalena
 118605100||salomo_koenig
 1223656888||salvago_giovanni_battista
@@ -1001,6 +1088,7 @@
 1173830227||scaldis_gott
 1027642594||schachmann_bartholomaeus
 1213928982||schadrach
+143549928||schedel_sebastian
 13988131X||scheggen_georg
 136970370||schemel_elias
 138734968||scheyern_bernhard
@@ -1021,6 +1109,8 @@
 1223646491||schweindl_benedikt
 118612492||sebastian_heiliger
 1194478840||sebastianus_magnus
+129040649||selbitz_valentin
+1019749350||semler_johann_dietrich
 118613200||seneca_der_juengere
 118614193||sigismund_august_2_polen
 128447362||sigismund_august_mecklenburg
@@ -1030,6 +1120,7 @@
 118593323||simon_petrus
 11883794X||sittikus_von_hohenems
 123792894||smisek_johann
+115864849||solms-laubach_sophie
 118615394||solon
 119057379||sophie_elisabeth_braunschweig
 119447604X||spiegler_hans_jakob
@@ -1070,6 +1161,8 @@
 120539438||toelmann_simon
 118642960||trithemius_johannes
 124101070||troschel_hans
+1019751681||tucher_philipp_jakob
+116653000||ulm_johann_ludwig
 139486224||ulrich_1_mecklenburg
 136864074||ulrich_2_mecklenburg-stargard
 102120390||ulrich_3_mecklenburg
@@ -1095,6 +1188,9 @@
 1114080934||visconti_magdalena
 1012195279||visconti_taddea
 121878816X||voehlin_hans_adam
+1012196771||voit_hans_christoph
+1019759658||voit_hans_jakob
+124581374||volckamer_georg
 1184624690||volckmair_johann_melchior
 1218809108||waiblinger_regina
 118771116||walbaum_matthias
@@ -1122,6 +1218,7 @@
 118807307||wilhelm_3_herzog_bayern
 137334761||wilhelm_3_holland
 118632868||wilhelm_4_bayern
+118632876||wilhelm_baden
 124210651||wilhelm_bischof_eichstaett
 13915650X||wilhelm_brandenburg
 118632973||wilhelm_heiliger
@@ -1137,11 +1234,13 @@
 118597973||wolf_dietrich_von_raitenau
 1184619042||wolfgang_hannemann
 118634895||wolfgang_wilhelm_pfalz_neuburg
+104154950||wolfgnang_regensburg_bischof
 12232868X||wolfschaedel_georg
 131725270||zacharias
 118772651||zeuxis
 1217603735||zilla
 118637010||zimmermann_wilhelm_peter
+130618632||zindelin_philipp
 118808524||zizka_jan
 102410100||zoilos
 1050232445||zuniga_baltasar

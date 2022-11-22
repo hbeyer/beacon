@@ -1,8 +1,8 @@
 #FORMAT: BEACON
 #VERSION: 0.1
 #PREFIX: http://d-nb.info/gnd/
-#TARGET: http://cpr.uni-rostock.de/resolve/gnd/{ID}
-#FEED: http://cpr.uni-rostock.de/cpr_pnd_beacon.txt
+#TARGET: https://cpr.uni-rostock.de/resolve/gnd/{ID}
+#FEED: https://cpr.uni-rostock.de/cpr_pnd_beacon.txt
 #NAME: Catalogus Professorum Rostochiensium (CPR)
 #DESCRIPTION: Im Catalogus sollen alle Professoren der Universität Rostock seit 1419 dokumentiert werden (im Aufbau).
 #CONTACT: Universitätsarchiv Rostock <universitaetsarchiv@uni-rostock.de>
@@ -10,8 +10,8 @@
 #ISIL: DE-28
 #MESSAGE: Eintrag im Catalogus Professorum Rostochiensium (CPR)
 #UPDATE: always
-#TIMESTAMP: 2022-09-02T11:05:00Z
-#REVISIT: 2022-09-09T11:05:00Z
+#TIMESTAMP: 2022-11-22T09:28:08Z
+#REVISIT: 2022-11-29T09:28:08Z
 
 100073263
 100098959
@@ -323,6 +323,7 @@
 1017366616
 1017366926
 1017367132
+1017432856
 101802846
 1018069879
 1018462961
@@ -551,6 +552,7 @@
 1048172961
 1048173151
 1048173224
+1048317536
 105006580
 1050598202
 1050598210
@@ -566,6 +568,7 @@
 1050599810
 1050601491
 1050812751
+1051117003
 10526363X
 1052708609
 1053180764
@@ -612,6 +615,7 @@
 1066920451
 1066920656
 1067223401
+1067411607
 106763350
 106886959
 107048914
@@ -1439,7 +1443,6 @@
 124150993
 124159168
 124212379
-124212379
 124255825
 12433492X
 124351263
@@ -1599,6 +1602,7 @@
 129936685
 129958611
 129998699
+130034975
 130035300
 130050784
 130050784
@@ -2527,4 +2531,5 @@
 172943744
 173000355
 173638848
+173947603
 
