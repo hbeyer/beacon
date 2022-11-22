@@ -413,8 +413,8 @@ class beacon_repository {
 			),
         'bahnsen' => array(
 			'label' => 'Briefwechsel Benedikt Bahnsen',
-			'location' => 'http://diglib.hab.de/edoc/ed000233/beacon_bahnsen.txt',
-			'target' => 'http://diglib.hab.de/edoc/ed000233/start.htm',
+			'location' => 'https://diglib.hab.de/edoc/ed000233/beacon_bahnsen.txt',
+			'target' => 'https://diglib.hab.de/content.php?dir=edoc/ed000233&distype=optional&metsID=edoc_ed000233_personenregister_transcript&xml=register%2Fregister-person.xml&xsl=http://diglib.hab.de/edoc/ed000233/register/tei-pers.xsl#{ID}',
 			'type' => 'default',
 			'dbtype' => 'Edition'
 			),
