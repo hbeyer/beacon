@@ -529,6 +529,13 @@ class beacon_repository {
 			'target' => '',
 			'type' => 'specified',
 			'dbtype' => 'Bildende Kunst'
+			),
+        'rism' => array(
+			'label' => 'Répertoire International des Sources Musicales (RISM)',
+			'location' => 'https://opac.rism.info/fileadmin/user_upload/lod/update/GND-Beacon_Personal_names.txt',
+			'target' => 'https://opac.rism.info/metaopac/search?searchCategories%5B0%5D=-1&q={ID}&View=rism&Language=de',
+			'type' => 'default',
+			'dbtype' => 'Musik'
 			),			
         'imslp' => array(
 			'label' => 'International Music Score Library Project',
