@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>{{ title }}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/affix.css" />
+        <link rel="stylesheet" href="assets/css/proprietary.css" />
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/proprietary.js"></script>
+    </head>
+    <body>
+{% block navigation %}
+{% endblock %}
+        <div class="container" style="min-height:1000px;margin-top:80px;">
+{% block content %}                 
+{% endblock %}
+{% block sources %}
+{% endblock %}            
+        </div>
+        <footer class="container-fluid">
+            <p>
+                <a href="http://www.hab.de" style="color:white" target="_blank">HAB</a>&nbsp;&nbsp;
+                <a href="http://www.mww-forschung.de" style="color:white" target="_blank">MWW</a>&nbsp;&nbsp;
+                <a href="http://www.hab.de/de/home/impressum.html" style="color:white" target="_blank">Impressum</a>
+            </p>
+        </footer>
+    </body>
+</html>

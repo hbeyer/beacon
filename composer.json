@@ -1,0 +1,12 @@
+{
+    "require": {
+    	"slim/slim": "3.12.*",
+		"twig/twig": "1.42.*",
+		"symfony/yaml": "2.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    }
+}

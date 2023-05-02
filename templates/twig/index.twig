@@ -1,0 +1,41 @@
+{% extends "page.twig" %}
+
+{% block navigation %}
+{% include "navigation.twig" %}
+{% endblock %}
+
+{% block content %}            
+            <div class="row">
+{% if gndReq != null %}
+{% include "gnd.twig" %}
+{% else %}
+				<p>Bitte &uuml;bergeben Sie eine GND-Nummer in der Form <a href="index.php?gnd=118505076">index.php?gnd=118505076</a></p>
+{% endif %}
+{% if linksHAB %}
+				<h2>Ressourcen der HAB</h2>
+				<ul>
+{% for key, link in linksHAB %}
+					<li>{{ link|raw }}</li>
+{% endfor %}
+				</ul>
+{% endif %}
+{% if linksExt %}
+				<h2>Externe Ressourcen</h2>
+				<ul>
+{% for link in linksExt %}
+					<li>{{ link|raw }}</li>
+{% endfor %}
+				</ul>
+{% endif %}
+            </div>        
+{% endblock %}
+
+{% block sources %}
+            <div class="row">
+				<h3>Ausgewertete Quellen</h3>
+{% for key, sources in types %}
+				<p><b>{{ key }}</b>: {% for src in sources %}<a href="{{ src.location }}" target="_blank" class="text-dark">{{ src.label }}</a>{% if loop.last != true %}; {% endif %}{% endfor %}</p>
+{% endfor %}
+                <p><i>Letztes Update:</i> {{ repository.lastUpdate }}</p>
+            </div>
+{% endblock %}

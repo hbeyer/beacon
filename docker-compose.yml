@@ -10,3 +10,12 @@ services:
     volumes:
       - ./:/var/www/html
       - ./config-docker/php.ini:/usr/local/etc/php/php.ini
+  composer:
+    container_name: composer
+    image: composer:1.10
+    working_dir: /var/www/html
+    command: ["composer", "install"]
+    volumes:
+      - ./:/var/www/html
+    depends_on:
+      - app
