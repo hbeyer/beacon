@@ -13,7 +13,7 @@ class BeaconRepository {
     private $user = 'Herzog August Bibliothek Wolfenbüttel';
     private $sourcesHAB = array('bahnsen', 'fruchtbringer', 'cph', 'aqhab', 'vkk', 'sandrart', 'hainhofer', 'duennh', 'tc2a'); // Hier wird festgelegt, welche der unten stehenden Quellen als "Ressourcen der HAB" angezeigt werden sollen
 
-    function __construct($update = true, folder = null) {
+    function __construct($update = true, $folder = null) {
 		if ($folder != null) {
 			$this->folder = folder;
 		}
