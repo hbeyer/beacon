@@ -15,7 +15,7 @@ class BeaconRepository {
 
     function __construct($update = true, $folder = null) {
 		if ($folder != null) {
-			$this->folder = folder;
+			$this->folder = $folder;
 		}
 		$parser = new \Symfony\Component\Yaml\Parser();
 		$sources = $parser->parse(file_get_contents($this->folder.'/sources.yml'));
