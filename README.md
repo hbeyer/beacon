@@ -5,8 +5,10 @@ Ein Webservice zum Generieren von biographischen Links aus einem Set von Beacon-
 ##  Technisches
 Die Anwendung ist in PHP geschrieben (Version 5.6 oder höher). Sie verwendet das Templatesystem Twig (Version 1.42) und die Symfony-Komponente Yaml (Version 2.2).
 
+Ausgeführt wird die Datei [public/index.php](public/index.php). Die Templates für die Darstellung der Website liegen unter [templates/twig](templates/twig). Die Beacon-Dateien liegen im Verzeichnis [data/beaconFiles](data/beaconFiles), dort wird der Zeitpunkt des letzten Update in der Datei [changeDate](data/beaconFiles/changeDate) gespeichert. Die auszuwertenden Datenquellen sind in [data/sources.yml](data/sources.yml) definiert. 
+
 ### Klassen
-Der eigene Quellcode liegt unter [src/HAB](src/HAB). Folgende Klassen werden bereitgestellt:
+Der eigene Quellcode liegt unter [src/HAB](src/HAB) und wird durch Einbinden von [vendor/autoload.php](vendor/autoload.php) geladen. Folgende Klassen werden bereitgestellt:
 
 #### \HAB\GND
 Klasse zur Validierung einer GND-Nummer. Methoden:
@@ -21,9 +23,9 @@ Die Klasse automatisiert eine Anfrage an die Metadatenschnittstelle http://hub.c
 Verwaltung einer Sammlung von Beacon-Dateien, die lokal gecached werden, Durchsuchen der Dateien und Erzeugung von Links auf Nachweissysteme für Personen. Methoden:
 - __construct(\$update = true): Einlesen der Datenquellen, Validieren der Dateien und Ordner, Aktualisieren der Beacon-Dateien, sofern welche fehlen oder das letzte Update zu lange her ist (s. Eigenschaft update_int). Über den Parameter \$update kann das Update unterdrückt werden.
 - update(): Update der gecacheten Beacon-Dateien, Abspeichern eines Unix-Timestamp unter changeDate im selben Ordner.
-- getLinks(GND \$gnd, \$target = false): Durchsuchen der Beacon-Dateien auf Treffer für eine GND, Ausgabe von Links im HTML-Format.
-- getSelectedLinks(gnd \$gnd, \$hab = true, \$target = ''): Dasselbe wie getLinks(), nur dass wenn der Parameter \$hab auf true gesetzt ist, nur die Quellen ausgewertet werden, die in der Eigenschaft `sourcesHAB`angegeben sind. Im anderen Fall werden nur alle anderen Datenquellen berücksichtigt. Über den Parameter \$target kann beeinflusst werden, ob die Links in einem neuen Tab geöffnet werden. 
-- getLinksMulti(\$gndArray, $target = ''): Überprüfen von mehreren GND-Nummern, die als Array übergeben werden. Rückgabewert ist ein Array von Links im HTML-Format. Über den Parameter \$target kann beeinflusst werden, ob die Links in einem neuen Tab geöffnet werden.
+- getLinks(GND \$gnd, \$target = ''): Durchsuchen der Beacon-Dateien auf Treffer für eine GND-Nummer, Ausgabe von Links im HTML-Format. Über den Parameter \$target kann beeinflusst werden, ob die Links in einem neuen Tab geöffnet werden. 
+- getSelectedLinks(gnd \$gnd, \$hab = true, \$target = ''): Dasselbe wie getLinks(), nur dass wenn der Parameter \$hab auf true gesetzt ist, nur die Quellen ausgewertet werden, die in der Eigenschaft `sourcesHAB` angegeben sind. Im anderen Fall werden nur alle anderen Datenquellen berücksichtigt.   
+- getLinksMulti(\$gndArray, $target = ''): Überprüfen von mehreren GND-Nummern, die als Array übergeben werden. Rückgabewert ist ein Array von Links im HTML-Format.
 - getTypeArray(): Ausgabe der Datenquellen, gruppiert nach der in [sources.yml](data/sources.yml) hinterlegten Eigenschaft `dbtype`.
 - validate(): Validieren des Objekts auf Integrität, d. h. Vorhandensein aller Ordner und Dateien.
 
@@ -64,6 +66,8 @@ Die Datenquellen sind in der Datei [data/sources.yml](data/sources.yml) festgele
 - dbtype: Eine frei zu vergebende Angabe des Datenbanktyps wie z. B. "Regionalbiographie". Diese steuern die Anzeige der Datenquellen auf der Website.
 
 ### Update
-Das Update wird entweder beim Instanziieren der Klasse `BeaconRepository` durchgeführt, wenn mehr Sekunden als in der Eigenschaft `BeaconRepository::update_int` angegeben vergangen sind, oder es kann mit dem Skript [update.php](public/update.php) manuell angestoßen werden. Hierbei werden alle Beacon-Dateien unterschiedslos im Ordner [data/beaconFiles](data/beaconFiles) neu geladen, obsolete werden aber nicht gelöscht.
+Das Update wird entweder beim Instanziieren der Klasse `BeaconRepository` durchgeführt, wenn mehr Sekunden als in der Eigenschaft `BeaconRepository::update_int` angegeben vergangen sind, oder es kann mit dem Skript [update.php](public/update.php) manuell angestoßen werden. Hierbei werden alle Beacon-Dateien unterschiedslos im Ordner [data/beaconFiles](data/beaconFiles) neu geladen, obsolete werden nicht gelöscht.
 
 Fehlgeschlagene Downloadversuche werden in der Ausgabe angezeigt. Sofern der Download an einem unbekannten Zertifikat scheitert, kann man das Zertifikat manuell herunterladen und an die Datei [certs/collection.pem](certs/collection.pem) anhängen.
+
+> Written with [StackEdit](https://stackedit.io/).
