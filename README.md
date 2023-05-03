@@ -17,11 +17,11 @@ Klasse zur Validierung einer GND-Nummer. Methoden:
 
 #### \HAB\RequestGND
 Die Klasse automatisiert eine Anfrage an die Metadatenschnittstelle http://hub.culturegraph.org/entityfacts/{id}. Methoden:
-- __construct(GND \$gnd): Lädt die Daten von der Schnittstelle und legt sie in den Properties des Objekts ab, dies sind: `preferredName`, `type`, `variantNames` (Array), `info`, `dateBirth`, `placeBirth`, `dateDeath`, `placeDeath`, `placesActivity` (Array), `academicDegree`, `relations` (Array mit mehreren assoziativen Arrays), `familiarRelarions` (Array mit mehreren assoziativen Arrays).
+- __construct(GND \$gnd): Lädt die Daten von der Schnittstelle und legt sie in den Properties des Objekts ab, dies sind: `preferredName`, `type`, `variantNames` (Array), `info`, `dateBirth`, `placeBirth`, `dateDeath`, `placeDeath`, `placesActivity` (Array), `academicDegree`, `relations` (Array mit mehreren assoziativen Arrays), `familiarRelations` (Array mit mehreren assoziativen Arrays).
 
 #### \HAB\BeaconRepository
 Verwaltung einer Sammlung von Beacon-Dateien, die lokal gecached werden, Durchsuchen der Dateien und Erzeugung von Links auf Nachweissysteme für Personen. Methoden:
-- __construct(\$update = true): Einlesen der Datenquellen, Validieren der Dateien und Ordner, Aktualisieren der Beacon-Dateien, sofern welche fehlen oder das letzte Update zu lange her ist (s. Eigenschaft update_int). Über den Parameter \$update kann das Update unterdrückt werden.
+- __construct(\$update = true, \$folder = null): Einlesen der Datenquellen, Validieren der Dateien und Ordner, Aktualisieren der Beacon-Dateien, sofern welche fehlen oder das letzte Update zu lange her ist (s. Eigenschaft update_int). Über den Parameter \$update kann das Update unterdrückt werden. Über den Parameter $folder kann der relative Pfad des Ordners [data](data) angepasst werden, wenn das Skript nicht im Ordner [public](public) ausführt wird.
 - update(): Update der gecacheten Beacon-Dateien, Abspeichern eines Unix-Timestamp unter changeDate im selben Ordner.
 - getLinks(GND \$gnd, \$target = ''): Durchsuchen der Beacon-Dateien auf Treffer für eine GND-Nummer, Ausgabe von Links im HTML-Format. Über den Parameter \$target kann beeinflusst werden, ob die Links in einem neuen Tab geöffnet werden. 
 - getSelectedLinks(gnd \$gnd, \$hab = true, \$target = ''): Dasselbe wie getLinks(), nur dass wenn der Parameter \$hab auf true gesetzt ist, nur die Quellen ausgewertet werden, die in der Eigenschaft `sourcesHAB` angegeben sind. Im anderen Fall werden nur alle anderen Datenquellen berücksichtigt.   
@@ -62,7 +62,7 @@ Die Datenquellen sind in der Datei [data/sources.yml](data/sources.yml) festgele
 - label: Die Benennung des Nachweissystems
 - location: Die Adresse, von der die Beacon-Datei heruntergeladen werden kann.
 - target: Das Muster, mit dem für einzelne GND-Nummern URLs gebildet werden können. In der Regel steht dies in der Beacon-Datei unter #target.
-- type: "default", sofern eine URL mit GND-Nummer und target gebildet word, "specified", sofern in der Beacon-Datei hinter der GND-Nummer interne IDs bzw. eigene URLs angegeben sind.
+- type: "default", sofern eine URL mit GND-Nummer und target gebildet wird, "specified", sofern in der Beacon-Datei hinter der GND-Nummer interne IDs bzw. eigene URLs angegeben sind.
 - dbtype: Eine frei zu vergebende Angabe des Datenbanktyps wie z. B. "Regionalbiographie". Diese steuern die Anzeige der Datenquellen auf der Website.
 
 ### Update

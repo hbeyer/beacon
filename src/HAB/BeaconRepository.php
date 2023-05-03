@@ -13,9 +13,12 @@ class BeaconRepository {
     private $user = 'Herzog August Bibliothek Wolfenbüttel';
     private $sourcesHAB = array('bahnsen', 'fruchtbringer', 'cph', 'aqhab', 'vkk', 'sandrart', 'hainhofer', 'duennh', 'tc2a'); // Hier wird festgelegt, welche der unten stehenden Quellen als "Ressourcen der HAB" angezeigt werden sollen
 
-    function __construct($update = true) {
+    function __construct($update = true, folder = null) {
+		if ($folder != null) {
+			$this->folder = folder;
+		}
 		$parser = new \Symfony\Component\Yaml\Parser();
-		$sources = $parser->parse(file_get_contents('../data/sources.yml'));
+		$sources = $parser->parse(file_get_contents($this->folder.'/sources.yml'));
 		$this->beacon_sources = $sources['sources']['all'];
 		$this->valid = $this->validate();
         $dateArchive = intval(file_get_contents($this->folder.'/changeDate'));
