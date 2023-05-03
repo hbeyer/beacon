@@ -36,9 +36,11 @@ class BeaconRepository {
 		return;
     }
 
-    public function secondsSinceLastUpdate() {
+	/*
+    private function secondsSinceLastUpdate() {
         return(date('U') - $this->lastUpdate);
     }
+	*/
 
     public function update() {
         echo "Aktualisieren der BEACON-Dateien unter beaconFiles\n";
@@ -110,7 +112,8 @@ class BeaconRepository {
         return($result);
     }
 
-    public function showSources($showFailed = false, $sep = '; ') {
+    /*
+	function showSources($showFailed = false, $sep = '; ') {
         $success = array();
         $failed = array();
         foreach ($this->beacon_sources as $key => $source) {
@@ -126,6 +129,7 @@ class BeaconRepository {
         }
         return(implode($sep, $success));
     }
+	*/
 
     private function getMatches($gnd) {
         $result = array();
@@ -138,7 +142,7 @@ class BeaconRepository {
         return($result);
     }
 
-    public function getMatchesMulti($gndArray) {
+    private function getMatchesMulti($gndArray) {
         $result = array();
         foreach($this->beacon_sources as $key => $source) {
             $content = file_get_contents($this->folder.'/'.$key);
