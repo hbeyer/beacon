@@ -18,7 +18,7 @@ class BeaconRepository {
 			$this->folder = $folder;
 		}
 		$parser = new \Symfony\Component\Yaml\Parser();
-		$sources = $parser->parse(file_get_contents($this->folder.'/sources.yml'));
+		$sources = $parser->parse(file_get_contents($this->folder.'/../sources.yml'));
 		$this->beacon_sources = $sources['sources']['all'];
 		$this->valid = $this->validate();
         $dateArchive = intval(file_get_contents($this->folder.'/changeDate'));
