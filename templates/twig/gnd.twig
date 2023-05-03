@@ -1,24 +1,24 @@
 				<h1>Personeninformation <small>(GND {{ gnd }})</small></h1>
 
 				<div class="well">
-					<h2>{% if gndReq.academicDegree %}{{ gndReq.academicDegree|raw }} {% endif %}{% if gndReq.type == 'organisation' %}Körperschaft: {% endif %}{% if gndReq.preferredName %}{{ gndReq.preferredName|raw }}{% else %}[Kein Name]{% endif %}</h2>
+					<h2>{% if gndReq.academicDegree %}{{ gndReq.academicDegree }} {% endif %}{% if gndReq.type == 'organisation' %}Körperschaft: {% endif %}{% if gndReq.preferredName %}{{ gndReq.preferredName }}{% else %}[Kein Name]{% endif %}</h2>
 
 {% if gndReq.dateBirth or gndReq.placeBirth %}
-					<p>Geboren {% if gndReq.dateBirth %}am {{ gndReq.dateBirth }}{% endif %}{% if gndReq.placeBirth %} in {{ gndReq.placeBirth|raw }}{% endif %}{% endif %}{% if gndReq.dateDeath or gndReq.placeDeath %}{% if gndReq.dateBirth or gndReq.placeBirth %}, gestorben{% else %}<p>Gestorben{% endif %} {% if gndReq.dateDeath %}am {{ gndReq.dateDeath }}{% endif %}{% if gndReq.placeDeath %} in {{ gndReq.placeDeath|raw }}{% endif %}{% endif %}{% if gndReq.dateBirth or gndReq.placeBirth or gndReq.dateDeath or gndReq.placeDeath %}</p>
+					<p>Geboren {% if gndReq.dateBirth %}am {{ gndReq.dateBirth }}{% endif %}{% if gndReq.placeBirth %} in {{ gndReq.placeBirth }}{% endif %}{% endif %}{% if gndReq.dateDeath or gndReq.placeDeath %}{% if gndReq.dateBirth or gndReq.placeBirth %}, gestorben{% else %}<p>Gestorben{% endif %} {% if gndReq.dateDeath %}am {{ gndReq.dateDeath }}{% endif %}{% if gndReq.placeDeath %} in {{ gndReq.placeDeath }}{% endif %}{% endif %}{% if gndReq.dateBirth or gndReq.placeBirth or gndReq.dateDeath or gndReq.placeDeath %}</p>
 {% endif %}
 
 {% if gndReq.info %}
-					<p>{{ gndReq.info|raw }}</p>
+					<p>{{ gndReq.info }}</p>
 {% endif %}
 
 {% if gndReq.placesActivity %}
 					<p>Wirkungsort{% if gndReq.placesActivity|length > 1%}e{% endif %}: {{ gndReq.placesActivity|join(", ") }}</p>
 {% endif %}
 {% if gndReq.relations %}
-					<p>Beziehungen zu Personen: {% for pers in gndReq.relations %}<a href="index.php?gnd={{ pers.id }}">{{ pers.preferredName|raw }}</a>{% if pers.relationship %} ({{ pers.relationship|raw }}){% endif %}{% if loop.last != true %}, {% endif %}{% endfor %}</p>
+					<p>Beziehungen zu Personen: {% for pers in gndReq.relations %}<a href="index.php?gnd={{ pers.id }}">{{ pers.preferredName }}</a>{% if pers.relationship %} ({{ pers.relationship }}){% endif %}{% if loop.last != true %}, {% endif %}{% endfor %}</p>
 {% endif %}
 {% if gndReq.familialRelations %}
-					<p>Familiäre Beziehungen: {% for pers in gndReq.familialRelations %}<a href="index.php?gnd={{ pers.id }}">{{ pers.preferredName|raw }}</a>{% if pers.relationship %} ({{ pers.relationship|raw }}){% endif %}{% if loop.last != true %}, {% endif %}{% endfor %}</p>
+					<p>Familiäre Beziehungen: {% for pers in gndReq.familialRelations %}<a href="index.php?gnd={{ pers.id }}">{{ pers.preferredName }}</a>{% if pers.relationship %} ({{ pers.relationship }}){% endif %}{% if loop.last != true %}, {% endif %}{% endfor %}</p>
 {% endif %}
 					<p><i>Quelle: </i><a href="http://d-nb.info/gnd/{{ gnd }}" target="_blank" title="Link zu diesem Datensatz in der GND">GND</a></p>
 

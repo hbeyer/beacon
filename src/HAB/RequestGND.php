@@ -30,11 +30,12 @@ class RequestGND {
                 $this->errorMessage = 'Server hub.culturegraph.org/entityfacts/ antwortet nicht';
             }
             else {
+				$string = self::replaceUml($string);
                 $this->response = json_decode($string);
                 unset($string);
                 foreach ($this->response as $key => $value) {
                     if ($key == 'preferredName') {
-                        $this->preferredName = self::replaceUml($value);
+                        $this->preferredName = $value;
                     }                    
                     if ($key == '@type') {
                         $this->type = $value;
@@ -43,7 +44,7 @@ class RequestGND {
                         $this->variantNames = $value;
                     }                    
                     if ($key == 'biographicalOrHistoricalInformation') {
-                        $this->info = self::replaceUml($value);
+                        $this->info = $value;
                     }
                     if ($key == 'dateOfBirth') {
                         $this->dateBirth = $value;
@@ -52,14 +53,14 @@ class RequestGND {
                         $this->dateDeath = $value;
                     }
                     if ($key == 'placeOfBirth') {
-                        $this->placeBirth = self::replaceUml($value[0]->preferredName);
+                        $this->placeBirth = $value[0]->preferredName;
                     }
                     if ($key == 'placeOfDeath') {
-                        $this->placeDeath = self::replaceUml($value[0]->preferredName);
+                        $this->placeDeath = $value[0]->preferredName;
                     }
                     if ($key == 'placeOfActivity') {
                         foreach ($value as $place) {
-                            $this->placesActivity[] = self::replaceUml($place->preferredName);
+                            $this->placesActivity[] = $place->preferredName;
                         }
                     }
                     if ($key == 'academicDegree') {
@@ -81,12 +82,6 @@ class RequestGND {
         }
     }
 	
-	static function replaceUml($string) {
-		$translate = array('Ä' => '&Auml;', 'Ö' => '&Ouml;', 'Ü' => '&Uuml;', 'ä' => '&auml;', 'ö' => '&ouml;', 'ü' => '&uuml;', 'ë' => '&euml;');
-		$string = strtr($string, $translate);
-		return($string);
-	}
-	
 	static function getPersonArray($person) {
 		$ret = array();
 		foreach ($person as $key => $prop) {
@@ -99,6 +94,12 @@ class RequestGND {
 		}
 		return($ret);
 	}
+	
+	static function replaceUml($string) {
+		$translate = array('Ä' => 'Ä', 'Ö' => 'Ö', 'Ü' => 'Ü', 'ä' => 'ä', 'ö' => 'ö', 'ü' => 'ü', 'ë' => 'ë');
+		$string = strtr($string, $translate);
+		return($string);
+	}	
 
 }
 
