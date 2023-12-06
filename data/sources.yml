@@ -153,7 +153,7 @@ sources:
         vd16:
             label: 'Verzeichnis der Drucke 16. Jahrhunderts (VD 16)'
             location: 'http://www.historische-kommission-muenchen-editionen.de/beacond/vd16.txt'
-            target: 'http://www.gateway-bayern.de/opensearch?rfr_id=LinkedOpenData%3ABeacon&res_id=VD16&rft_id=info%3Apnd%2F{ID}'
+            target: 'https://bvbat01.bib-bvb.de/TP61/search.do?methodToCall=quickSearch&Kateg=1013&Content=?DE-588?{ID}'
             type: default
             dbtype: Nationalbibliographie
         duennh:
