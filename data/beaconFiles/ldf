@@ -2,11 +2,11 @@
 #FORMAT: BEACON
 #PREFIX: http://d-nb.info/gnd/
 #TARGET: https://lebenswelten-digital.bbaw.de/register/personen/detail.xql?normid=http://d-nb.info/gnd/{ID}
-#FEED: https://lebenswelten-digital.bbaw.de/register/personen/beacon.xql?type=all&authority=gnd
-#CONTACT: neubert@bbaw.de
+#FEED: https://lebenswelten-digital.bbaw.de/api/beacon.xql?type=all&authority=gnd
+#CONTACT: telota@bbaw.de
 #INSTITUTION: Berlin-Brandenburgische Akademie der Wissenschaften
-#NAME: Lebenswelten, Erfahrungsräume und politische Horizonte der ostpreußischen Adelsfamilie Lehndorff vom 18. bis in das 20. Jahrhundert
-#UPDATE: May 2020 
+#NAME: Adlige und bäuerliche Lebenswelten in den Akten ostpreußischer Gutsarchive (2017-2023)
+#UPDATE: August 2023 
 
 118646850
 116257733
@@ -168,7 +168,6 @@
 118535978
 118632892
 142811424
-119259745
 11877185X
 139237445
 104110538
@@ -357,6 +356,7 @@
 124753906
 133431827
 1034658336
+116817585
 135655528
 117066621
 118668005
