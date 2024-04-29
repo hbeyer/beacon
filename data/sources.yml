@@ -36,12 +36,6 @@ sources:
             target: 'http://beacon.findbuch.de/pnd-resolver/hls/{ID}'
             type: default
             dbtype: Nationalbiographie
-        blko:
-            label: 'Biographisches Lexikon des Kaiserthums Oesterreich'
-            location: 'http://tools.wmflabs.org/persondata/beacon/dewikisource_blkoe.txt'
-            target: 'http://tools.wmflabs.org/persondata/redirect/gnd/ws-blkoe/{ID}'
-            type: default
-            dbtype: Nationalbiographie
         blgs:
             label: 'Biographisches Lexikon zur Geschichte Südosteuropas'
             location: 'https://www.biolex.ios-regensburg.de/beacon.txt'
@@ -96,6 +90,12 @@ sources:
             target: 'http://www.westfaelische-geschichte.de/pnd{ID}'
             type: default
             dbtype: Regionalbiographie
+        blko:
+            label: 'Biographisches Lexikon des Kaiserthums Oesterreich'
+            location: 'http://tools.wmflabs.org/persondata/beacon/dewikisource_blkoe.txt'
+            target: 'http://tools.wmflabs.org/persondata/redirect/gnd/ws-blkoe/{ID}'
+            type: default
+            dbtype: Personenlexikon
         fpl:
             label: 'Frankfurter Personenlexikon'
             location: 'https://frankfurter-personenlexikon.de/beacon_fpl.txt'

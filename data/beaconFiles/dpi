@@ -1,9 +1,10 @@
 #TARGET: https://www.portraitindex.de/dokumente/pnd/{ID}
 #CONTACT: bulle@fotomarburg.de
 #FORMAT: PND-BEACON
+#PREFIX: https://d-nb.info/gnd/
 #INSTITUTION: Deutsches Dokumentationszentrum fuer Kunstgeschichte - Bildarchiv Foto Marburg
 #DESCRIPTION: Digitaler Portraitindex - Alle Personen
-#TIMESTAMP: 2024-01-06T03:20:48Z
+#TIMESTAMP: 2024-04-29T03:20:49Z
 #FEED: https://www.portraitindex.de/pnd_beacon.txt
 119024268|18
 121363201|44
@@ -39521,3 +39522,4 @@ TP00411463|1
 1060705389|2
 116695676|1
 1067649395|1
+122848837|1

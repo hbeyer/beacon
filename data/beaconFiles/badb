@@ -20,12 +20,12 @@
 
 <link rel="stylesheet" href="/typo3conf/ext/blbweb/node_modules/swiper/swiper-bundle.min.css?499162500" media="all">
 <link rel="stylesheet" href="/typo3conf/ext/femanager/Resources/Public/Css/Main.min.css?1674128314" media="all">
-<link rel="stylesheet" href="/typo3conf/ext/blbweb/Resources/Public/app.css?1701354782" media="all">
+<link rel="stylesheet" href="/typo3conf/ext/blbweb/Resources/Public/app.css?1712654098" media="all">
 
 
 
 <script src="/typo3conf/ext/blbweb/node_modules/jquery/dist/jquery.min.js?499162500"></script>
-<script src="/typo3conf/ext/blbweb/Resources/Public/vendor.js?1701354782"></script>
+<script src="/typo3conf/ext/blbweb/Resources/Public/vendor.js?1712654098"></script>
 
 
 <link rel="shortcut icon" type="image/x-icon" href="/typo3conf/ext/blbweb/Resources/Public/Images/favicon/favicon.ico">
@@ -713,6 +713,14 @@
 
             
                 <ul id="nav_sub_p1555" class="menu-item-list header-menu">
+    
+        <li class="menu-item  ">
+            <a href="/recherche/baden-wuerttemberg/regionaliaopen/leitlinien" class="menu-item-link">
+                <span>Leitlinien</span>
+            </a>
+
+            
+        </li>
     
         <li class="menu-item  ">
             <a href="/recherche/baden-wuerttemberg/regionaliaopen/zeitschriften" class="menu-item-link">
@@ -1417,14 +1425,6 @@
         <li class="menu-item  ">
             <a href="/service/technik/mikrofilmscanner" class="menu-item-link">
                 <span>Mikrofilmscanner</span>
-            </a>
-
-            
-        </li>
-    
-        <li class="menu-item  ">
-            <a href="/service/technik/abspielgeraete-fuer-audiovisuelle-medien" class="menu-item-link">
-                <span>Abspielgeräte für audiovisuelle Medien</span>
             </a>
 
             
@@ -2318,14 +2318,6 @@
             
         </li>
     
-        <li class="menu-item  ">
-            <a href="/aktuelles/ausstellungen/aktuelle-ausstellungen" class="menu-item-link">
-                <span>Aktuelle Ausstellungen</span>
-            </a>
-
-            
-        </li>
-    
         <li class="menu-item has-sub-menu ">
             <a href="/aktuelles/ausstellungen/virtuelle-ausstellungen" class="menu-item-link">
                 <span>Virtuelle Ausstellungen</span>
@@ -2333,6 +2325,66 @@
 
             
                 <ul id="nav_sub_p1103" class="menu-item-list header-menu">
+    
+        <li class="menu-item has-sub-menu ">
+            <a href="/aktuelles/ausstellungen/virtuelle-ausstellungen/maxreger2023" class="menu-item-link">
+                <span>Max Reger und sein Interpret Karl Straube</span>
+            </a>
+
+            
+                <ul id="nav_sub_p1986" class="menu-item-list header-menu">
+    
+        <li class="menu-item  ">
+            <a href="/aktuelles/ausstellungen/virtuelle-ausstellungen/maxreger2023/aufstrebender-orgelvirtuose-und-unbeachteter-komponist" class="menu-item-link">
+                <span>Aufstrebender Orgelvirtuose und unbeachteter Komponist</span>
+            </a>
+
+            
+        </li>
+    
+        <li class="menu-item  ">
+            <a href="/aktuelles/ausstellungen/virtuelle-ausstellungen/maxreger2023/kuenstlerischer-austausch" class="menu-item-link">
+                <span>Künstlerischer Austausch</span>
+            </a>
+
+            
+        </li>
+    
+        <li class="menu-item  ">
+            <a href="/aktuelles/ausstellungen/virtuelle-ausstellungen/maxreger2023/straube-als-vermittler" class="menu-item-link">
+                <span>Straube als Vermittler</span>
+            </a>
+
+            
+        </li>
+    
+        <li class="menu-item  ">
+            <a href="/aktuelles/ausstellungen/virtuelle-ausstellungen/maxreger2023/auseinanderstrebende-bach-auffassung" class="menu-item-link">
+                <span>Auseinanderstrebende Bach-Auffassung</span>
+            </a>
+
+            
+        </li>
+    
+        <li class="menu-item  ">
+            <a href="/aktuelles/ausstellungen/virtuelle-ausstellungen/maxreger2023/straube-als-kritischer-berater" class="menu-item-link">
+                <span>Straube als kritischer Berater</span>
+            </a>
+
+            
+        </li>
+    
+        <li class="menu-item  ">
+            <a href="/aktuelles/ausstellungen/virtuelle-ausstellungen/maxreger2023/straube-und-die-nachwelt" class="menu-item-link">
+                <span>Straube und die Nachwelt</span>
+            </a>
+
+            
+        </li>
+    
+</ul>
+            
+        </li>
     
         <li class="menu-item has-sub-menu ">
             <a href="/aktuelles/ausstellungen/virtuelle-ausstellungen/schwarzwaldbahn" class="menu-item-link">
@@ -3788,6 +3840,14 @@
     
         <li class="menu-item  ">
             <a href="/aktuelles/kulturgueter-auf-reisen/archiv-kulturgueter-2023" class="menu-item-link">
+                <span>Archiv Kulturgüter 2023</span>
+            </a>
+
+            
+        </li>
+    
+        <li class="menu-item  ">
+            <a href="/aktuelles/kulturgueter-auf-reisen/archiv-kulturgueter-2022" class="menu-item-link">
                 <span>Archiv Kulturgüter 2022</span>
             </a>
 
@@ -3941,6 +4001,14 @@
 
             
                 <ul id="nav_sub_p480" class="menu-item-list header-menu">
+    
+        <li class="menu-item  ">
+            <a href="/aktuelles/neuerwerbung-des-monats/archiv-neuerwerbungen-2023" class="menu-item-link">
+                <span>Archiv Neuerwerbungen 2023</span>
+            </a>
+
+            
+        </li>
     
         <li class="menu-item  ">
             <a href="/aktuelles/archiv-neuerwerbungen-2022" class="menu-item-link">
@@ -4174,23 +4242,11 @@
                     
                 </li>
             
-                <li class="menu-item has-sub-menu ">
+                <li class="menu-item  ">
                     <a href="/kalender" class="menu-item-link">
                         <span>Kalender</span>
                     </a>
 
-                    
-                        <ul id="nav_sub_p2" class="menu-item-list header-menu">
-    
-        <li class="menu-item  ">
-            <a href="/kalender/archiv-kalender" class="menu-item-link">
-                <span>Archiv Kalender</span>
-            </a>
-
-            
-        </li>
-    
-</ul>
                     
                 </li>
             
@@ -4242,115 +4298,135 @@
             
         </li>
     
+        <li class="menu-item has-sub-menu ">
+            <a href="/presse/archiv" class="menu-item-link">
+                <span>Pressearchiv</span>
+            </a>
+
+            
+                <ul id="nav_sub_p1996" class="menu-item-list header-menu">
+    
         <li class="menu-item  ">
-            <a href="/presse-1" class="menu-item-link">
-                <span>Archiv Presse 2022</span>
+            <a href="/presse/archiv/2023" class="menu-item-link">
+                <span>2023</span>
             </a>
 
             
         </li>
     
         <li class="menu-item  ">
-            <a href="/presse/archiv-presse-2021" class="menu-item-link">
-                <span>Archiv Presse 2021</span>
+            <a href="/presse/archiv/2022" class="menu-item-link">
+                <span>2022</span>
             </a>
 
             
         </li>
     
         <li class="menu-item  ">
-            <a href="/presse/archiv-presse-2020" class="menu-item-link">
-                <span>Archiv Presse 2020</span>
+            <a href="/presse/archiv/2021" class="menu-item-link">
+                <span>2021</span>
             </a>
 
             
         </li>
     
         <li class="menu-item  ">
-            <a href="/presse/archiv-presse-2019" class="menu-item-link">
-                <span>Archiv Presse 2019</span>
+            <a href="/presse/archiv/2020" class="menu-item-link">
+                <span>2020</span>
             </a>
 
             
         </li>
     
         <li class="menu-item  ">
-            <a href="/presse/archiv-presse-2018" class="menu-item-link">
-                <span>Archiv Presse 2018</span>
+            <a href="/presse/archiv/2019" class="menu-item-link">
+                <span>2019</span>
             </a>
 
             
         </li>
     
         <li class="menu-item  ">
-            <a href="/presse/archiv-presse-2017" class="menu-item-link">
-                <span>Archiv Presse 2017</span>
+            <a href="/presse/archiv/2018" class="menu-item-link">
+                <span>2018</span>
             </a>
 
             
         </li>
     
         <li class="menu-item  ">
-            <a href="/presse/archiv-presse-2016" class="menu-item-link">
-                <span>Archiv Presse 2016</span>
+            <a href="/presse/archiv/2017" class="menu-item-link">
+                <span>2017</span>
             </a>
 
             
         </li>
     
         <li class="menu-item  ">
-            <a href="/presse/archiv-presse-2015" class="menu-item-link">
-                <span>Archiv Presse 2015</span>
+            <a href="/presse/archiv/2016" class="menu-item-link">
+                <span>2016</span>
             </a>
 
             
         </li>
     
         <li class="menu-item  ">
-            <a href="/presse/archiv-presse-2014" class="menu-item-link">
-                <span>Archiv Presse 2014</span>
+            <a href="/presse/archiv/2015" class="menu-item-link">
+                <span>2015</span>
             </a>
 
             
         </li>
     
         <li class="menu-item  ">
-            <a href="/presse/archiv-presse-2013" class="menu-item-link">
-                <span>Archiv Presse 2013</span>
+            <a href="/presse/archiv/2014" class="menu-item-link">
+                <span>2014</span>
             </a>
 
             
         </li>
     
         <li class="menu-item  ">
-            <a href="/presse/archiv-presse-2012" class="menu-item-link">
-                <span>Archiv Presse 2012</span>
+            <a href="/presse/archiv/2013" class="menu-item-link">
+                <span>2013</span>
             </a>
 
             
         </li>
     
         <li class="menu-item  ">
-            <a href="/presse/archiv-presse-2011" class="menu-item-link">
-                <span>Archiv Presse 2011</span>
+            <a href="/presse/archiv/2012" class="menu-item-link">
+                <span>2012</span>
             </a>
 
             
         </li>
     
         <li class="menu-item  ">
-            <a href="/presse/archiv-presse-2010" class="menu-item-link">
-                <span>Archiv Presse 2010</span>
+            <a href="/presse/archiv/2011" class="menu-item-link">
+                <span>2011</span>
             </a>
 
             
         </li>
     
         <li class="menu-item  ">
-            <a href="/presse/archiv-presse-2009" class="menu-item-link">
-                <span>Archiv Presse 2009</span>
+            <a href="/presse/archiv/2010" class="menu-item-link">
+                <span>2010</span>
             </a>
 
+            
+        </li>
+    
+        <li class="menu-item  ">
+            <a href="/presse/archiv/2009" class="menu-item-link">
+                <span>2009</span>
+            </a>
+
+            
+        </li>
+    
+</ul>
             
         </li>
     
@@ -4731,12 +4807,12 @@
 
                                 <div class="blb-image">
                                     
-
+        
+                
+                        <img src="https://www.blb-karlsruhe.de/files/user_upload/Logo/blb.svg" width="170" height="70" alt="" />
+                    
+            
     
-        <img src="/files/user_upload/Logo/blb.svg" width="170" height="70" alt="" />
-    
-
-
 
 
                                     <div class="blb-image-description-wrapper">
@@ -4807,12 +4883,12 @@
 
                                 <div class="blb-image">
                                     
-
+        
+                
+                        <img src="https://www.blb-karlsruhe.de/files/user_upload/2_Recherche/wlb.svg" width="170" height="60" alt="Zu sehen ist das Logo der Württembergischen Landesbibliothek." />
+                    
+            
     
-        <img src="/files/user_upload/2_Recherche/wlb.svg" width="170" height="60" alt="Zu sehen ist das Logo der Württembergischen Landesbibliothek." />
-    
-
-
 
 
                                     <div class="blb-image-description-wrapper">
@@ -4949,8 +5025,8 @@
 
 
 	</div>
-<div id="c">
-    
+
+        
 
     
         
@@ -4960,7 +5036,7 @@
     
 
 
-</div>
+    
 
 	    	
 
@@ -5243,7 +5319,7 @@
 <script src="/typo3conf/ext/femanager/Resources/Public/JavaScript/Validation.min.js?1674128314"></script>
 <script src="/typo3conf/ext/femanager/Resources/Public/JavaScript/Femanager.min.js?1674128314"></script>
 <script src="/typo3conf/ext/powermail/Resources/Public/JavaScript/Powermail/Form.min.js?1679583754" defer="defer"></script>
-<script src="/typo3conf/ext/blbweb/Resources/Public/app.js?1701354782"></script>
+<script src="/typo3conf/ext/blbweb/Resources/Public/app.js?1712654098"></script>
 
 <!-- Matomo -->
 
