@@ -20,12 +20,12 @@
 
 <link rel="stylesheet" href="/typo3conf/ext/blbweb/node_modules/swiper/swiper-bundle.min.css?499162500" media="all">
 <link rel="stylesheet" href="/typo3conf/ext/femanager/Resources/Public/Css/Main.min.css?1715198672" media="all">
-<link rel="stylesheet" href="/typo3conf/ext/blbweb/Resources/Public/app.css?1719934151" media="all">
+<link rel="stylesheet" href="/typo3conf/ext/blbweb/Resources/Public/app.css?1724932891" media="all">
 
 
 
 <script src="/typo3conf/ext/blbweb/node_modules/jquery/dist/jquery.min.js?499162500"></script>
-<script src="/typo3conf/ext/blbweb/Resources/Public/vendor.js?1719934151"></script>
+<script src="/typo3conf/ext/blbweb/Resources/Public/vendor.js?1724932891"></script>
 
 
 <link rel="shortcut icon" type="image/x-icon" href="/typo3conf/ext/blbweb/Resources/Public/Images/favicon/favicon.ico">
@@ -1199,15 +1199,7 @@
         </li>
     
         <li class="menu-item  ">
-            <a href="/service/medien/leihgaben-fuer-ausstellungen-1" class="menu-item-link">
-                <span>Leihgaben für Ausstellungen</span>
-            </a>
-
-            
-        </li>
-    
-        <li class="menu-item  ">
-            <a href="/service/medien/leihgaben-fuer-ausstellungen-1" class="menu-item-link">
+            <a href="/service/medien/leihgaben-fuer-ausstellungen" class="menu-item-link">
                 <span>Leihgaben für Ausstellungen</span>
             </a>
 
@@ -1227,7 +1219,7 @@
                 <ul id="nav_sub_p535" class="menu-item-list header-menu">
     
         <li class="menu-item  ">
-            <a href="/service/beratung-und-schulung/neues-aus-der-teaching-library-und-der-lernwerkstatt" class="menu-item-link">
+            <a href="/newsletter" class="menu-item-link">
                 <span>Newsletter</span>
             </a>
 
@@ -1251,7 +1243,7 @@
         </li>
     
         <li class="menu-item  ">
-            <a href="/service/raeume/lernwerkstatt/media-studio-1-1" class="menu-item-link">
+            <a href="/service/raeume/lernwerkstatt/workshops" class="menu-item-link">
                 <span>Workshops der Lernwerkstatt</span>
             </a>
 
@@ -1303,7 +1295,7 @@
         </li>
     
         <li class="menu-item  ">
-            <a href="/service/raeume/lernwerkstatt/media-studio-1" class="menu-item-link">
+            <a href="/service/raeume/lernwerkstatt/bild-und-videoproduktion" class="menu-item-link">
                 <span>Bild- und Videoproduktion</span>
             </a>
 
@@ -1311,7 +1303,7 @@
         </li>
     
         <li class="menu-item  ">
-            <a href="/service/raeume/lernwerkstatt/media-studio-1-1" class="menu-item-link">
+            <a href="/service/raeume/lernwerkstatt/workshops" class="menu-item-link">
                 <span>Workshops der Lernwerkstatt</span>
             </a>
 
@@ -2804,7 +2796,7 @@
     
         <li class="menu-item has-sub-menu ">
             <a href="/aktuelles/ausstellungen/virtuelle-ausstellungen/250-jahre-oeffentlich-die-badische-landesbibliothek-1771-2021" class="menu-item-link">
-                <span>250 Jahre ÖFFENTLICH – Die Badische Landesbibliothek 1771–2021</span>
+                <span>250 Jahre ÖFFENTLICH</span>
             </a>
 
             
@@ -3215,14 +3207,6 @@
         </li>
     
 </ul>
-            
-        </li>
-    
-        <li class="menu-item  ">
-            <a href="http://ausstellungen.blb-karlsruhe.de" target="_blank" class="menu-item-link" rel="noreferrer">
-                <span>Das Kochbuch in Baden 1770–1950</span>
-            </a>
-
             
         </li>
     
@@ -3814,6 +3798,14 @@
             
         </li>
     
+        <li class="menu-item  ">
+            <a href="http://ausstellungen.blb-karlsruhe.de" target="_blank" class="menu-item-link" rel="noreferrer">
+                <span>Das Kochbuch in Baden 1770–1950</span>
+            </a>
+
+            
+        </li>
+    
 </ul>
             
         </li>
@@ -4003,26 +3995,6 @@
         </li>
     
 </ul>
-            
-        </li>
-    
-</ul>
-            
-        </li>
-    
-        <li class="menu-item has-sub-menu ">
-            <a href="/aktuelles/schulungsprogramm" class="menu-item-link">
-                <span>Schulungsprogramm</span>
-            </a>
-
-            
-                <ul id="nav_sub_p483" class="menu-item-list header-menu">
-    
-        <li class="menu-item  ">
-            <a href="/aktuelles/schulungsprogramm/ueberall-ki" class="menu-item-link">
-                <span>Überall KI …</span>
-            </a>
-
             
         </li>
     
@@ -5009,7 +4981,7 @@
                                     
         
                 
-                        <img src="https://www.blb-karlsruhe.de/files/user_upload/Logo/blb.svg" width="170" height="70" alt="" />
+                        <img src="/files/user_upload/Logo/blb.svg" width="170" height="70" alt="" />
                     
             
     
@@ -5085,7 +5057,7 @@
                                     
         
                 
-                        <img src="https://www.blb-karlsruhe.de/files/user_upload/2_Recherche/wlb.svg" width="170" height="60" alt="Zu sehen ist das Logo der Württembergischen Landesbibliothek." />
+                        <img src="/files/user_upload/2_Recherche/wlb.svg" width="170" height="60" alt="Zu sehen ist das Logo der Württembergischen Landesbibliothek." />
                     
             
     
@@ -5519,7 +5491,7 @@
 <script src="/typo3conf/ext/femanager/Resources/Public/JavaScript/Validation.min.js?1715198672"></script>
 <script src="/typo3conf/ext/femanager/Resources/Public/JavaScript/Femanager.min.js?1715198672"></script>
 <script src="/typo3conf/ext/powermail/Resources/Public/JavaScript/Powermail/Form.min.js?1715173547" defer="defer"></script>
-<script src="/typo3conf/ext/blbweb/Resources/Public/app.js?1719934151"></script>
+<script src="/typo3conf/ext/blbweb/Resources/Public/app.js?1724932891"></script>
 
 <!-- Matomo -->
 

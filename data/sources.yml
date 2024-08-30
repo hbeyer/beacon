@@ -486,3 +486,9 @@ sources:
             target: 'https://hainhofer.hab.de/register/personen/{ID}'
             type: specified
             dbtype: Edition
+        hainsb:
+            label: 'Philipp Hainhofer: Das Große Stammbuch. Kommentierte digitale Edition'
+            location: 'https://stammbuch.hab.de/cms/uploads/stammbuch-beacon.txt'
+            target: 'https://stammbuch.hab.de/register/personen/{ID}'
+            type: specified
+            dbtype: Edition
