@@ -60,7 +60,7 @@ class BeaconRepository {
 		foreach ($this->beacon_sources as $key => $source) {
 			$response = @file_get_contents($source['location'], false, stream_context_create($arrContextOptions));
 			if (is_string($response) == false) {
-				echo 'Fehler beim Download von '.$source['location'].' nach '.$key;
+				echo 'Fehler beim Download von '.$source['location'].' nach '.$key."\n";
 				continue;
 			}
 			file_put_contents($this->folder.'/'.$key, $response);
