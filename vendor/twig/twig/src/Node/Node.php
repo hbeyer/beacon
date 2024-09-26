@@ -206,12 +206,16 @@ class Node implements \Twig_NodeInterface
     {
         unset($this->nodes[$name]);
     }
-
+    #[\ReturnTypeWillChange]
     public function count()
     {
-        return \count($this->nodes);
+        $countNodes = \count($this->nodes);
+        if (is_int($countNodes)) {
+            return($countNodes);
+        }
+        return(0);
     }
-
+    #[\ReturnTypeWillChange]
     public function getIterator()
     {
         return new \ArrayIterator($this->nodes);

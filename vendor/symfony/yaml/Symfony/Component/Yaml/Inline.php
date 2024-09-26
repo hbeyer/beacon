@@ -41,9 +41,10 @@ class Inline
         self::$exceptionOnInvalidType = $exceptionOnInvalidType;
         self::$objectSupport = $objectSupport;
 
-        $value = trim($value);
-
-        if (0 == strlen($value)) {
+        if ($value != null) {
+            $value = trim($value);
+        }
+        if (empty($value)) {
             return '';
         }
 

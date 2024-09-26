@@ -8,6 +8,7 @@ class BeaconRepository {
     public $lastUpdate;
     public $valid = false;
     public $folder = '../data/beaconFiles';
+    public $beacon_sources;
     private $update_int = 1209600;
     private $filePermission = 0777;
     private $user = 'Herzog August Bibliothek Wolfenbüttel';

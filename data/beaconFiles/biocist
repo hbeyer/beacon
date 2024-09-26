@@ -3819,6 +3819,14 @@
                 <ul id="nav_sub_p1167" class="menu-item-list header-menu">
     
         <li class="menu-item  ">
+            <a href="/aktuelles/ausstellungen/vergangene-ausstellungen/archiv-ausstellungen-2024" class="menu-item-link">
+                <span>Archiv Ausstellungen 2024</span>
+            </a>
+
+            
+        </li>
+    
+        <li class="menu-item  ">
             <a href="/aktuelles/ausstellungen/vergangene-ausstellungen/archiv-ausstellungen-2023" class="menu-item-link">
                 <span>Archiv Ausstellungen 2023</span>
             </a>
@@ -4981,7 +4989,7 @@
                                     
         
                 
-                        <img src="/files/user_upload/Logo/blb.svg" width="170" height="70" alt="" />
+                        <img src="https://www.blb-karlsruhe.de/files/user_upload/Logo/blb.svg" width="170" height="70" alt="" />
                     
             
     
@@ -5057,7 +5065,7 @@
                                     
         
                 
-                        <img src="/files/user_upload/2_Recherche/wlb.svg" width="170" height="60" alt="Zu sehen ist das Logo der Württembergischen Landesbibliothek." />
+                        <img src="https://www.blb-karlsruhe.de/files/user_upload/2_Recherche/wlb.svg" width="170" height="60" alt="Zu sehen ist das Logo der Württembergischen Landesbibliothek." />
                     
             
     
