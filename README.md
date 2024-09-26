@@ -3,7 +3,7 @@
 Ein Webservice zum Generieren von biographischen Links aus einem Set von Beacon-Dateien, der zugleich die zugehörigen Personendaten aus der GND anzeigt. Die Beacon-Dateien werden von der Anwendung gecached und können per Skript aktualisiert werden. Die Liste der Datenquellen kann händisch bearbeitet werden. In der vorliegenden Version ist die Anwendung für die HAB Wolfenbüttel programmiert. Ressourcen der HAB werden gesondert hervorgehoben.
 
 ##  Technisches
-Die Anwendung ist in PHP geschrieben (Version 5.6 oder höher). Sie verwendet das Templatesystem Twig (Version 1.42) und die Symfony-Komponente Yaml (Version 2.2).
+Die Anwendung ist in PHP geschrieben und ist unter PHP 5.6 oder höher lauffähig. Zuletzt wurde sie für Version 8.3.11 notdürftig angepasst, eine grundlegende Aktualisierung auch des Fremdcodes steht aus. Sie verwendet das Templatesystem Twig (Version 1.42) und die Symfony-Komponente Yaml (Version 2.2).
 
 Ausgeführt wird die Datei [public/index.php](public/index.php). Die Templates für die Darstellung der Website liegen unter [templates/twig](templates/twig). Die Beacon-Dateien liegen im Verzeichnis [data/beaconFiles](data/beaconFiles), dort wird der Zeitpunkt des letzten Update in der Datei [changeDate](data/beaconFiles/changeDate) gespeichert. Die auszuwertenden Datenquellen sind in [data/sources.yml](data/sources.yml) definiert. 
 
