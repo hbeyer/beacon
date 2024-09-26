@@ -20,7 +20,7 @@ Die Klasse automatisiert eine Anfrage an die Metadatenschnittstelle http://hub.c
 - __construct(GND \$gnd): Lädt die Daten von der Schnittstelle und legt sie in den Properties des Objekts ab, dies sind: `preferredName`, `type`, `variantNames` (Array), `info`, `dateBirth`, `placeBirth`, `dateDeath`, `placeDeath`, `placesActivity` (Array), `academicDegree`, `relations` (Array mit mehreren assoziativen Arrays), `familiarRelations` (Array mit mehreren assoziativen Arrays).
 
 #### \HAB\BeaconRepository
-Verwaltung einer Sammlung von Beacon-Dateien, die lokal gecached werden, Durchsuchen der Dateien und Erzeugung von Links auf Nachweissysteme für Personen. Methoden:
+Verwaltung einer Sammlung von Beacon-Dateien, die lokal gecacht werden, Durchsuchen der Dateien und Erzeugung von Links auf Nachweissysteme für Personen. Methoden:
 - __construct(\$update = true, \$folder = null): Einlesen der Datenquellen, Validieren der Dateien und Ordner, Aktualisieren der Beacon-Dateien, sofern welche fehlen oder das letzte Update zu lange her ist (s. Eigenschaft update_int). Über den Parameter \$update kann das Update unterdrückt werden. Über den Parameter $folder kann der relative Pfad des Ordners [data/beaconFiles](data/beaconFiles) angepasst werden, wenn das Skript nicht im Ordner [public](public) ausführt wird.
 - update(): Update der gecacheten Beacon-Dateien, Abspeichern eines Unix-Timestamp unter changeDate im selben Ordner.
 - getLinks(GND \$gnd, \$target = ''): Durchsuchen der Beacon-Dateien auf Treffer für eine GND-Nummer, Ausgabe von Links im HTML-Format. Über den Parameter \$target kann beeinflusst werden, ob die Links in einem neuen Tab geöffnet werden. 
