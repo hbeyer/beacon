@@ -378,6 +378,12 @@ sources:
             target: 'https://lebenswelten-digital.bbaw.de/register/personen/detail.xql?normid=http://d-nb.info/gnd/{ID}'
             type: default
             dbtype: Personenlexikon
+        porthab:
+            label: 'Porträtdatenbank der HAB'
+            location: 'https://portraits.hab.de/beacon/'
+            target: 'https://portraits.hab.de/gnd/{ID}'
+            type: default
+            dbtype: 'Bildende Kunst'
         muenz:
             label: 'Katalog des Münzkabinetts Staatliche Museen zu Berlin'
             location: 'https://ikmk.smb.museum/beacon_gnd.php'
