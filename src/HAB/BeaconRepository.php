@@ -47,7 +47,7 @@ class BeaconRepository {
 	*/
 
     public function update() {
-        echo "Aktualisieren der BEACON-Dateien unter beaconFiles\n";
+        echo "Aktualisieren der BEACON-Dateien unter data/beaconFiles\n";
 		$arrContextOptions = array(
 			'ssl' => array(
 				'cafile' => '../certs/collection.pem',

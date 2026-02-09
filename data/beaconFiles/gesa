@@ -1,7 +1,7 @@
 #FORMAT: BEACON
 #PREFIX: http://d-nb.info/gnd/
-#TARGET: https://www.online.uni-marburg.de/fpmr/php/gs/xs2.php?f1=pnd&s1={ID}
-#FEED: https://www.online.uni-marburg.de/fpmr/pnd.txt
+#TARGET: https://db.personalschriften.de/php/gs/xs2.php?f1=pnd&s1={ID}
+#FEED: /pnd.txt
 #CONTACT: Jörg Witzel <joerg.witzel@staff.uni-marburg.de>
 #INSTITUTION: Forschungsstelle für Personalschriften
 #NAME: Gesamtkatalog deutschsprachiger Leichenpredigten (GESA)

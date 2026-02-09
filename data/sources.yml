@@ -74,8 +74,8 @@ sources:
             dbtype: Regionalbiographie
         rpbio:
             label: 'Rheinland-Pfälzische Personendatenbank'
-            location: 'http://www.rlb.de/pnd.txt'
-            target: 'http://www.rlb.de/cgi-bin/wwwalleg/goorppd.pl?db=rnam&index=1&zeilen=1&s1={ID}'
+            location: 'https://rppd.lobid.org/beacon.txt'
+            target: 'http://www.rppd-rlp.de/{ID}'
             type: default
             dbtype: Regionalbiographie
         saebi:
@@ -260,8 +260,8 @@ sources:
             dbtype: Universitätsgeschichte
         gesa:
             label: 'Gesamtkatalog deutschsprachiger Leichenpredigten'
-            location: 'http://www.online.uni-marburg.de/fpmr/pnd.txt'
-            target: 'https://www.online.uni-marburg.de/fpmr/php/gs/xs2.php?f1=pnd&s1={ID}'
+            location: 'https://db.personalschriften.de/pnd.txt'
+            target: 'https://db.personalschriften.de/php/gs/xs2.php?f1=pnd&s1={ID}'
             type: default
             dbtype: 'Katalog Sonderbestände'
         thulp:

@@ -3,7 +3,7 @@
 #INSTITUTION: Herzog August Bibliothek Wolfenbüttel
 #NAME: Personenregister der Edition "Philipp Hainhofer: Das Große Stammbuch. Kommentierte digitale Edition eines bedeutenden Album Amicorum aus der Zeit um 1600"
 #TARGET: https://stammbuch.hab.de/register/personen/{ID}
-#TIMESTAMP: 2024-08-28
+#TIMESTAMP: 2025-07-29
 118910906||abraham_bloemaert
 1055504273||adam_gottfried_berka
 142431095||adam_kazanowski
@@ -63,10 +63,12 @@
 115857400||friedrich_05_baden
 118693522||friedrich_05_pfalz
 100180388||friedrich_achilles_wuerttemberg_neuenstadt
+130498300||friedrich_brentel
 136532438||friedrich_casimir_ortenburg
 118690493||georg_01_hessen_darmstadt
 118884352||georg_02_hessen_darmstadt
 142712019||georg_04_ortenburg
+129100692||georg_beham
 1161570101||georg_christoph_urschenbeck
 129002593||georg_donauer
 11871693X||georg_friedrich_baden
@@ -81,7 +83,6 @@
 121217760||gustav_horn
 119101122||gyorgy_bocskay
 1011893436||hans_albrecht_schad
-1312108061||hans_georg_beheim
 1194586791||hans_georg_panzer
 1222766973||hans_lam
 1312671009||hans_mores
