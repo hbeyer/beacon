@@ -170,7 +170,7 @@ sources:
             dbtype: Bibliographie
         jdg:
             label: 'Jahresberichte für deutsche Geschichte'
-            location: 'http://jdgdb.bbaw.de/jdg-gndbeacon.txt'
+            location: 'https://www.jdg-online.de/jdg-gndbeacon.txt'
             target: 'http://jdgdb.bbaw.de/cgi-bin/jdg?t_idn_erg=x&idn=GND:{ID}'
             type: default
             dbtype: Bibliographie
@@ -250,6 +250,12 @@ sources:
             label: 'Historische Vorlesungsverzeichnisse der Universität Zürich 1833–1900'
             location: 'http://histvv.uzh.ch/pnd.txt'
             target: 'http://histvv.uzh.ch/pnd/{ID}'
+            type: default
+            dbtype: Universitätsgeschichte
+        hsaz:
+            label: 'Hochschularchiv der ETH-Zürich, Archivdatenbank Online'
+            location: 'https://download.library.ethz.ch/beacon/HSA_BEACON.TXT'
+            target: 'ttp://archivdatenbank-online.ethz.ch/hsa/#/search?q={ID}'
             type: default
             dbtype: Universitätsgeschichte
         mabk:

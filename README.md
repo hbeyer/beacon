@@ -70,4 +70,19 @@ Das Update wird entweder beim Instanziieren der Klasse `BeaconRepository` durchg
 
 Fehlgeschlagene Downloadversuche werden in der Ausgabe angezeigt. Sofern der Download an einem unbekannten Zertifikat scheitert, kann man das Zertifikat manuell herunterladen und an die Datei [certs/collection.pem](certs/collection.pem) anhängen.
 
-> Written with [StackEdit](https://stackedit.io/).
+### Obsoleszenzen
+Vielfach werden Webportale offline genommen oder die enthaltenen BEACON-Dateien nicht länger angeboten. Die hier gecachten Dateien werden beibehalten, auch wenn die Weiterleitung zum Personeneintrag nicht mehr funktioniert, weil die Zugehörigkeit der Person zur entsprechenden Datenbank zumeist weiterhin relevant ist.
+Folgende BEACON-Dateien sind derzeit nicht erreichbar:
+- http://beacon.findbuch.de/downloads/patchwork/pw_dbi-gndbeacon.txt - dbi
+- http://beacon.findbuch.de/downloads/hls/hls-pndbeacon.txt - hls
+- http://www.statistik-bw.de/LABI/Badische-Biographien.txt - badb
+- http://www.mgh-bibliothek.de/beacon/trithemius - trithemius
+- http://www.mgh-bibliothek.de/beacon/fabricius - fabricius
+- http://www.statistik-bw.de/LABI/Biographia-Cisterciensis.txt - biocist
+- https://www.hpk.uni-hamburg.de/hpk_gnd_beacon.txt - hpk
+- http://histvv.uzh.ch/pnd.txt - hvuz
+- https://www.online.uni-marburg.de/fpmr/autothuer.txt - thulp
+- https://beacon.findbuch.de/downloads/regacad/regacad-pndbeacon.txt - rarp
+- https://www.berliner-intellektuelle.eu/beacon-pnd.txt - berlin1800
+- http://beacon.findbuch.de/downloads/patchwork/pw_imslp-gndbeacon.txt - imslp
+- https://www.bach-digital.de/beacon.txt - bach
