@@ -36,6 +36,12 @@ sources:
             target: 'http://beacon.findbuch.de/pnd-resolver/hls/{ID}'
             type: default
             dbtype: Nationalbiographie
+        oebl:
+            label: Österreichisches Biographisches Lexikon
+            location: http://www.biographien.ac.at/oebl/oebl-beacon.txt
+            target: https://www.biographien.ac.at/cgi-bin/gndresolver?gnd={ID}
+            type: default
+            dbtype: Nationalbiographie
         blgs:
             label: 'Biographisches Lexikon zur Geschichte Südosteuropas'
             location: 'https://www.biolex.ios-regensburg.de/beacon.txt'
@@ -52,6 +58,12 @@ sources:
             label: 'Baltisches biografisches Lexikon'
             location: 'https://bbld.de/beacon.gnd.txt'
             target: 'https://bbld.de/GND{ID}'
+            type: default
+            dbtype: Regionalbiographie
+        ndsb:
+            label: Niedersächsische Bibliographie
+            location: https://personen.niedersaechsische-bibliographie.de/beacon.txt
+            target: https://personen.niedersaechsische-bibliographie.de/person/gnd/{ID}
             type: default
             dbtype: Regionalbiographie
         pbbl:
@@ -186,6 +198,12 @@ sources:
             target: 'http://personendatenbank.germania-sacra.de/index/gnd/{ID}'
             type: default
             dbtype: Nachschlagewerk
+        wiag:
+            label: Wissensaggregator Mittelalter und Frühe Neuzeit
+            location: https://wiag-vocab.adw-goe.de/beacon.txt
+            taget: https://wiag-vocab.adw-goe.de/gnd/{ID}
+            type: default
+            dbtype: Nachschlagewerk
         biocist:
             label: 'Biographia Cisterciensis'
             location: 'http://www.statistik-bw.de/LABI/Biographia-Cisterciensis.txt'
@@ -250,12 +268,6 @@ sources:
             label: 'Historische Vorlesungsverzeichnisse der Universität Zürich 1833–1900'
             location: 'http://histvv.uzh.ch/pnd.txt'
             target: 'http://histvv.uzh.ch/pnd/{ID}'
-            type: default
-            dbtype: Universitätsgeschichte
-        hsaz:
-            label: 'Hochschularchiv der ETH-Zürich, Archivdatenbank Online'
-            location: 'https://download.library.ethz.ch/beacon/HSA_BEACON.TXT'
-            target: 'ttp://archivdatenbank-online.ethz.ch/hsa/#/search?q={ID}'
             type: default
             dbtype: Universitätsgeschichte
         mabk:
@@ -480,10 +492,22 @@ sources:
             target: 'https://www.bach-digital.de/gnd/{ID}'
             type: default
             dbtype: Musik
+        oeml:
+            label: Oesterreichisches Musiklexikon
+            location: https://hw.oeaw.ac.at/oebl/oebl-beacon.txt
+            target: http://www.musiklexikon.ac.at/cgi-bin/gndresolver?gnd={ID}
+            type: default
+            dbtype: Musik
         bmlo:
             label: 'Bayerisches Musiker-Lexikon Online'
             location: 'http://bmlo.de/beacon/'
             target: 'http://bmlo.de/Q/GND={ID}'
+            type: default
+            dbtype: Musik
+        msxp:
+            label: musiXplora - Virtuelles Nachschlagewerk der Organologie und Musikwissenschaft
+            location: https://musixplora.de/beacon.txt
+            target: https://musixplora.de/gnd/{ID}
             type: default
             dbtype: Musik
         ecod:
@@ -504,3 +528,15 @@ sources:
             target: 'https://stammbuch.hab.de/register/personen/{ID}'
             type: specified
             dbtype: Edition
+        francke:
+            label: Bio-bibliographisches Register zum Archiv der Franckeschen Stiftungen
+            location: https://www.francke-halle.de/beacon/beacon.txt
+            target: https://archiv.francke-halle.de/zeig_start.fau?prj=ifaust8_afst&dm=Archiv&listex=GND &zeig=https://d-nb.info/gnd/{ID}
+            type: default
+            dbtype: Archivdatenbank
+        hsaz:
+            label: 'Hochschularchiv der ETH-Zürich, Archivdatenbank Online'
+            location: 'https://download.library.ethz.ch/beacon/HSA_BEACON.TXT'
+            target: 'ttp://archivdatenbank-online.ethz.ch/hsa/#/search?q={ID}'
+            type: default
+            dbtype: Archivdatenbank
